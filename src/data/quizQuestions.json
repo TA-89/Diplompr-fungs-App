@@ -1,0 +1,327 @@
+[
+  {
+    "id": "qz-001",
+    "area": "ki",
+    "type": "single",
+    "question": "Welches Modell beschreibt die vier möglichen Wirkungen einer KI-Funktion auf das Lernen?",
+    "options": [
+      { "key": "a", "text": "Das ICAP-Modell" },
+      { "key": "b", "text": "Das ISAR-Modell" },
+      { "key": "c", "text": "Die Cognitive Load Theory" },
+      { "key": "d", "text": "Die Selbstbestimmungstheorie" }
+    ],
+    "correct": ["b"],
+    "explanation": "Das ISAR-Modell (Bauer et al., 2025) unterscheidet Inversion, Substitution, Augmentation und Redefinition.",
+    "relatedChapters": ["4.2"],
+    "relatedSources": ["bauer-2025"]
+  },
+  {
+    "id": "qz-002",
+    "area": "ki",
+    "type": "single",
+    "question": "Welche Wirkung im ISAR-Modell ist schädlich für das Lernen?",
+    "options": [
+      { "key": "a", "text": "Augmentation" },
+      { "key": "b", "text": "Redefinition" },
+      { "key": "c", "text": "Inversion" },
+      { "key": "d", "text": "Substitution" }
+    ],
+    "correct": ["c"],
+    "explanation": "Inversion kehrt die Lernabsicht ins Gegenteil: Die KI nimmt den Lernenden die Denkarbeit ab. Augmentation und Redefinition stützen das Lernen.",
+    "relatedChapters": ["4.2"],
+    "relatedSources": ["bauer-2025"]
+  },
+  {
+    "id": "qz-003",
+    "area": "theorie",
+    "type": "single",
+    "question": "Welche Theorie begründet, dass das Arbeitsgedächtnis begrenzt ist und ungeordneter Stoff es überlastet?",
+    "options": [
+      { "key": "a", "text": "Cognitive Load Theory (Sweller)" },
+      { "key": "b", "text": "Multimedia Learning (Mayer)" },
+      { "key": "c", "text": "ICAP (Chi & Wylie)" },
+      { "key": "d", "text": "Mediendidaktik (Kerres)" }
+    ],
+    "correct": ["a"],
+    "explanation": "Sweller (2020) begründet mit der Cognitive Load Theory die Notwendigkeit von Struktur und Reduktion.",
+    "relatedChapters": ["3.2"],
+    "relatedSources": ["sweller-2020"]
+  },
+  {
+    "id": "qz-004",
+    "area": "theorie",
+    "type": "single",
+    "question": "Welche Beteiligungsform führt nach dem ICAP-Modell zum tiefsten Lernen?",
+    "options": [
+      { "key": "a", "text": "passiv" },
+      { "key": "b", "text": "aktiv" },
+      { "key": "c", "text": "konstruktiv" },
+      { "key": "d", "text": "interaktiv" }
+    ],
+    "correct": ["d"],
+    "explanation": "ICAP ordnet aufsteigend: passiv, aktiv, konstruktiv, interaktiv. Je konstruktiver und interaktiver, desto tiefer das Lernen.",
+    "relatedChapters": ["3.4"],
+    "relatedSources": ["chi-wylie-2014"]
+  },
+  {
+    "id": "qz-005",
+    "area": "kriterien",
+    "type": "single",
+    "question": "Wie viele Kriterien umfasst das Kriterienraster insgesamt?",
+    "options": [
+      { "key": "a", "text": "5" },
+      { "key": "b", "text": "12" },
+      { "key": "c", "text": "16" },
+      { "key": "d", "text": "20" }
+    ],
+    "correct": ["c"],
+    "explanation": "Sechzehn Kriterien in fünf Bündeln (4 + 3 + 3 + 3 + 3).",
+    "relatedChapters": ["6.6"],
+    "relatedSources": []
+  },
+  {
+    "id": "qz-006",
+    "area": "kriterien",
+    "type": "single",
+    "question": "Welche Kriteriengruppe bildet den Kern des Rasters, weil sie über die Lernwirkung entscheidet?",
+    "options": [
+      { "key": "a", "text": "die strukturellen Kriterien" },
+      { "key": "b", "text": "die didaktischen Kriterien" },
+      { "key": "c", "text": "die gestalterischen Kriterien" },
+      { "key": "d", "text": "die Kriterien der digitalen Anschlussfähigkeit" }
+    ],
+    "correct": ["b"],
+    "explanation": "Die didaktischen Kriterien bilden den Kern. Struktur und Gestaltung bauen darauf auf, Verantwortung liegt über allem.",
+    "relatedChapters": ["6.1", "6.6"],
+    "relatedSources": []
+  },
+  {
+    "id": "qz-007",
+    "area": "vorgehen",
+    "type": "single",
+    "question": "Wie lässt sich die Art der Arbeit am besten beschreiben?",
+    "options": [
+      { "key": "a", "text": "empirische Studie mit eigener Datenerhebung" },
+      { "key": "b", "text": "literaturbasiert und theoriegeleitet" },
+      { "key": "c", "text": "experimentelle Vergleichsstudie" },
+      { "key": "d", "text": "Einzelfallstudie an einem Lehrmittel" }
+    ],
+    "correct": ["b"],
+    "explanation": "Die Arbeit ist literaturbasiert und theoriegeleitet, ohne eigene empirische Erhebung. Der Mehrwert liegt im Ordnen und Begründen.",
+    "relatedChapters": ["2.1"],
+    "relatedSources": []
+  },
+  {
+    "id": "qz-008",
+    "area": "synthese",
+    "type": "single",
+    "question": "Worauf laufen die Thesen der Arbeit zusammen?",
+    "options": [
+      { "key": "a", "text": "Digitale Lehrmittel sind gedruckten immer überlegen" },
+      { "key": "b", "text": "KI sollte das Lehrmittel möglichst ersetzen" },
+      { "key": "c", "text": "Ein gutes Lehrmittel ist als Lernumgebung gedacht; die Didaktik entscheidet, nicht die Technik" },
+      { "key": "d", "text": "Die Technik bestimmt die Qualität eines Lehrmittels" }
+    ],
+    "correct": ["c"],
+    "explanation": "Kernbotschaft: Über die Lernwirkung entscheidet die didaktische Gestaltung, nicht der Träger. Die Technik bleibt ein Mittel.",
+    "relatedChapters": ["5.5", "8.2"],
+    "relatedSources": ["kerres-2018"]
+  },
+  {
+    "id": "qz-009",
+    "area": "quellen",
+    "type": "single",
+    "question": "Welche Quelle liefert den Begriff der Lernumgebung und die Grundidee, dass die Wirkung aus dem Konzept entsteht?",
+    "options": [
+      { "key": "a", "text": "Mayer (2021)" },
+      { "key": "b", "text": "Kerres (2018)" },
+      { "key": "c", "text": "Dehnbostel (2022)" },
+      { "key": "d", "text": "Bauer et al. (2025)" }
+    ],
+    "correct": ["b"],
+    "explanation": "Kerres (2018) trägt die didaktische Grundidee: Ein Lehrmittel wird erst als Lernumgebung wirksam.",
+    "relatedChapters": ["3.2"],
+    "relatedSources": ["kerres-2018"]
+  },
+  {
+    "id": "qz-010",
+    "area": "quellen",
+    "type": "single",
+    "question": "Welche der folgenden Quellen ist ein Preprint und wird nur als gekennzeichnetes Beispiel verwendet?",
+    "options": [
+      { "key": "a", "text": "Sweller (2020)" },
+      { "key": "b", "text": "UNESCO (2023)" },
+      { "key": "c", "text": "Morita et al. (2025)" },
+      { "key": "d", "text": "Chi & Wylie (2014)" }
+    ],
+    "correct": ["c"],
+    "explanation": "Morita et al. (2025) ist ein arXiv-Preprint, also nicht peer-reviewt. Er dient nur als Illustration, nicht als Beleg.",
+    "relatedChapters": ["2.2", "4.1"],
+    "relatedSources": ["morita-2025"]
+  },
+  {
+    "id": "qz-011",
+    "area": "ki",
+    "type": "single",
+    "question": "Was bezeichnet der Begriff metakognitive Bequemlichkeit?",
+    "options": [
+      { "key": "a", "text": "Lernende sparen die eigene Anstrengung, weil die KI fertige Antworten liefert" },
+      { "key": "b", "text": "Die KI passt das Niveau automatisch an" },
+      { "key": "c", "text": "Lernende reflektieren besonders gründlich" },
+      { "key": "d", "text": "Eine bequeme Benutzeroberfläche der Lernsoftware" }
+    ],
+    "correct": ["a"],
+    "explanation": "Bauer et al.: Weil die KI die Antwort liefert, sparen Lernende die Anstrengung, die das Lernen gewesen wäre.",
+    "relatedChapters": ["4.2", "5.3"],
+    "relatedSources": ["bauer-2025"]
+  },
+  {
+    "id": "qz-012",
+    "area": "theorie",
+    "type": "multiple",
+    "question": "Welche drei Grundbedürfnisse stützt ein Lehrmittel laut Selbstbestimmungstheorie? (mehrere richtig)",
+    "options": [
+      { "key": "a", "text": "Kompetenzerleben" },
+      { "key": "b", "text": "Autonomie" },
+      { "key": "c", "text": "Wettbewerb" },
+      { "key": "d", "text": "soziale Eingebundenheit" },
+      { "key": "e", "text": "Belohnung durch Noten" }
+    ],
+    "correct": ["a", "b", "d"],
+    "explanation": "Deci & Ryan: Kompetenzerleben, Autonomie und soziale Eingebundenheit. Wettbewerb und Noten sind nicht gemeint.",
+    "relatedChapters": ["3.4"],
+    "relatedSources": ["deci-ryan-1993"]
+  },
+  {
+    "id": "qz-013",
+    "area": "kriterien",
+    "type": "multiple",
+    "question": "Welche der folgenden gehören zu den vier didaktischen Kriterien? (mehrere richtig)",
+    "options": [
+      { "key": "a", "text": "Eigene didaktische Konzeption" },
+      { "key": "b", "text": "Aktivierung" },
+      { "key": "c", "text": "Bild-Text-Kohärenz" },
+      { "key": "d", "text": "Schutz der Denkarbeit" },
+      { "key": "e", "text": "Datenschutz" }
+    ],
+    "correct": ["a", "b", "d"],
+    "explanation": "Didaktisch: Konzeption, Aktivierung, Motivation/Rückmeldung, Schutz der Denkarbeit. Bild-Text-Kohärenz ist gestalterisch, Datenschutz gehört zur Verantwortung.",
+    "relatedChapters": ["6.1"],
+    "relatedSources": []
+  },
+  {
+    "id": "qz-014",
+    "area": "kriterien",
+    "type": "multiple",
+    "question": "Welche Quellen stützen zusammen die Kriteriengruppe zu Qualität, Datenschutz und Verantwortung? (mehrere richtig)",
+    "options": [
+      { "key": "a", "text": "UNESCO (2023)" },
+      { "key": "b", "text": "Nazaretsky et al. (2025)" },
+      { "key": "c", "text": "Sweller (2020)" },
+      { "key": "d", "text": "Xiong & Li (2026)" },
+      { "key": "e", "text": "Kerres (2018)" }
+    ],
+    "correct": ["a", "b", "d"],
+    "explanation": "UNESCO (Datenschutz), Xiong & Li (Fairness/Validität) und Nazaretsky et al. (Transparenz/Vertrauen). Sweller und Kerres tragen andere Gruppen.",
+    "relatedChapters": ["6.5"],
+    "relatedSources": ["unesco-2023", "nazaretsky-2025", "xiong-li-2026"]
+  },
+  {
+    "id": "qz-015",
+    "area": "synthese",
+    "type": "multiple",
+    "question": "Welche drei Elemente machen ein Lehrmittel laut These 2 lernwirksam? (mehrere richtig)",
+    "options": [
+      { "key": "a", "text": "Struktur" },
+      { "key": "b", "text": "Aktivierung" },
+      { "key": "c", "text": "möglichst viel Inhalt" },
+      { "key": "d", "text": "Rückmeldung" },
+      { "key": "e", "text": "moderne Technik" }
+    ],
+    "correct": ["a", "b", "d"],
+    "explanation": "Struktur, Aktivierung und Rückmeldung sind die eigentliche Leistung, weitgehend unabhängig von der Technik.",
+    "relatedChapters": ["5.2"],
+    "relatedSources": ["sweller-2020", "chi-wylie-2014"]
+  },
+  {
+    "id": "qz-016",
+    "area": "leitfaden",
+    "type": "multiple",
+    "question": "Welche gehören zu den vier Grundsätzen des Leitfadens? (mehrere richtig)",
+    "options": [
+      { "key": "a", "text": "Vom Lernen her denken" },
+      { "key": "b", "text": "Die Lernenden aktiv halten" },
+      { "key": "c", "text": "Möglichst viele KI-Funktionen einbauen" },
+      { "key": "d", "text": "Klar strukturieren und verständlich gestalten" },
+      { "key": "e", "text": "Zukunftsoffen und verantwortungsvoll bauen" }
+    ],
+    "correct": ["a", "b", "d", "e"],
+    "explanation": "Die vier Grundsätze: vom Lernen her denken, aktiv halten, klar gestalten, zukunftsoffen und verantwortungsvoll bauen. Möglichst viele KI-Funktionen ist kein Grundsatz.",
+    "relatedChapters": ["7.2"],
+    "relatedSources": []
+  },
+  {
+    "id": "qz-017",
+    "area": "forschungsfrage",
+    "type": "single",
+    "question": "Auf welches Feld ist die Forschungsfrage bewusst eingegrenzt?",
+    "options": [
+      { "key": "a", "text": "Hochschulbildung" },
+      { "key": "b", "text": "die Berufsbildung" },
+      { "key": "c", "text": "die Primarschule" },
+      { "key": "d", "text": "die Erwachsenenbildung allgemein" }
+    ],
+    "correct": ["b"],
+    "explanation": "Die Frage ist auf die Berufsbildung eingegrenzt, weil dort der enge Bezug zur beruflichen Praxis besondere Anforderungen stellt.",
+    "relatedChapters": ["1.4"],
+    "relatedSources": []
+  },
+  {
+    "id": "qz-018",
+    "area": "grenzen",
+    "type": "single",
+    "question": "Was ist die wichtigste Grenze der Arbeit?",
+    "options": [
+      { "key": "a", "text": "Die Kriterien sind nicht empirisch an einem realen Lehrmittel erprobt" },
+      { "key": "b", "text": "Es wurden zu wenige Quellen verwendet" },
+      { "key": "c", "text": "Die Arbeit ist zu technisch" },
+      { "key": "d", "text": "Die Forschungsfrage ist nicht beantwortet" }
+    ],
+    "correct": ["a"],
+    "explanation": "Das literaturbasierte Vorgehen leitet die Kriterien ab, prüft sie aber nicht empirisch. Sie sind ein begründeter Orientierungsrahmen.",
+    "relatedChapters": ["8.3"],
+    "relatedSources": []
+  },
+  {
+    "id": "qz-019",
+    "area": "ki",
+    "type": "single",
+    "question": "Was entscheidet darüber, ob eine KI-Funktion das Lernen stützt?",
+    "options": [
+      { "key": "a", "text": "ob sie modern und neu ist" },
+      { "key": "b", "text": "ob sie die Denkarbeit bei den Lernenden lässt" },
+      { "key": "c", "text": "ob sie möglichst schnell antwortet" },
+      { "key": "d", "text": "ob sie kostenlos ist" }
+    ],
+    "correct": ["b"],
+    "explanation": "Eine KI-Funktion ist nur so viel wert, wie sie die Denkarbeit bei den Lernenden lässt.",
+    "relatedChapters": ["5.3", "6.1"],
+    "relatedSources": ["bauer-2025"]
+  },
+  {
+    "id": "qz-020",
+    "area": "theorie",
+    "type": "single",
+    "question": "Wofür steht Mayer (2021) in der Arbeit?",
+    "options": [
+      { "key": "a", "text": "Motivation und Selbstbestimmung" },
+      { "key": "b", "text": "Handlungskompetenz und Lernorte" },
+      { "key": "c", "text": "Multimedia Learning, Gestaltung von Text und Bild" },
+      { "key": "d", "text": "generative KI im Unterricht" }
+    ],
+    "correct": ["c"],
+    "explanation": "Mayer stützt die gestalterischen Kriterien: Bild und Text abgestimmt, das Wesentliche hervorheben, in Schritte portionieren.",
+    "relatedChapters": ["3.3", "6.3"],
+    "relatedSources": ["mayer-2021"]
+  }
+]

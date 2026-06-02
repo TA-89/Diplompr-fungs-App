@@ -1,0 +1,52 @@
+{
+  "title": "Vom Schulbuch zur Lernumgebung",
+  "subtitle": "Kriterien für wirksame digitale Lehrmittel in der Berufsbildung",
+  "author": "Tobias Arnold",
+  "exam": {
+    "date": "26. oder 27. Juni 2026",
+    "submission": "12. Juni 2026",
+    "format": "30 Minuten: 10 Minuten Präsentation, 20 Minuten Fachgespräch"
+  },
+  "researchQuestion": "Welche didaktischen, strukturellen und gestalterischen Kriterien müssen digitale Lehrmittel in der Berufsbildung erfüllen, um sowohl klassisches, vertieftes Lernen zu unterstützen als auch zukunftsoffen für digitale Erweiterungen zu sein?",
+  "researchQuestionExplained": [
+    "Die Frage hat zwei Teile. Teil 1 fragt nach dem klassischen, vertieften Lernen: Was muss ein Lehrmittel didaktisch leisten, damit Lernende einen Stoff wirklich verstehen?",
+    "Teil 2 fragt nach der Zukunftsoffenheit: Wie bleibt ein Lehrmittel offen für digitale und KI-gestützte Erweiterungen und behält dabei seine didaktische Grundlage?",
+    "Drei Kriteriengruppen strukturieren die Antwort (didaktisch, strukturell, gestalterisch). Eine vierte und fünfte Gruppe (digitale Anschlussfähigkeit, Verantwortung) kommen hinzu, weil Teil 2 sonst offenbliebe.",
+    "Die Frage ist bewusst auf die Berufsbildung eingegrenzt, weil dort der enge Bezug zur beruflichen Praxis besondere Anforderungen stellt."
+  ],
+  "coreMessage": "Die Wirkung auf das Lernen hängt vor allem davon ab, wie ein Lehrmittel didaktisch gestaltet ist. Ob gedruckt oder digital ist weniger entscheidend. KI stützt das Lernen nur dann, wenn sie die Denkarbeit bei den Lernenden lässt.",
+  "areas": [
+    { "id": "forschungsfrage", "name": "Forschungsfrage und Aufbau", "short": "Frage & Aufbau" },
+    { "id": "vorgehen", "name": "Vorgehen der Literaturarbeit", "short": "Vorgehen" },
+    { "id": "theorie", "name": "Theoriegrundlagen", "short": "Theorie" },
+    { "id": "ki", "name": "Digitale Erweiterungen und KI", "short": "Digital & KI" },
+    { "id": "synthese", "name": "Synthese und Thesen", "short": "Thesen" },
+    { "id": "kriterien", "name": "Kriterienraster", "short": "Kriterien" },
+    { "id": "leitfaden", "name": "Leitfaden für die Praxis", "short": "Leitfaden" },
+    { "id": "quellen", "name": "Quellenkenntnis", "short": "Quellen" },
+    { "id": "grenzen", "name": "Grenzen und Verteidigung", "short": "Grenzen" }
+  ],
+  "redThread": [
+    { "chapter": "1", "title": "Einleitung", "content": "Aus der eigenen Praxis (zwei suissetec-Lehrmittel zu Kalt- und Warmwasser) entsteht die Frage: Lohnt sich sorgfältige Lehrmittelarbeit noch, wenn KI Inhalte auf Knopfdruck erklärt? Daraus wird Ziel und Forschungsfrage hergeleitet." },
+    { "chapter": "2", "title": "Vorgehen der Literaturarbeit", "content": "Die Arbeit ist literaturbasiert und theoriegeleitet, ohne eigene Empirie. Jedes Theorie-Unterkapitel endet mit einer prüfbaren Konsequenz für digitale Lehrmittel. Diese Konsequenzen sind das Scharnier zwischen Theorie und Kriterien." },
+    { "chapter": "3", "title": "Grundlagen wirksamer Lehrmittel", "content": "Vom Schulbuch zum digitalen Lehrmittel, Lehrmittel als Lernumgebung (Kerres), Lernen mit Text/Bild (Mayer, Sweller), aktive Lernprozesse und Motivation (Chi & Wylie, Deci & Ryan), Anforderungen der Berufsbildung (Dehnbostel)." },
+    { "chapter": "4", "title": "Digitale Erweiterungen und KI", "content": "Was ändern digitale und KI-gestützte Erweiterungen an den Grundlagen? Generative KI und Lernen, das ISAR-Modell (Bauer et al.), Personalisierung und Feedback (Tasdelen & Bodemer), Chancen, Risiken und Verantwortung." },
+    { "chapter": "5", "title": "Synthese der Literatur", "content": "Beide Stränge (Kap. 3 und 4) werden zu Thesen verdichtet. Sie laufen auf einen Punkt hinaus: Ein digitales Lehrmittel ist gut, wenn es als Lernumgebung gedacht ist, die strukturiert, aktiviert, Rückmeldung gibt, die Denkarbeit schützt und den Praxisbezug hält." },
+    { "chapter": "6", "title": "Kriterien für zukunftsfähige Lehrmittel", "content": "Aus den Thesen werden 16 Kriterien in 5 Bündeln abgeleitet (didaktisch, strukturell, gestalterisch, digitale Anschlussfähigkeit, Verantwortung) und in einem Kriterienraster gebündelt." },
+    { "chapter": "7", "title": "Leitfaden für die Praxis", "content": "Die Kriterien werden zu 4 Grundsätzen und kompakten Prüffragen verdichtet, gedacht als Checkliste für Lehrmittelautorinnen und -autoren, auch über suissetec hinaus." },
+    { "chapter": "8", "title": "Fazit und Ausblick", "content": "Beantwortung der Forschungsfrage, vier Kernerkenntnisse, Grenzen (literaturbasiert, keine Erprobung) und Ausblick (empirische Prüfung der Kriterien, Rolle der KI)." }
+  ],
+  "principles": [
+    { "id": "g1", "title": "Vom Lernen her denken", "content": "Ein digitales Lehrmittel beginnt mit einer klaren Idee, wie damit gelernt werden soll. Format, Werkzeuge und Technik folgen dieser Idee und geben sie nicht vor." },
+    { "id": "g2", "title": "Die Lernenden aktiv halten", "content": "Ein Lehrmittel wirkt, wenn es zum eigenen Denken bringt. Auch eine KI-Funktion ist nur hilfreich, wenn sie die Denkarbeit bei den Lernenden lässt." },
+    { "id": "g3", "title": "Klar strukturieren und verständlich gestalten", "content": "Übersichtliche Gliederung, abgestimmte Verbindung von Bild und Text, Beschränkung auf das Wesentliche. Weniger, dafür fundierte Informationen wirken meist besser." },
+    { "id": "g4", "title": "Zukunftsoffen und verantwortungsvoll bauen", "content": "Offen für sinnvolle digitale Erweiterungen, mit Bezug zur Arbeit im Betrieb. Beim KI-Einsatz gehören Datenschutz, Fairness und Transparenz von Beginn an zur Gestaltung." }
+  ],
+  "models": [
+    { "id": "icap", "name": "ICAP-Modell (Chi & Wylie, 2014)", "content": "Ordnet das kognitive Engagement der Lernenden in vier Stufen: passiv, aktiv, konstruktiv, interaktiv. Je aktiver und konstruktiver, desto tiefer das Lernen. Ankreuzen bleibt passiv; Erklären, Vergleichen, Anwenden ist konstruktiv." },
+    { "id": "isar", "name": "ISAR-Modell (Bauer et al., 2025)", "content": "Beschreibt vier mögliche Wirkungen einer KI-Funktion auf das Lernen gegenüber einer Situation ohne KI: Inversion (Umkehrung, schädlich), Substitution (Ersatz), Augmentation (Ergänzung) und Redefinition (Neubestimmung). Stützend wirkt KI bei Augmentation und Redefinition." },
+    { "id": "clt", "name": "Cognitive Load Theory (Sweller, 2020)", "content": "Das Arbeitsgedächtnis ist begrenzt und wird von ungeordnetem Stoff schnell überlastet. Klare Struktur und Portionierung in kleine Schritte entlasten und ermöglichen Verstehen." },
+    { "id": "sdt", "name": "Selbstbestimmungstheorie (Deci & Ryan, 1993)", "content": "Motivation bleibt eher erhalten, wenn drei Grundbedürfnisse gestützt werden: Kompetenzerleben, Autonomie und soziale Eingebundenheit." },
+    { "id": "lernumgebung", "name": "Lehrmittel als Lernumgebung (Kerres, 2018)", "content": "Ein Lehrmittel wird erst zum guten Lehrmittel, wenn es als Lernumgebung gestaltet ist, die Lernprozesse anregt. Eine Lernumgebung besteht aus verknüpften Einheiten, die aufeinander aufbauen und Orientierung geben." }
+  ]
+}

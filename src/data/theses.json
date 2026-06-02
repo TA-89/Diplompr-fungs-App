@@ -1,0 +1,68 @@
+[
+  {
+    "id": "t-001",
+    "number": "These 1",
+    "title": "Digitale Lehrmittel müssen mehr leisten als Informationen bereitstellen",
+    "chapter": "5.1",
+    "explanation": "Ein digitalisiertes Schulbuch ist noch kein digitales Lehrmittel. Ein PDF macht denselben Text nur auf einem anderen Träger lesbar, ohne dass sich am Lernen etwas ändert. Ein Lehrmittel wird erst dann gut, wenn es als Lernumgebung gestaltet ist: Es strukturiert den Stoff, führt durch ihn und bringt die Lernenden zum Mitdenken.",
+    "literatureBasis": ["kerres-2018"],
+    "connectionToResearchQuestion": "Begründet, warum die Frage nach Kriterien überhaupt nötig ist: Der Träger (Papier oder Bildschirm) entscheidet nichts, die didaktische Gestaltung schon. Das ist der Ausgangspunkt für alle weiteren Kriteriengruppen.",
+    "possibleExamQuestion": "Warum reicht es nicht, ein Schulbuch einfach als PDF bereitzustellen?",
+    "excellentAnswer": "Die technische Form verändert zuerst nur die Oberfläche. Ein PDF macht den Text auf einem anderen Träger lesbar, am Lernen ändert sich nichts. Mit Kerres argumentiere ich, dass ein Lehrmittel erst als Lernumgebung wirkt: wenn es den Stoff strukturiert, durch ihn führt und zum Mitdenken bringt. Der Schritt vom Schulbuch zur Lernumgebung ist damit eine didaktische und keine rein technische Aufgabe.",
+    "criticalFollowUp": "Wäre ein PDF dann nie sinnvoll? Wo liegt seine Berechtigung?",
+    "commonMistake": "Nur sagen, ein PDF sei nicht interaktiv. Das verfehlt den Punkt: Es geht nicht um Interaktivität als Selbstzweck, sondern um didaktische Konzeption."
+  },
+  {
+    "id": "t-002",
+    "number": "These 2",
+    "title": "Lernwirksamkeit entsteht durch Struktur, Aktivierung und Rückmeldung",
+    "chapter": "5.2",
+    "explanation": "Ein Lehrmittel, das nur zeigt, lehrt noch nicht. Wirksam wird es durch drei Dinge: eine klare Struktur (weil das Arbeitsgedächtnis begrenzt ist), Aktivierung (je konstruktiver die Lernenden arbeiten, desto tiefer das Lernen) und Rückmeldung (sie zeigt, wo man steht). Struktur, Aktivierung und Rückmeldung sind die eigentliche Leistung, alles andere ist Beilage.",
+    "literatureBasis": ["sweller-2020", "mayer-2021", "chi-wylie-2014", "deci-ryan-1993"],
+    "connectionToResearchQuestion": "Liefert den Kern für Teil 1 der Frage (klassisches, vertieftes Lernen) und ist die Quelle der didaktischen und strukturellen Kriterien.",
+    "possibleExamQuestion": "Wie hängen Struktur, Aktivierung und Rückmeldung zusammen?",
+    "excellentAnswer": "Struktur ist die Voraussetzung: Das Arbeitsgedächtnis ist begrenzt, ungeordneter Stoff überlastet es (Sweller). Auf dieser Grundlage zählt die Aktivierung, denn nach dem ICAP-Modell von Chi und Wylie wird Lernen tiefer, je konstruktiver die Lernenden arbeiten. Rückmeldung schliesst den Kreis, weil sie zeigt, wo jemand steht und den nächsten Schritt weist. Erst zusammen machen sie ein Lehrmittel wirksam.",
+    "criticalFollowUp": "Welche dieser drei ist die wichtigste, wenn Sie sich entscheiden müssten?",
+    "commonMistake": "Die drei nur aufzählen, ohne den Zusammenhang (Struktur als Voraussetzung, Aktivierung als Kern, Rückmeldung als Abschluss) zu erklären."
+  },
+  {
+    "id": "t-003",
+    "number": "These 3",
+    "title": "Digitale Erweiterungen können Lernen unterstützen, aber auch verflachen",
+    "chapter": "5.3",
+    "explanation": "Eine KI-Funktion ist nur so viel wert, wie sie die Denkarbeit bei den Lernenden lässt. Das ISAR-Modell zeigt, dass dieselbe Technik vier Wirkungen haben kann: ersetzen, ergänzen, neu bestimmen oder die Absicht ins Gegenteil kehren. Liefert die KI fertige Antworten, entsteht metakognitive Bequemlichkeit, und genau die Anstrengung, die gespart wird, wäre das Lernen gewesen.",
+    "literatureBasis": ["bauer-2025", "tasdelen-bodemer-2025"],
+    "connectionToResearchQuestion": "Beantwortet Teil 2 der Frage (Zukunftsoffenheit) und liefert das Kriterium, KI nach ihrer Wirkung auf das Lernen zu beurteilen.",
+    "possibleExamQuestion": "Wie verhindern Sie, dass KI die Denkarbeit der Lernenden ersetzt?",
+    "excellentAnswer": "Indem man jede KI-Funktion nach ihrer Wirkung beurteilt, nicht nach ihrer Neuheit. Das ISAR-Modell von Bauer et al. unterscheidet Inversion, Substitution, Augmentation und Redefinition. Hilfreich ist KI, wenn sie ergänzt oder eine Aufgabe vertieft, schädlich, wenn die Lernenden ihre Verarbeitung abgeben. Das nenne ich, mit Bauer et al., metakognitive Bequemlichkeit. Eine gute Funktion stösst das Denken an, statt es abzunehmen.",
+    "criticalFollowUp": "Woran erkennen Sie konkret, ob eine Funktion das Denken anstösst oder abnimmt?",
+    "commonMistake": "KI pauschal als gut oder schlecht bewerten, statt nach der Wirkung auf den Lernprozess zu unterscheiden."
+  },
+  {
+    "id": "t-004",
+    "number": "These 4",
+    "title": "Berufsbildung braucht verständliche, handlungsnahe und anschlussfähige Lehrmittel",
+    "chapter": "5.4",
+    "explanation": "In der Berufsbildung entscheidet sich ein Lehrmittel daran, ob es Berufsfachschule und Arbeitssituation verbindet. Ziel ist die berufliche Handlungskompetenz, das Zusammenspiel von Wissen, Können und Haltung. Gelernt wird an mehreren Orten (Schule, Betrieb, überbetriebliche Kurse), und ein gutes Lehrmittel bindet diese Orte gedanklich zusammen.",
+    "literatureBasis": ["dehnbostel-2022", "seufert-2023"],
+    "connectionToResearchQuestion": "Begründet die Eingrenzung der Frage auf die Berufsbildung und liefert das Kriterium des Lernortbezugs.",
+    "possibleExamQuestion": "Warum ist die Berufsbildung in Ihrer Fragestellung wichtig?",
+    "excellentAnswer": "Weil dort der enge Bezug zur beruflichen Praxis besondere Anforderungen stellt. Das Ziel ist nach Dehnbostel die berufliche Handlungskompetenz, also Wissen, Können und Haltung in der konkreten Arbeit. Gelernt wird an mehreren Orten: Schule, Betrieb und überbetriebliche Kurse. Ein gutes Lehrmittel verbindet diese Orte gedanklich, damit die Lernenden das in der Schule Erarbeitete im Betrieb wiedererkennen.",
+    "criticalFollowUp": "Gelten Ihre Kriterien dann überhaupt ausserhalb der Berufsbildung?",
+    "commonMistake": "Handlungskompetenz nur als 'praktisches Können' verstehen, statt als Zusammenspiel von Wissen, Können und Haltung samt Reflexion."
+  },
+  {
+    "id": "t-005",
+    "number": "These 5",
+    "title": "Verantwortung, Datenschutz und Transparenz gehören zur Gestaltung",
+    "chapter": "5 / 6.5",
+    "explanation": "Sobald ein Lehrmittel persönliche Lerndaten verarbeitet oder KI-gestützt beurteilt, gehören Datenschutz, Fairness und Transparenz von Beginn an zur Gestaltung. Lernende nutzen eine Funktion nur, wenn sie ihr vertrauen, und Vertrauen entsteht aus Nachvollziehbarkeit.",
+    "literatureBasis": ["unesco-2023", "nazaretsky-2025", "xiong-li-2026"],
+    "connectionToResearchQuestion": "Vollendet die Antwort auf Teil 2: Zukunftsoffenheit ist ohne Verantwortung nicht zu haben. Aus dieser These stammt die fünfte Kriteriengruppe.",
+    "possibleExamQuestion": "Welche Rolle spielen Datenschutz und Transparenz in Ihrem Kriterienraster?",
+    "excellentAnswer": "Sie bilden eine eigene Kriteriengruppe, die über den anderen liegt. Werden persönliche Lerndaten verarbeitet, müssen Datenschutz und die Rechte der Betroffenen gewahrt sein (UNESCO). Eine KI-gestützte Beurteilung muss fair sein und das messen, was sie messen soll. Und Lernende nutzen eine Funktion nur, wenn sie ihr vertrauen, deshalb gehören Transparenz und reflektierte Nutzung dazu (Nazaretsky et al.).",
+    "criticalFollowUp": "Sie sprechen von fünf Thesen. Kapitel 5 nennt aber nur vier Überschriften. Wo ist die fünfte?",
+    "commonMistake": "Verantwortung als nachträgliches Anhängsel behandeln, statt als Teil der Gestaltung von Beginn an.",
+    "note": "ACHTUNG (Selbstkontrolle): In deiner Arbeit ist Kapitel 5 mit vier Thesen-Überschriften (5.1–5.4) ausformuliert, Abstract und Kapitel 6 sprechen aber von 'fünf Thesen'. Diese fünfte These zu Qualität/Datenschutz/Verantwortung ist inhaltlich da (Kriteriengruppe 6.5), aber nicht als eigene Überschrift in Kapitel 5. Entweder vor Abgabe (12.06.) als 5. These ergänzen oder im Text konsequent von 'vier Thesen' sprechen. Im Fachgespräch souverän erklären können."
+  }
+]

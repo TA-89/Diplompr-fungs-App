@@ -1,0 +1,98 @@
+[
+  {
+    "id": "r-001",
+    "question": "Warum haben Sie keine eigene empirische Untersuchung durchgeführt?",
+    "coreAnswer": "Das Ziel war ein begründetes Kriterienraster, kein Einzelexperiment. Das theoriegeleitete Vorgehen ordnet und begründet vorhandene Erkenntnisse und passt zum schnelllebigen Feld.",
+    "goodSpokenAnswer": "Mein Ziel war ein überprüfbarer Massstab in Form von Kriterien und einem Leitfaden, nicht der Test eines einzelnen Werkzeugs. Deshalb habe ich theoriegeleitet gearbeitet: aus bestehenden Theorien und Befunden eine begründete Schlussfolgerung entwickelt. Das passt besonders gut zu einem Feld, in dem Tools schnell veralten und didaktische Prinzipien länger tragen. Meine eigene Praxis nutze ich als Reflexion, nicht als Empirie. Die Grenzen davon benenne ich offen.",
+    "criticalFollowUp": "Verliert Ihre Arbeit ohne Empirie nicht an Wert?",
+    "howToStaySovereign": "Nicht rechtfertigen, sondern als bewusste, begründete Methodenwahl darstellen. Den Mehrwert (Ordnen und Begründen) betonen und die empirische Prüfung selbstbewusst als Anschlussarbeit anbieten."
+  },
+  {
+    "id": "r-002",
+    "question": "Wie belastbar sind Ihre Kriterien ohne empirische Überprüfung?",
+    "coreAnswer": "Sie sind ein begründeter Orientierungsrahmen, lückenlos aus der Literatur abgeleitet, aber nicht in der Praxis erprobt.",
+    "goodSpokenAnswer": "Belastbar als begründeter Orientierungsrahmen, nicht als endgültige Antwort. Jedes Kriterium ist aus der Literatur hergeleitet und im Leitfaden mit einer konkreten Prüffrage fassbar gemacht. Was offenbleibt, ist die Gewichtung im Alltag, also welche Kriterien am stärksten wirken. Genau das wäre die Aufgabe einer empirischen Folgearbeit.",
+    "criticalFollowUp": "Ist ein Orientierungsrahmen nicht einfach eine elegante Umschreibung für unbewiesen?",
+    "howToStaySovereign": "Die Doppelbewegung zeigen: stark in der Herleitung, ehrlich in der Grenze. Wer beides benennt, wirkt souverän statt defensiv."
+  },
+  {
+    "id": "r-003",
+    "question": "Wie verhindern Sie, dass Ihr Kriterienraster zu allgemein bleibt?",
+    "coreAnswer": "Durch Rückbindung jedes Kriteriums an die Literatur und durch Konkretisierung im Leitfaden mit Prüffragen und Prüfkriterien.",
+    "goodSpokenAnswer": "Ein gewisses Mass an Allgemeinheit ist gewollt, weil das Raster über verschiedene Lehrmittel hinweg Orientierung geben soll. Gegen Beliebigkeit habe ich zweierlei getan: Jedes Kriterium ist begründet aus der Literatur abgeleitet, und im Leitfaden ist jedes mit einer Prüffrage und konkreten Prüfkriterien hinterlegt. So wird das Allgemeine im Einzelfall fassbar.",
+    "criticalFollowUp": "Machen Sie eines Ihrer Kriterien ganz konkret an einem Beispiel fest.",
+    "howToStaySovereign": "Sofort ein konkretes Beispiel aus den eigenen Sanitär-Lehrmitteln liefern. Konkretheit entkräftet den Allgemeinheits-Vorwurf am besten."
+  },
+  {
+    "id": "r-004",
+    "question": "Wie unterscheiden Sie wissenschaftliche Grundlagen von aktuellen Trendberichten?",
+    "coreAnswer": "Nach Funktion: peer-reviewt trägt die Argumentation, Berichte liefern Kontext, Preprints nur als gekennzeichnete Beispiele.",
+    "goodSpokenAnswer": "Ich ordne die Quellen nach ihrer Funktion. Peer-reviewte Grundlagenwerke wie Kerres, Sweller oder Bauer et al. tragen die Argumentation. Schweizer Berichte und amtliche Dokumente liefern Kontext und Verbreitung, sind aber keine Wirksamkeitsbelege. Preprints verwende ich nur klar gekennzeichnet. Diese Unterscheidung erlaubt mir einen kritischen Umgang mit den Quellen.",
+    "criticalFollowUp": "Warum nehmen Sie dann überhaupt nicht begutachtete Quellen auf?",
+    "howToStaySovereign": "Den bewussten, transparenten Umgang als Qualitätsmerkmal verkaufen: nicht trotz, sondern wegen der kritischen Kennzeichnung."
+  },
+  {
+    "id": "r-005",
+    "question": "Welche Quelle trägt Ihre zentrale Argumentation am stärksten?",
+    "coreAnswer": "Kerres für die didaktische Grundidee, Bauer et al. für den KI-Teil.",
+    "goodSpokenAnswer": "Das hängt vom Teil der Frage ab. Die didaktische Grundidee, dass die Wirkung aus dem Konzept und nicht aus der Technik entsteht, trägt Kerres. Den KI-Teil trägt Bauer et al. mit dem ISAR-Modell. Wenn ich mich auf eine festlegen müsste, wäre es Kerres, weil die ganze Arbeit auf dem Vorrang der Didaktik ruht.",
+    "criticalFollowUp": "Und welche Quelle wäre am ehesten verzichtbar?",
+    "howToStaySovereign": "Klar gewichten statt ausweichen. Eine begründete Hierarchie der Quellen zeigt Überblick."
+  },
+  {
+    "id": "r-006",
+    "question": "Wo sehen Sie den schwächsten Punkt Ihrer Arbeit?",
+    "coreAnswer": "Die fehlende empirische Erprobung der Kriterien an einem realen Lehrmittel.",
+    "goodSpokenAnswer": "Der schwächste Punkt ist, dass ich die Kriterien nicht an einem realen Lehrmittel erprobt habe. Theoretisch sind sie gut abgestützt, aber ihre praktische Tragfähigkeit und Gewichtung bleiben eine begründete Annahme. Das verstecke ich nicht, sondern sehe es als die natürliche nächste Stufe.",
+    "criticalFollowUp": "Warum nennen Sie nicht die Quellenauswahl oder die fehlende Breite als Schwäche?",
+    "howToStaySovereign": "Eine echte Schwäche offen benennen wirkt stärker als ein ausweichendes Scheinproblem. Ehrlichkeit signalisiert Reife."
+  },
+  {
+    "id": "r-007",
+    "question": "Was würden Sie heute anders machen?",
+    "coreAnswer": "Eine kleine Erprobung an einem konkreten Lehrmittel einplanen und die fünfte These zur Verantwortung explizit ausformulieren.",
+    "goodSpokenAnswer": "Zwei Dinge. Erstens würde ich von Beginn an eine kleine Erprobung einplanen, etwa ein bestehendes Kapitel anhand der Kriterien beurteilen lassen, um den Praxisbezug zu schärfen. Zweitens würde ich die fünfte These zur Verantwortung in Kapitel 5 genauso explizit ausformulieren wie die anderen vier, damit Gliederung und Text vollständig übereinstimmen. Inhaltlich ist sie da, aber sie verdient eine eigene Überschrift.",
+    "criticalFollowUp": "Heisst das, die Arbeit ist in der jetzigen Form unfertig?",
+    "howToStaySovereign": "Verbesserungsideen als Zeichen von Reflexionsfähigkeit zeigen, nicht als Eingeständnis von Mängeln. Das Bestehende bleibt tragfähig."
+  },
+  {
+    "id": "r-008",
+    "question": "Wie könnte Ihre Arbeit weitergeführt werden?",
+    "coreAnswer": "Empirische Prüfung der Kriterien, Zuschnitt auf einzelne Berufe und Untersuchung, welche Kriterien am stärksten wirken.",
+    "goodSpokenAnswer": "Die nächste Stufe wäre, die sechzehn Kriterien an konkreten Lehrmitteln zu erproben: Lehrpersonen und Lernende nehmen ein Lehrmittel anhand der Kriterien unter die Lupe. Spannend ist die Frage, welche Kriterien am stärksten auf das Lernen wirken und ob ein Lehrmittel funktioniert, weil es gegliedert, aktivierend oder gut gestaltet ist oder weil alles zusammenwirkt. Dazu käme ein Zuschnitt des Rasters auf einzelne Berufe.",
+    "criticalFollowUp": "Welches Forschungsdesign wäre dafür geeignet?",
+    "howToStaySovereign": "Konkret werden: ein qualitativer Zugang (Experteneinschätzungen, Fallstudien an Lehrmitteln) als realistischer erster Schritt vor einer grossen quantitativen Studie."
+  },
+  {
+    "id": "r-009",
+    "question": "Wie könnte suissetec Ihre Ergebnisse konkret nutzen?",
+    "coreAnswer": "Als Leitfaden und Checkliste bei Entwicklung und Beurteilung von Lehrmitteln, von der ersten Idee bis zum fertigen Produkt.",
+    "goodSpokenAnswer": "suissetec kann den Leitfaden direkt als Arbeitsinstrument nutzen. Er verdichtet die Kriterien zu vier Grundsätzen und sechzehn Prüffragen auf einer Vorder- und Rückseite. Ein Autorenteam geht ihn von der ersten Idee bis zur Beurteilung durch und erkennt offene Punkte. So entsteht eine gemeinsame Qualitätssprache. Der Anlass war konkret: Ich habe für suissetec die Lehrmittel zu Kalt- und Warmwasser geschrieben.",
+    "criticalFollowUp": "Wie verhindern Sie, dass die Checkliste nur mechanisch abgehakt wird?",
+    "howToStaySovereign": "Auf die vier Grundsätze verweisen: Sie geben die Haltung vor, bevor es um einzelne Punkte geht. Die Liste ist Werkzeug, nicht Ersatz für didaktisches Denken."
+  },
+  {
+    "id": "r-010",
+    "question": "Was bedeutet Ihre Arbeit für Berufsfachschulen?",
+    "coreAnswer": "Eine Orientierung, Lehrmittel didaktisch statt technisch zu beurteilen und die Lernorte zu verbinden.",
+    "goodSpokenAnswer": "Für Berufsfachschulen heisst das vor allem: Lehrmittel nach ihrer didaktischen Qualität beurteilen, nicht nach ihrer technischen Ausstattung. Ein Lehrmittel soll strukturieren, aktivieren und Rückmeldung geben und den Bezug zu Betrieb und überbetrieblichen Kursen sichtbar machen. Lehrpersonen können das Raster nutzen, um vorhandene Materialien einzuschätzen und gezielt zu ergänzen.",
+    "criticalFollowUp": "Ist das nicht ohnehin selbstverständlich für gute Lehrpersonen?",
+    "howToStaySovereign": "Den Mehrwert betonen: Das Raster macht implizites Erfahrungswissen explizit und prüfbar und schafft eine gemeinsame Sprache zwischen Schule, Betrieb und Verband."
+  },
+  {
+    "id": "r-011",
+    "question": "Welche Rolle darf KI beim Lernen übernehmen und welche nicht?",
+    "coreAnswer": "Unterstützen, erklären, in Schritte zerlegen, vertiefen, solange sie die Denkarbeit bei den Lernenden lässt. Sie darf die Verarbeitung nicht übernehmen.",
+    "goodSpokenAnswer": "KI darf das Lernen unterstützen: einen Inhalt je nach Stand in kleinere Schritte zerlegen, einfacher erklären, an Vorwissen anknüpfen oder vertiefen. Was sie nicht übernehmen darf, ist die eigene Verarbeitung, denn dann entsteht metakognitive Bequemlichkeit. Lernen lebt von Unterstützung, aber auch von Reibung. Stösst die KI das Denken an, wird sie zu einer der besten Lehrkräfte, nimmt sie es ab, zur Gegnerin des Lernens.",
+    "criticalFollowUp": "Wer entscheidet im Alltag, wo diese Grenze liegt?",
+    "howToStaySovereign": "Die Verantwortung verteilen: Gestaltung des Lehrmittels, Begleitung durch die Lehrperson und die zu fördernde Kompetenz der Lernenden zur kritischen Nutzung."
+  },
+  {
+    "id": "r-012",
+    "question": "Sie sprechen von fünf Thesen, Kapitel 5 zeigt vier. Wo ist die fünfte?",
+    "coreAnswer": "Die fünfte These zur Verantwortung (Datenschutz, Fairness, Transparenz) ist inhaltlich in der Kriteriengruppe 6.5 ausgeführt, aber in Kapitel 5 nicht als eigene Überschrift gesetzt.",
+    "goodSpokenAnswer": "Ein berechtigter Hinweis. Vier Thesen sind mit eigener Überschrift ausformuliert: Lernumgebung, Wirksamkeit, KI-Wirkungen und Berufsbildung. Die fünfte betrifft die Verantwortung, also Datenschutz, Fairness und Transparenz. Sie ist inhaltlich klar vorhanden und in der fünften Kriteriengruppe begründet, aber in Kapitel 5 nicht als eigene Überschrift gesetzt. Inhaltlich trägt sie als fünfter Strang das Raster mit. Diese Stelle würde ich zwischen Text und Gliederung noch sauber angleichen.",
+    "criticalFollowUp": "Ist das nicht ein handwerklicher Fehler in der Arbeit?",
+    "howToStaySovereign": "Offen einräumen, dass Text und Gliederung hier noch anzugleichen sind, aber klarstellen, dass es eine Darstellungs- und keine inhaltliche Lücke ist. Ruhig und sachlich bleiben."
+  }
+]

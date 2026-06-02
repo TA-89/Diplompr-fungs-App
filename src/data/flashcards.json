@@ -1,0 +1,242 @@
+[
+  {
+    "id": "fc-001",
+    "front": "Wie lautet die Forschungsfrage?",
+    "backShort": "Welche didaktischen, strukturellen und gestalterischen Kriterien müssen digitale Lehrmittel in der Berufsbildung erfüllen, um klassisches, vertieftes Lernen zu unterstützen und zugleich zukunftsoffen für digitale Erweiterungen zu sein?",
+    "backLong": "Zwei Teile: vertieftes Lernen (Teil 1) und Zukunftsoffenheit für digitale/KI-Erweiterungen (Teil 2). Eingegrenzt auf die Berufsbildung wegen des engen Praxisbezugs.",
+    "area": "forschungsfrage",
+    "relatedChapters": ["1.4"],
+    "relatedSources": [],
+    "memorySentence": "Nicht: Was kann die Technik? Sondern: Was braucht das Lernen?"
+  },
+  {
+    "id": "fc-002",
+    "front": "Was ist die Kernbotschaft der Arbeit in einem Satz?",
+    "backShort": "Die Lernwirkung hängt von der didaktischen Gestaltung ab, nicht vom Träger. KI stützt das Lernen nur, wenn sie die Denkarbeit bei den Lernenden lässt.",
+    "backLong": "Daraus folgt der Titel: vom Schulbuch zur Lernumgebung. Der Schritt ist eine didaktische, keine technische Aufgabe.",
+    "area": "synthese",
+    "relatedChapters": ["5.5", "8.2"],
+    "relatedSources": ["kerres-2018"],
+    "memorySentence": "Didaktik schlägt Technik."
+  },
+  {
+    "id": "fc-003",
+    "front": "Lehrmittel als Lernumgebung – was heisst das (Kerres)?",
+    "backShort": "Verknüpfte, aufeinander aufbauende Einheiten, die Orientierung geben und Lernprozesse anregen. Mehr als eine Stoffsammlung.",
+    "backLong": "Kerres: Die Wirkung entsteht aus dem didaktischen Konzept, nicht aus der Technik.",
+    "area": "theorie",
+    "relatedChapters": ["3.2"],
+    "relatedSources": ["kerres-2018"],
+    "memorySentence": "Eine Sammlung legt nebeneinander, eine Lernumgebung führt hindurch."
+  },
+  {
+    "id": "fc-004",
+    "front": "Cognitive Load Theory (Sweller) – Kernaussage?",
+    "backShort": "Das Arbeitsgedächtnis ist begrenzt und wird von ungeordnetem Stoff überlastet. Struktur und Portionierung entlasten.",
+    "backLong": "Begründet die strukturellen Kriterien und die Reduktion. Sweller liefert das Warum der Struktur.",
+    "area": "theorie",
+    "relatedChapters": ["3.2", "6.2"],
+    "relatedSources": ["sweller-2020"],
+    "memorySentence": "Begrenztes Arbeitsgedächtnis = weniger, aber geordnet."
+  },
+  {
+    "id": "fc-005",
+    "front": "Multimedia Learning (Mayer) – was leistet es für die Arbeit?",
+    "backShort": "Bild und Text wirken zusammen, wenn sie abgestimmt sind und das Wesentliche hervorheben. Schwieriger Stoff gehört in kleine Schritte.",
+    "backLong": "Mayer stützt die gestalterischen Kriterien (Bild-Text-Kohärenz, Reduktion, Gestaltung als didaktische Arbeit). Das Wie der Gestaltung.",
+    "area": "theorie",
+    "relatedChapters": ["3.3", "6.3"],
+    "relatedSources": ["mayer-2021"],
+    "memorySentence": "Grafik erklärt, sie dekoriert nicht."
+  },
+  {
+    "id": "fc-006",
+    "front": "ICAP-Modell (Chi & Wylie) – die vier Stufen?",
+    "backShort": "Passiv, aktiv, konstruktiv, interaktiv. Je konstruktiver/interaktiver, desto tiefer das Lernen.",
+    "backLong": "Begründet das Aktivierungskriterium: Aufgaben sollen zum Erklären, Vergleichen, Anwenden auffordern, nicht nur zum Ankreuzen.",
+    "area": "theorie",
+    "relatedChapters": ["3.4", "6.1"],
+    "relatedSources": ["chi-wylie-2014"],
+    "memorySentence": "Ankreuzen ist passiv, Erklären ist konstruktiv."
+  },
+  {
+    "id": "fc-007",
+    "front": "Selbstbestimmungstheorie (Deci & Ryan) – drei Grundbedürfnisse?",
+    "backShort": "Kompetenzerleben, Autonomie, soziale Eingebundenheit.",
+    "backLong": "Motivation ist nicht Unterhaltung, sondern Folge guter Lerngestaltung. Begründet das Motivationskriterium.",
+    "area": "theorie",
+    "relatedChapters": ["3.4", "6.1"],
+    "relatedSources": ["deci-ryan-1993"],
+    "memorySentence": "Kompetenz, Autonomie, Eingebundenheit."
+  },
+  {
+    "id": "fc-008",
+    "front": "ISAR-Modell (Bauer et al.) – die vier Wirkungen?",
+    "backShort": "Inversion, Substitution, Augmentation, Redefinition. Stützend: Augmentation und Redefinition; schädlich: Inversion.",
+    "backLong": "Massstab, um KI nach ihrer Wirkung auf das Lernen zu beurteilen. Begründet These 3 und das Kriterium KI nach Wirkung beurteilen.",
+    "area": "ki",
+    "relatedChapters": ["4.2", "6.4"],
+    "relatedSources": ["bauer-2025"],
+    "memorySentence": "Ersetzen, ergänzen, neu bestimmen, umkehren."
+  },
+  {
+    "id": "fc-009",
+    "front": "Was ist metakognitive Bequemlichkeit?",
+    "backShort": "Lernende sparen die eigene Anstrengung, weil die KI eine fertige Antwort liefert. Genau diese Anstrengung wäre das Lernen gewesen.",
+    "backLong": "Zentrales Risiko KI-gestützter Lehrmittel (Bauer et al.). Gegenmittel: Funktionen sollen anstossen statt abnehmen.",
+    "area": "ki",
+    "relatedChapters": ["4.2", "5.3"],
+    "relatedSources": ["bauer-2025"],
+    "memorySentence": "Die gesparte Anstrengung wäre das Lernen gewesen."
+  },
+  {
+    "id": "fc-010",
+    "front": "Berufliche Handlungskompetenz (Dehnbostel) – was umfasst sie?",
+    "backShort": "Das Zusammenspiel von Wissen, Können und Haltung in der konkreten Arbeit, samt Reflexion.",
+    "backLong": "Ziel der Berufsbildung. Daraus folgt der Lernortbezug: Schule, Betrieb, überbetriebliche Kurse verbinden.",
+    "area": "theorie",
+    "relatedChapters": ["3.5", "5.4"],
+    "relatedSources": ["dehnbostel-2022"],
+    "memorySentence": "Wissen + Können + Haltung in der Arbeit."
+  },
+  {
+    "id": "fc-011",
+    "front": "Die drei Lernorte der Berufsbildung?",
+    "backShort": "Berufsfachschule, Betrieb, überbetriebliche Kurse (üK).",
+    "backLong": "Ein gutes Lehrmittel bindet diese Orte gedanklich zusammen (Dehnbostel, Seufert). Kriterium: Lernortbezug.",
+    "area": "ki",
+    "relatedChapters": ["3.5", "6.4"],
+    "relatedSources": ["dehnbostel-2022", "seufert-2023"],
+    "memorySentence": "Schule – Betrieb – üK."
+  },
+  {
+    "id": "fc-012",
+    "front": "Die fünf Kriteriengruppen?",
+    "backShort": "Didaktisch (4), strukturell (3), gestalterisch (3), digitale Anschlussfähigkeit (3), Qualität/Datenschutz/Verantwortung (3). Total 16.",
+    "backLong": "Didaktisch = Kern. Struktur und Gestaltung bauen darauf auf. Anschlussfähigkeit öffnet für die Zukunft. Verantwortung liegt über allem.",
+    "area": "kriterien",
+    "relatedChapters": ["6.6"],
+    "relatedSources": [],
+    "memorySentence": "4 + 3 + 3 + 3 + 3 = 16."
+  },
+  {
+    "id": "fc-013",
+    "front": "Die vier didaktischen Kriterien?",
+    "backShort": "Eigene didaktische Konzeption, Aktivierung, Motivation und Rückmeldung, Schutz der Denkarbeit.",
+    "backLong": "Der Kern des Rasters, weil die Didaktik über die Lernwirkung entscheidet. Schutz der Denkarbeit steht über den anderen.",
+    "area": "kriterien",
+    "relatedChapters": ["6.1"],
+    "relatedSources": ["kerres-2018", "chi-wylie-2014", "deci-ryan-1993", "bauer-2025"],
+    "memorySentence": "Konzept, Aktivierung, Motivation, Denkschutz."
+  },
+  {
+    "id": "fc-014",
+    "front": "Die drei strukturellen Kriterien?",
+    "backShort": "Orientierung und Modularität, Verknüpfung, Format folgt der Konzeption.",
+    "backLong": "Begründet mit Sweller (Entlastung) und Kerres (verknüpfte Einheiten).",
+    "area": "kriterien",
+    "relatedChapters": ["6.2"],
+    "relatedSources": ["sweller-2020", "kerres-2018"],
+    "memorySentence": "Ordnung, Verbindung, Format dient dem Ziel."
+  },
+  {
+    "id": "fc-015",
+    "front": "Die drei gestalterischen Kriterien?",
+    "backShort": "Bild-Text-Kohärenz, Reduktion, Gestaltung als didaktische Arbeit.",
+    "backLong": "Begründet mit Mayer und Sweller. Gestaltung wirkt auf das Verstehen, ist also Didaktik.",
+    "area": "kriterien",
+    "relatedChapters": ["6.3"],
+    "relatedSources": ["mayer-2021", "sweller-2020"],
+    "memorySentence": "Bild+Text, weniger ist mehr, Gestaltung = Didaktik."
+  },
+  {
+    "id": "fc-016",
+    "front": "Die drei Kriterien der digitalen Anschlussfähigkeit?",
+    "backShort": "Offenheit für Erweiterungen, KI nach Wirkung beurteilen, Lernortbezug.",
+    "backLong": "Beantworten Teil 2 der Frage (Zukunftsoffenheit). ISAR als Massstab, Dehnbostel/Seufert für den Lernortbezug.",
+    "area": "kriterien",
+    "relatedChapters": ["6.4"],
+    "relatedSources": ["bauer-2025", "dehnbostel-2022"],
+    "memorySentence": "Offen, nach Wirkung, mit Lernortbezug."
+  },
+  {
+    "id": "fc-017",
+    "front": "Die drei Kriterien zu Qualität, Datenschutz und Verantwortung?",
+    "backShort": "Datenschutz, Fairness und Validität, Transparenz und reflektierte Nutzung.",
+    "backLong": "Liegt über allen Gruppen. Quellen: UNESCO (Datenschutz), Xiong & Li (Fairness/Validität), Nazaretsky et al. (Transparenz/Vertrauen).",
+    "area": "kriterien",
+    "relatedChapters": ["6.5"],
+    "relatedSources": ["unesco-2023", "xiong-li-2026", "nazaretsky-2025"],
+    "memorySentence": "Daten schützen, fair messen, transparent machen."
+  },
+  {
+    "id": "fc-018",
+    "front": "Die vier Grundsätze des Leitfadens?",
+    "backShort": "Vom Lernen her denken; die Lernenden aktiv halten; klar strukturieren und verständlich gestalten; zukunftsoffen und verantwortungsvoll bauen.",
+    "backLong": "Fassen die Haltung hinter den 16 Kriterien zusammen (Kapitel 7.2).",
+    "area": "leitfaden",
+    "relatedChapters": ["7.2"],
+    "relatedSources": [],
+    "memorySentence": "Lernen zuerst, aktiv halten, klar gestalten, offen & verantwortlich bauen."
+  },
+  {
+    "id": "fc-019",
+    "front": "Die vier Kernerkenntnisse (Kapitel 8.2)?",
+    "backShort": "1) Über die Lernwirkung entscheidet nicht der Träger. 2) Wirksamkeit durch Struktur, Aktivierung, Rückmeldung, technikunabhängig. 3) KI stützt oder schwächt, je nach Denkarbeit. 4) In der Berufsbildung zählt der Bezug zur Arbeitssituation.",
+    "backLong": "Persönliche Kernerkenntnis: Die Didaktik schlägt die Technik.",
+    "area": "synthese",
+    "relatedChapters": ["8.2"],
+    "relatedSources": ["kerres-2018", "bauer-2025", "dehnbostel-2022"],
+    "memorySentence": "Träger – Struktur – KI/Denkarbeit – Praxisbezug."
+  },
+  {
+    "id": "fc-020",
+    "front": "Die wichtigste Grenze der Arbeit?",
+    "backShort": "Literaturbasiert: Die Kriterien sind abgeleitet, aber nicht empirisch erprobt. Praktische Tragfähigkeit bleibt offen.",
+    "backLong": "Weitere Grenzen: keine Erprobung an realem Lehrmittel, KI-Technik nur am Rand, dynamisches Feld. Kriterien als Orientierungsrahmen.",
+    "area": "grenzen",
+    "relatedChapters": ["8.3"],
+    "relatedSources": [],
+    "memorySentence": "Begründet, aber nicht erprobt."
+  },
+  {
+    "id": "fc-021",
+    "front": "Welche Quelle trägt den didaktischen, welche den KI-Teil?",
+    "backShort": "Didaktischer Kern: Kerres (Lernumgebung). KI-Teil: Bauer et al. (ISAR-Modell).",
+    "backLong": "Wenn nur eine: Kerres, weil die ganze Arbeit auf dem Vorrang der Didaktik aufbaut.",
+    "area": "quellen",
+    "relatedChapters": ["3.2", "4.2"],
+    "relatedSources": ["kerres-2018", "bauer-2025"],
+    "memorySentence": "Kerres trägt die Idee, Bauer trägt die KI."
+  },
+  {
+    "id": "fc-022",
+    "front": "Wozu dienen die Schweizer Berichte (Latzer & Festic, Meier, Caneva)?",
+    "backShort": "Sie liefern Kontext zur Verbreitung digitaler Werkzeuge, sind aber keine Wirksamkeitsbelege.",
+    "backLong": "Wichtige Unterscheidung: peer-reviewt trägt die Argumentation, Berichte geben Kontext, Preprints nur als Beispiel.",
+    "area": "quellen",
+    "relatedChapters": ["2.2", "1.2"],
+    "relatedSources": ["latzer-festic-2024", "meier-2024", "caneva-2024"],
+    "memorySentence": "Kontext, nicht Beweis."
+  },
+  {
+    "id": "fc-023",
+    "front": "Warm-up: Warum keine eigene Empirie?",
+    "backShort": "Ziel war ein begründetes Kriterienraster, kein Einzelexperiment. Theoriegeleitet passt zum schnelllebigen Feld, Prinzipien tragen länger als Tools.",
+    "backLong": "Eigene Praxis als Reflexion, nicht als Empirie. Grenzen offen benannt, Empirie als Anschlussstudie.",
+    "area": "vorgehen",
+    "relatedChapters": ["2.1", "8.3"],
+    "relatedSources": [],
+    "memorySentence": "Ordnen und begründen statt einmal messen."
+  },
+  {
+    "id": "fc-024",
+    "front": "Wie kam ich von der Literatur zu den Kriterien?",
+    "backShort": "Konsequenz-Absatz je Theorie-Unterkapitel → in Kapitel 5 zu Thesen verdichtet → in Kapitel 6 zu Kriterien abgeleitet und gebündelt.",
+    "backLong": "Der Konsequenz-Absatz ist das Scharnier zwischen Theorie und Kriterien. Jede Aussage bleibt an die Literatur gebunden.",
+    "area": "vorgehen",
+    "relatedChapters": ["2.3"],
+    "relatedSources": [],
+    "memorySentence": "Konsequenz → These → Kriterium."
+  }
+]

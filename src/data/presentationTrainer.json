@@ -1,0 +1,143 @@
+{
+  "totalMinutes": 10,
+  "intro": "Vorschlag für eine ruhige, klare 10-Minuten-Präsentation. Lieber wenige Botschaften gut erklärt als alles erwähnt. Die Zeiten sind Richtwerte und summieren sich auf rund 10 Minuten.",
+  "overloadWarning": "Achtung Überladung: Wer alle 16 Kriterien einzeln vorstellt oder jede Theorie vertieft, sprengt die 10 Minuten. Nenne die fünf Bündel, nicht alle Einzelkriterien. Vertiefung gehört ins Fachgespräch.",
+  "sections": [
+    {
+      "id": "p1",
+      "title": "Einstieg und Ausgangslage",
+      "minutes": 1.0,
+      "goal": "Aufmerksamkeit gewinnen und die persönliche Ausgangslage zeigen.",
+      "cueCard": [
+        "Zwei suissetec-Lehrmittel geschrieben (Kalt-/Warmwasser)",
+        "Begleitende Frage: Lohnt sich das noch, wenn KI auf Knopfdruck erklärt?",
+        "Beobachtung: didaktische Grundprinzipien wiegen schwerer als die Technik"
+      ],
+      "transitionOut": "Aus dieser Beobachtung ist meine Fragestellung entstanden."
+    },
+    {
+      "id": "p2",
+      "title": "Problemstellung und Forschungsfrage",
+      "minutes": 1.5,
+      "goal": "Die Lücke benennen und die Forschungsfrage klar aussprechen.",
+      "cueCard": [
+        "Spannung: wachsende technische Möglichkeiten vs. Anforderungen vertieften Lernens",
+        "Lücke: viele Empfehlungen zu Tools, wenig zur Verbindung von Didaktik und digitalen Erweiterungen",
+        "Forschungsfrage wörtlich nennen (zwei Teile: vertieftes Lernen + Zukunftsoffenheit)",
+        "Eingrenzung auf die Berufsbildung"
+      ],
+      "transitionOut": "Um die Frage zu beantworten, bin ich literaturbasiert vorgegangen."
+    },
+    {
+      "id": "p3",
+      "title": "Vorgehen der Literaturarbeit",
+      "minutes": 1.0,
+      "goal": "Die Methode in einem Satz und den roten Faden zeigen.",
+      "cueCard": [
+        "literaturbasiert und theoriegeleitet, keine eigene Empirie",
+        "jedes Theorie-Unterkapitel endet mit einer prüfbaren Konsequenz (Scharnier)",
+        "Konsequenzen → Thesen → Kriterien"
+      ],
+      "transitionOut": "Beginnen wir mit den didaktischen Grundlagen."
+    },
+    {
+      "id": "p4",
+      "title": "Theoretische Grundlagen",
+      "minutes": 1.5,
+      "goal": "Die didaktischen Pfeiler nennen, ohne sie zu vertiefen.",
+      "cueCard": [
+        "Kerres: Lehrmittel als Lernumgebung, Wirkung aus dem Konzept",
+        "Sweller: begrenztes Arbeitsgedächtnis → Struktur und Reduktion",
+        "Mayer: Bild und Text abgestimmt",
+        "Chi & Wylie (ICAP): Aktivierung; Deci & Ryan: Motivation",
+        "Dehnbostel: Handlungskompetenz und Lernorte"
+      ],
+      "transitionOut": "Was ändern nun digitale und KI-gestützte Erweiterungen an diesen Grundlagen?"
+    },
+    {
+      "id": "p5",
+      "title": "Digitale Erweiterungen und KI",
+      "minutes": 1.5,
+      "goal": "Das ISAR-Modell und die zentrale KI-Aussage zeigen.",
+      "cueCard": [
+        "ISAR-Modell (Bauer et al.): Inversion, Substitution, Augmentation, Redefinition",
+        "KI stützt oder verflacht, je nach Wirkung",
+        "Risiko: metakognitive Bequemlichkeit",
+        "Kernsatz: KI muss die Denkarbeit bei den Lernenden lassen"
+      ],
+      "transitionOut": "Beide Stränge führe ich in der Synthese zusammen."
+    },
+    {
+      "id": "p6",
+      "title": "Thesen und Kriterienraster",
+      "minutes": 2.0,
+      "goal": "Das Herzstück: von den Thesen zu den fünf Bündeln.",
+      "cueCard": [
+        "fünf Thesen kurz: mehr als informieren / Struktur-Aktivierung-Rückmeldung / KI stützt oder verflacht / Berufsbildung handlungsnah / Verantwortung",
+        "16 Kriterien in 5 Bündeln (nur Bündel nennen, nicht alle 16)",
+        "Bündel: didaktisch (Kern) – strukturell – gestalterisch – digitale Anschlussfähigkeit – Verantwortung",
+        "Hierarchie: Didaktik im Zentrum, Verantwortung über allem",
+        "Abbildung Kriterienraster zeigen"
+      ],
+      "transitionOut": "Damit die Kriterien in der Praxis ankommen, habe ich einen Leitfaden erstellt."
+    },
+    {
+      "id": "p7",
+      "title": "Leitfaden für die Praxis",
+      "minutes": 0.5,
+      "goal": "Den Praxisnutzen zeigen.",
+      "cueCard": [
+        "vier Grundsätze + sechzehn Prüffragen, auf einer Doppelseite",
+        "von der ersten Idee bis zur Beurteilung nutzbar",
+        "Nutzen für suissetec und Lehrmittelautorinnen und -autoren"
+      ],
+      "transitionOut": "Zum Schluss zu Grenzen und Fazit."
+    },
+    {
+      "id": "p8",
+      "title": "Grenzen und Fazit",
+      "minutes": 1.0,
+      "goal": "Souverän abschliessen, Grenzen offen, Kernbotschaft setzen.",
+      "cueCard": [
+        "Grenze: literaturbasiert, nicht empirisch erprobt (Orientierungsrahmen)",
+        "Fazit: über die Lernwirkung entscheidet nicht der Träger, sondern die Didaktik",
+        "Ausblick: Kriterien empirisch prüfen; KI als Unterstützung, nicht als Ersatz",
+        "Schlusssatz: Ein gutes Lehrmittel dient dem Lernen."
+      ],
+      "transitionOut": "Vielen Dank, ich freue mich auf Ihre Fragen."
+    }
+  ],
+  "checklist": [
+    "Fragestellung wörtlich genannt?",
+    "Vorgehen (literaturbasiert) erklärt?",
+    "Theoretische Grundlagen genannt (Kerres, Sweller, Mayer, Chi & Wylie, Deci & Ryan, Dehnbostel)?",
+    "ISAR-Modell und die KI-Kernaussage gezeigt?",
+    "Fünf Thesen und das Kriterienraster (5 Bündel) erläutert?",
+    "Praxisfolgen / Leitfaden erwähnt?",
+    "Grenzen offen benannt?",
+    "Klare Kernbotschaft im Fazit (Didaktik vor Technik)?"
+  ],
+  "commonMistakes": [
+    "Alle 16 Kriterien einzeln vorstellen und so die Zeit sprengen",
+    "Zu lange bei der persönlichen Geschichte bleiben",
+    "Theorie zu tief erklären, statt sie zu benennen",
+    "Die Forschungsfrage nicht wörtlich aussprechen",
+    "Die Grenzen verschweigen, um stärker zu wirken",
+    "Ohne klare Kernbotschaft enden"
+  ],
+  "cuts": [
+    "Wenn die Zeit knapp wird: Theorie (p4) auf drei Namen reduzieren (Kerres, Sweller/Mayer, Bauer et al.).",
+    "Den Leitfaden-Teil (p7) auf einen Satz kürzen.",
+    "Bei den Thesen nur den gemeinsamen Fluchtpunkt nennen statt aller fünf einzeln.",
+    "Die persönliche Ausgangslage (p1) auf zwei Sätze straffen."
+  ],
+  "transitions": [
+    "Aus dieser Beobachtung ist meine Fragestellung entstanden.",
+    "Um die Frage zu beantworten, bin ich literaturbasiert vorgegangen.",
+    "Beginnen wir mit den didaktischen Grundlagen.",
+    "Was ändern digitale und KI-gestützte Erweiterungen daran?",
+    "Beide Stränge führe ich in der Synthese zusammen.",
+    "Damit die Kriterien in der Praxis ankommen, folgt der Leitfaden.",
+    "Zum Schluss zu Grenzen und Fazit."
+  ]
+}

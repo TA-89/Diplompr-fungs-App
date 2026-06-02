@@ -1,0 +1,794 @@
+[
+  {
+    "id": "q-001",
+    "area": "forschungsfrage",
+    "difficulty": "einfach",
+    "questionType": "Erklären",
+    "competence": "Verstehen",
+    "question": "Erläutern Sie Ihre Forschungsfrage in eigenen Worten.",
+    "expectedCoreAnswer": "Die Arbeit fragt nach didaktischen, strukturellen und gestalterischen Kriterien für digitale Lehrmittel in der Berufsbildung, die klassisches, vertieftes Lernen unterstützen und zugleich zukunftsoffen für digitale Erweiterungen sind.",
+    "mustMention": [
+      "didaktische, strukturelle, gestalterische Kriterien",
+      "Berufsbildung als Feld",
+      "zwei Teile: vertieftes Lernen und Zukunftsoffenheit",
+      "Kriterien als Ergebnis, mündend in einen Leitfaden"
+    ],
+    "excellentAnswer": "Meine Frage hat zwei Teile. Der erste fragt, welche didaktischen, strukturellen und gestalterischen Kriterien ein digitales Lehrmittel erfüllen muss, damit klassisches, vertieftes Lernen gelingt. Der zweite fragt, wie dasselbe Lehrmittel zukunftsoffen bleibt für digitale und KI-gestützte Erweiterungen, ohne seine didaktische Grundlage zu verlieren. Ich grenze das bewusst auf die Berufsbildung ein, weil der enge Praxisbezug dort besondere Anforderungen stellt. Das Ergebnis sind Kriterien, die ich zu einem Raster und einem Leitfaden verdichte.",
+    "commonMistakes": [
+      "die Frage nur als KI-Frage darstellen",
+      "die beiden Teile nicht trennen",
+      "die Eingrenzung auf die Berufsbildung vergessen"
+    ],
+    "followUpQuestions": [
+      "Warum haben Sie genau diese drei Kriteriengruppen gewählt?",
+      "Was meinen Sie mit zukunftsoffen?"
+    ],
+    "relatedSources": [],
+    "relatedChapters": ["1.4"]
+  },
+  {
+    "id": "q-002",
+    "area": "forschungsfrage",
+    "difficulty": "mittel",
+    "questionType": "Begründen",
+    "competence": "Begründen",
+    "question": "Warum reicht es nicht, ein Schulbuch einfach als PDF bereitzustellen?",
+    "expectedCoreAnswer": "Weil die technische Form allein keine Lernwirkung erzeugt. Entscheidend ist die didaktische Konzeption.",
+    "mustMention": [
+      "Format und Plattform sind didaktisch zunächst neutral",
+      "Lernwirkung entsteht durch didaktisches Design",
+      "Bezug zu Kerres (Lernumgebung)",
+      "Überleitung zur eigenen Forschungsfrage"
+    ],
+    "excellentAnswer": "Ein Schulbuch wird nicht dadurch zu einem wirksamen digitalen Lehrmittel, dass es als PDF vorliegt. Die technische Form verändert zuerst nur die Oberfläche. Entscheidend ist mit Kerres, ob das Lehrmittel als Lernumgebung gestaltet ist: ob es Orientierung bietet, den Stoff strukturiert, aktive Verarbeitung auslöst und Rückmeldung ermöglicht. Genau deshalb argumentiert meine Arbeit, dass der Schritt vom Schulbuch zur Lernumgebung eine didaktische und keine rein technische Aufgabe ist.",
+    "commonMistakes": [
+      "nur sagen, dass ein PDF nicht interaktiv ist",
+      "Digitalisierung mit Lernwirksamkeit gleichsetzen",
+      "keinen Quellenbezug herstellen"
+    ],
+    "followUpQuestions": [
+      "Welche Quelle stützt diese Aussage besonders?",
+      "Wo wäre ein PDF trotzdem sinnvoll?"
+    ],
+    "relatedSources": ["kerres-2018", "mayer-2021"],
+    "relatedChapters": ["3.1", "3.2", "5.1"]
+  },
+  {
+    "id": "q-003",
+    "area": "forschungsfrage",
+    "difficulty": "mittel",
+    "questionType": "Erklären",
+    "competence": "Verstehen",
+    "question": "Wie erklären Sie den Begriff Lernumgebung in Ihrer Arbeit?",
+    "expectedCoreAnswer": "Eine Lernumgebung ist mehr als eine Stoffsammlung: verknüpfte, aufeinander aufbauende Einheiten, die Orientierung geben und Lernprozesse anregen.",
+    "mustMention": [
+      "verknüpfte, aufeinander aufbauende Einheiten",
+      "gibt Orientierung",
+      "regt Lernprozesse an",
+      "Abgrenzung zur blossen Stoffsammlung (Kerres)"
+    ],
+    "excellentAnswer": "Mit Kerres verstehe ich eine Lernumgebung als ein didaktisch gestaltetes Ganzes aus verknüpften Einheiten, die aufeinander aufbauen, Orientierung geben und Lernprozesse anregen. Der Unterschied zur blossen Stoffsammlung ist entscheidend: Eine Sammlung legt Inhalte nebeneinander, eine Lernumgebung führt durch sie hindurch. Der Titel meiner Arbeit, vom Schulbuch zur Lernumgebung, meint genau diesen Übergang.",
+    "commonMistakes": [
+      "Lernumgebung mit Plattform oder Software gleichsetzen",
+      "den Aspekt der Verknüpfung weglassen"
+    ],
+    "followUpQuestions": [
+      "Ist eine Lernumgebung zwingend digital?",
+      "Wie macht man Verknüpfung sichtbar?"
+    ],
+    "relatedSources": ["kerres-2018"],
+    "relatedChapters": ["3.2", "5.5"]
+  },
+  {
+    "id": "q-004",
+    "area": "vorgehen",
+    "difficulty": "mittel",
+    "questionType": "Methodik",
+    "competence": "Begründen",
+    "question": "Warum haben Sie eine literaturbasierte Arbeit gewählt und keine eigene empirische Untersuchung?",
+    "expectedCoreAnswer": "Weil der Schwerpunkt auf dem Ordnen und Begründen vorhandener Erkenntnisse liegt und grundlegende didaktische Prinzipien länger gültig bleiben als einzelne, schnell veraltende Tools.",
+    "mustMention": [
+      "Ziel ist ein begründetes Kriterienraster, kein Wirksamkeitsexperiment",
+      "theoriegeleitete Erkenntnis: aus Theorie begründete Schlüsse",
+      "schnelllebiges Feld, Prinzipien tragen länger als Tools",
+      "eigene Praxis als Reflexion, nicht als Empirie",
+      "Grenzen offen benannt (Kapitel 8.3)"
+    ],
+    "excellentAnswer": "Mein Ziel war ein begründeter, überprüfbarer Massstab, also Kriterien und ein Leitfaden. Dafür ist das theoriegeleitete Vorgehen passend: Aus vorhandenen Theorien und Befunden entwickle ich eine eigene, begründete Schlussfolgerung. Das passt besonders zu einem Feld, das sich so schnell verändert. Einzelne technische Aussagen veralten fast beim Drucken, didaktische Grundprinzipien bleiben länger gültig. Meine eigene Praxis als Lehrmittelautor nutze ich als Reflexion, um die Schlüsse auf Plausibilität zu prüfen, nicht als empirische Grundlage. Die Grenzen dieses Vorgehens benenne ich offen in Kapitel 8.3.",
+    "commonMistakes": [
+      "es als Notlösung oder Zeitmangel darstellen",
+      "den Mehrwert (Ordnen und Begründen) nicht benennen",
+      "die Grenzen verschweigen"
+    ],
+    "followUpQuestions": [
+      "Wie belastbar sind Ihre Kriterien dann ohne empirische Prüfung?",
+      "Was wäre eine sinnvolle Anschlussstudie?"
+    ],
+    "relatedSources": [],
+    "relatedChapters": ["2.1", "8.3"]
+  },
+  {
+    "id": "q-005",
+    "area": "vorgehen",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Methodik",
+    "competence": "Begründen",
+    "question": "Wie sind Sie methodisch von der Literatur zu den Kriterien gekommen?",
+    "expectedCoreAnswer": "Über eine klare Schrittfolge: Theorie und digitale Erweiterungen getrennt aufarbeiten, jedes Unterkapitel mit einer prüfbaren Konsequenz abschliessen, diese zu Thesen verdichten, daraus Kriterien ableiten.",
+    "mustMention": [
+      "Kapitel 3 und 4 getrennt aufgearbeitet",
+      "Konsequenz-Absatz je Unterkapitel als Scharnier",
+      "Konsequenzen werden in Kapitel 5 zu Thesen verdichtet",
+      "aus Thesen leitet Kapitel 6 die Kriterien ab",
+      "jede Aussage bleibt an die Literatur gebunden"
+    ],
+    "excellentAnswer": "Ich bin in nachvollziehbaren Schritten vorgegangen. Zuerst habe ich die didaktischen Grundlagen in Kapitel 3 und die digitalen Erweiterungen in Kapitel 4 getrennt aufgearbeitet. Jedes Unterkapitel schliesst mit einer kurzen, prüfbaren Konsequenz für digitale Lehrmittel. Dieser Absatz ist das Scharnier zwischen Theorie und Kriterien. In Kapitel 5 habe ich verwandte Konsequenzen zu Thesen verdichtet, und in Kapitel 6 daraus die Kriterien abgeleitet und gebündelt. So baut jeder Schritt auf dem vorherigen auf und jede Aussage bleibt an die Literatur gebunden.",
+    "commonMistakes": [
+      "die Schrittfolge nicht konkret benennen",
+      "den Begriff Konsequenz-Absatz / Scharnier nicht erklären"
+    ],
+    "followUpQuestions": [
+      "Wo besteht die Gefahr der Beliebigkeit bei diesem Vorgehen?",
+      "Warum genau fünf Thesen?"
+    ],
+    "relatedSources": [],
+    "relatedChapters": ["2.3"]
+  },
+  {
+    "id": "q-006",
+    "area": "vorgehen",
+    "difficulty": "mittel",
+    "questionType": "Quellenbezug",
+    "competence": "kritisch reflektieren",
+    "question": "Wie unterscheiden Sie wissenschaftliche Grundlagen von aktuellen Trendberichten?",
+    "expectedCoreAnswer": "Peer-reviewte Grundlagenliteratur trägt die didaktische Argumentation; Schweizer Berichte und amtliche Dokumente liefern Kontext zur Verbreitung, aber keine Wirksamkeitsbelege; Preprints nur als gekennzeichnete Beispiele.",
+    "mustMention": [
+      "Quellentypen erfüllen verschiedene Funktionen",
+      "peer-reviewt trägt die Argumentation",
+      "Berichte = Kontext, kein Wirksamkeitsbeleg",
+      "Preprints nur klar gekennzeichnet"
+    ],
+    "excellentAnswer": "Ich ordne die Quellen nach ihrer Funktion. Die peer-reviewte Grundlagenliteratur, etwa Kerres, Sweller, Mayer oder Bauer et al., trägt die didaktische Argumentation. Schweizer Berichte und amtliche Dokumente wie Latzer und Festic oder die UNESCO liefern den Kontext und zeigen die Verbreitung, sagen aber nichts über die Lernwirksamkeit einzelner Werkzeuge. Vereinzelte Preprints verwende ich nur als klar gekennzeichnete Beispiele, weil sie noch nicht begutachtet sind. Diese Unterscheidung erlaubt einen kritischen Umgang mit den Quellen.",
+    "commonMistakes": [
+      "alle Quellen gleich gewichten",
+      "einen Bericht als Wirksamkeitsbeleg ausgeben"
+    ],
+    "followUpQuestions": [
+      "Nennen Sie eine Quelle, die nur Kontext liefert.",
+      "Welche Quelle wäre kritisch zu betrachten und warum?"
+    ],
+    "relatedSources": ["latzer-festic-2024", "unesco-2023", "morita-2025"],
+    "relatedChapters": ["2.2"]
+  },
+  {
+    "id": "q-007",
+    "area": "theorie",
+    "difficulty": "mittel",
+    "questionType": "Vergleichen",
+    "competence": "Verstehen",
+    "question": "Was unterscheidet Mayer und Sweller in Ihrer Arbeit?",
+    "expectedCoreAnswer": "Sweller begründet, warum Struktur und Reduktion nötig sind (begrenztes Arbeitsgedächtnis). Mayer zeigt, wie Text und Bild gestaltet sein müssen, damit sie entlasten.",
+    "mustMention": [
+      "Sweller: Cognitive Load, begrenztes Arbeitsgedächtnis = das Warum",
+      "Mayer: multimediale Gestaltung von Text und Bild = das Wie",
+      "Sweller stützt strukturelle, Mayer gestalterische Kriterien",
+      "beide ergänzen sich"
+    ],
+    "excellentAnswer": "Beide gehören zum gleichen Grundgedanken, dass Lernen Entlastung braucht, setzen aber an verschiedenen Stellen an. Sweller liefert das Warum: Das Arbeitsgedächtnis ist begrenzt und wird von ungeordnetem Stoff überlastet. Daraus folgen Struktur und Reduktion. Mayer liefert das Wie der Gestaltung: wie Bild und Text zusammenwirken und das Wesentliche hervorgehoben wird, damit sie entlasten statt zu belasten. In meinem Raster stützt Sweller die strukturellen, Mayer die gestalterischen Kriterien.",
+    "commonMistakes": [
+      "beide gleichsetzen",
+      "die Funktion im eigenen Kriterienraster nicht benennen"
+    ],
+    "followUpQuestions": [
+      "Geben Sie ein Beispiel für Mayers Prinzip aus Ihrem Lehrmittel.",
+      "Was wäre eine vermeidbare Belastung?"
+    ],
+    "relatedSources": ["sweller-2020", "mayer-2021"],
+    "relatedChapters": ["3.2", "3.3", "6.2", "6.3"]
+  },
+  {
+    "id": "q-008",
+    "area": "theorie",
+    "difficulty": "mittel",
+    "questionType": "Erklären",
+    "competence": "Verstehen",
+    "question": "Erklären Sie das ICAP-Modell und seine Bedeutung für Ihre Arbeit.",
+    "expectedCoreAnswer": "ICAP ordnet kognitives Engagement in passiv, aktiv, konstruktiv, interaktiv. Je konstruktiver, desto tiefer das Lernen. Es begründet das Aktivierungskriterium.",
+    "mustMention": [
+      "vier Stufen: passiv, aktiv, konstruktiv, interaktiv",
+      "je konstruktiver/interaktiver, desto tiefer das Lernen",
+      "Ankreuzen bleibt passiv, Erklären/Anwenden ist konstruktiv",
+      "begründet das Kriterium Aktivierung"
+    ],
+    "excellentAnswer": "Das ICAP-Modell von Chi und Wylie ordnet die Beteiligung der Lernenden in vier Stufen: passiv, aktiv, konstruktiv und interaktiv. Die Grundaussage ist, dass das Lernen tiefer wird, je konstruktiver und interaktiver die Lernenden mit einem Inhalt umgehen. Reines Lesen oder Ankreuzen bleibt an der Oberfläche, während Erklären, Vergleichen oder Anwenden eigene Verarbeitung verlangt. Daraus leite ich das Kriterium der Aktivierung ab: Aufgaben sollen zum konstruktiven Arbeiten auffordern.",
+    "commonMistakes": [
+      "die vier Stufen unvollständig nennen",
+      "Aktivität mit blossem Anklicken verwechseln"
+    ],
+    "followUpQuestions": [
+      "Wie sieht eine konstruktive Aufgabe in der Sanitärtechnik aus?",
+      "Wie verbinden Sie ICAP mit der Motivation?"
+    ],
+    "relatedSources": ["chi-wylie-2014"],
+    "relatedChapters": ["3.4", "6.1"]
+  },
+  {
+    "id": "q-009",
+    "area": "theorie",
+    "difficulty": "einfach",
+    "questionType": "Erklären",
+    "competence": "Verstehen",
+    "question": "Was besagt die Selbstbestimmungstheorie und wie nutzen Sie sie?",
+    "expectedCoreAnswer": "Motivation bleibt eher erhalten, wenn Kompetenzerleben, Autonomie und soziale Eingebundenheit gestützt werden. Das begründet das Motivationskriterium.",
+    "mustMention": [
+      "drei Grundbedürfnisse: Kompetenz, Autonomie, soziale Eingebundenheit",
+      "Motivation nicht als Unterhaltung",
+      "Bezug zum Kriterium Motivation und Rückmeldung"
+    ],
+    "excellentAnswer": "Deci und Ryan zeigen, dass Motivation eher erhalten bleibt, wenn drei Grundbedürfnisse gestützt werden: das Erleben von Kompetenz, von Autonomie und von sozialer Eingebundenheit. Ich nutze das, um Motivation nicht als Unterhaltung misszuverstehen, sondern als Folge guter Lerngestaltung: erreichbare, gestufte Aufgaben mit Rückmeldung stützen das Kompetenzerleben, echte Wahlmöglichkeiten die Autonomie, gemeinsames Arbeiten die Eingebundenheit.",
+    "commonMistakes": [
+      "Motivation mit Gamification gleichsetzen",
+      "nur ein oder zwei Grundbedürfnisse nennen"
+    ],
+    "followUpQuestions": [
+      "Wie stützt ein gedrucktes Lehrmittel die Autonomie?",
+      "Wo ist die Grenze zwischen Motivation und Spielerei?"
+    ],
+    "relatedSources": ["deci-ryan-1993"],
+    "relatedChapters": ["3.4", "6.1"]
+  },
+  {
+    "id": "q-010",
+    "area": "ki",
+    "difficulty": "mittel",
+    "questionType": "Erklären",
+    "competence": "Verstehen",
+    "question": "Erklären Sie das ISAR-Modell.",
+    "expectedCoreAnswer": "Das ISAR-Modell beschreibt vier Wirkungen einer KI-Funktion auf das Lernen: Inversion, Substitution, Augmentation, Redefinition. Stützend sind Augmentation und Redefinition.",
+    "mustMention": [
+      "vier Wirkungen: Inversion, Substitution, Augmentation, Redefinition",
+      "Vergleich zur Situation ohne KI",
+      "stützend: Augmentation/Redefinition; schädlich: Inversion",
+      "Quelle Bauer et al. 2025"
+    ],
+    "excellentAnswer": "Das ISAR-Modell von Bauer et al. beschreibt, wie dieselbe KI-Funktion das Lernen auf vier Arten berühren kann, immer im Vergleich zu einer Situation ohne KI. Substitution ersetzt eine bestehende Lösung, Augmentation ergänzt sie um zusätzliche gedankliche Unterstützung, Redefinition bestimmt eine Aufgabe neu, und Inversion kehrt die Absicht ins Gegenteil. Stützend wirkt KI bei Augmentation und Redefinition, schädlich bei Inversion, etwa wenn die Lernenden ihre Verarbeitung abgeben. ISAR ist damit mein Massstab, um KI nach ihrer Wirkung zu beurteilen.",
+    "commonMistakes": [
+      "die vier Begriffe verwechseln oder unvollständig nennen",
+      "ISAR mit dem ICAP-Modell verwechseln"
+    ],
+    "followUpQuestions": [
+      "Geben Sie je ein Beispiel für Augmentation und Inversion.",
+      "Wie hängt ISAR mit der metakognitiven Bequemlichkeit zusammen?"
+    ],
+    "relatedSources": ["bauer-2025"],
+    "relatedChapters": ["4.2", "6.4"]
+  },
+  {
+    "id": "q-011",
+    "area": "ki",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Verteidigen",
+    "competence": "kritisch reflektieren",
+    "question": "Wie verhindern Sie, dass KI die Denkarbeit der Lernenden ersetzt?",
+    "expectedCoreAnswer": "Indem jede KI-Funktion nach ihrer Wirkung beurteilt wird und die Denkarbeit bei den Lernenden bleibt. Funktionen sollen anstossen statt abnehmen.",
+    "mustMention": [
+      "Kriterium Schutz der Denkarbeit",
+      "metakognitive Bequemlichkeit als Risiko",
+      "ISAR als Massstab",
+      "Funktion soll Rückfragen/Hinweise geben statt fertige Lösung"
+    ],
+    "excellentAnswer": "Ich beurteile jede KI-Funktion nach ihrer Wirkung auf das Lernen. Das zentrale Risiko ist mit Bauer et al. die metakognitive Bequemlichkeit: Weil die KI eine fertige Antwort liefert, sparen sich die Lernenden die eigene Anstrengung, und genau diese Anstrengung wäre das Lernen gewesen. Deshalb fordere ich, dass Funktionen das Denken anstossen, etwa durch Rückfragen und Hinweise oder durch das Zerlegen in kleinere Schritte, statt die Lösung abzunehmen. Lernen lebt von Unterstützung, aber auch von Reibung.",
+    "commonMistakes": [
+      "KI pauschal verteufeln",
+      "kein konkretes Gestaltungsmittel nennen"
+    ],
+    "followUpQuestions": [
+      "Wer entscheidet, wann die KI helfen soll und wann nicht?",
+      "Ist das nicht zu idealistisch für den Schulalltag?"
+    ],
+    "relatedSources": ["bauer-2025"],
+    "relatedChapters": ["4.2", "5.3", "6.1"]
+  },
+  {
+    "id": "q-012",
+    "area": "ki",
+    "difficulty": "mittel",
+    "questionType": "Vergleichen",
+    "competence": "Verstehen",
+    "question": "Wie unterscheiden sich digitale Erweiterung und didaktische Verbesserung?",
+    "expectedCoreAnswer": "Eine digitale Erweiterung fügt Technik hinzu; eine didaktische Verbesserung verbessert den Lernprozess. Erst wenn die Erweiterung den Lernprozess stützt, wird sie zur Verbesserung.",
+    "mustMention": [
+      "Erweiterung = zusätzliche Technik/Funktion",
+      "Verbesserung = bessere Lernwirkung",
+      "Technik allein ist keine Verbesserung",
+      "Massstab ist die Wirkung auf das Lernen"
+    ],
+    "excellentAnswer": "Eine digitale Erweiterung fügt einem Lehrmittel eine technische Funktion hinzu, etwa ein Quiz oder eine Erklärhilfe. Ob das eine didaktische Verbesserung ist, hängt allein von der Wirkung auf den Lernprozess ab. Eine Funktion, die nur eine bestehende Lösung ersetzt, ist eine Erweiterung ohne Verbesserung. Erst wenn sie die Verarbeitung der Lernenden stützt oder eine Aufgabe vertieft, also Augmentation oder Redefinition im ISAR-Sinn, wird sie zur didaktischen Verbesserung. Technik allein verbessert nichts.",
+    "commonMistakes": [
+      "beide gleichsetzen",
+      "Digitalisierung automatisch als Fortschritt deuten"
+    ],
+    "followUpQuestions": [
+      "Nennen Sie eine Erweiterung, die keine Verbesserung ist.",
+      "Kann ein gedrucktes Lehrmittel didaktisch besser sein als ein digitales?"
+    ],
+    "relatedSources": ["bauer-2025", "caneva-2024"],
+    "relatedChapters": ["4.1", "4.4"]
+  },
+  {
+    "id": "q-013",
+    "area": "ki",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Verteidigen",
+    "competence": "kritisch reflektieren",
+    "question": "Welche Risiken sehen Sie bei KI-gestützten Lehrmitteln?",
+    "expectedCoreAnswer": "Metakognitive Bequemlichkeit, Verflachung des Lernens, Datenschutzfragen, fehlende Fairness/Validität von Bewertungen und mangelnde Transparenz.",
+    "mustMention": [
+      "metakognitive Bequemlichkeit / Verflachung",
+      "Datenschutz bei Lerndaten",
+      "Fairness und Validität von KI-Beurteilung",
+      "Transparenz und Vertrauen",
+      "Abhängigkeit von schnell veraltenden Tools"
+    ],
+    "excellentAnswer": "Das grösste didaktische Risiko ist die Verflachung: Wenn die KI die Denkarbeit übernimmt, entsteht metakognitive Bequemlichkeit und das Lernen findet nicht mehr statt. Dazu kommen die Risiken meiner fünften Kriteriengruppe: Datenschutz, sobald persönliche Lerndaten verarbeitet werden, Fairness und Validität, wenn KI beurteilt, und Transparenz, weil Lernende einer Funktion nur vertrauen, wenn sie nachvollziehbar ist. Schliesslich besteht das Risiko, sich an schnell veraltende Tools zu binden. Deshalb argumentiere ich von den didaktischen Prinzipien her und nicht von einzelnen Werkzeugen.",
+    "commonMistakes": [
+      "nur ein Risiko nennen",
+      "Risiken benennen, ohne ein Gegenmittel zu zeigen"
+    ],
+    "followUpQuestions": [
+      "Welches dieser Risiken halten Sie für das grösste?",
+      "Wie begegnet Ihr Kriterienraster diesen Risiken?"
+    ],
+    "relatedSources": ["bauer-2025", "unesco-2023", "nazaretsky-2025", "xiong-li-2026"],
+    "relatedChapters": ["4.5", "6.5"]
+  },
+  {
+    "id": "q-014",
+    "area": "synthese",
+    "difficulty": "mittel",
+    "questionType": "Erklären",
+    "competence": "Verstehen",
+    "question": "Nennen und erläutern Sie Ihre zentralen Thesen.",
+    "expectedCoreAnswer": "Digitale Lehrmittel müssen mehr leisten als informieren; Lernwirksamkeit entsteht durch Struktur, Aktivierung und Rückmeldung; digitale Erweiterungen können stützen oder verflachen; Berufsbildung braucht handlungsnahe, anschlussfähige Lehrmittel; Verantwortung gehört zur Gestaltung.",
+    "mustMention": [
+      "These 1: mehr als informieren (Lernumgebung)",
+      "These 2: Struktur, Aktivierung, Rückmeldung",
+      "These 3: KI stützt oder verflacht",
+      "These 4: handlungsnah und anschlussfähig",
+      "These 5: Verantwortung/Datenschutz/Transparenz"
+    ],
+    "excellentAnswer": "Erstens müssen digitale Lehrmittel mehr leisten als Informationen bereitstellen, sie müssen als Lernumgebung gestaltet sein. Zweitens entsteht Lernwirksamkeit durch Struktur, Aktivierung und Rückmeldung, weitgehend unabhängig von der Technik. Drittens können digitale Erweiterungen das Lernen stützen oder verflachen, je nachdem, ob sie die Denkarbeit bei den Lernenden lassen. Viertens braucht die Berufsbildung verständliche, handlungsnahe und anschlussfähige Lehrmittel, die die Lernorte verbinden. Und fünftens gehören Datenschutz, Fairness und Transparenz von Beginn an zur Gestaltung. Die Thesen laufen darauf hinaus, dass ein gutes Lehrmittel als Lernumgebung gedacht ist.",
+    "commonMistakes": [
+      "Thesen mit Kriterien verwechseln",
+      "die fünfte (Verantwortung) vergessen",
+      "Thesen aufzählen ohne den gemeinsamen Fluchtpunkt"
+    ],
+    "followUpQuestions": [
+      "Kapitel 5 nennt nur vier Überschriften. Wo ist die fünfte These?",
+      "Welche These ist für Sie die wichtigste?"
+    ],
+    "relatedSources": ["kerres-2018", "bauer-2025", "dehnbostel-2022"],
+    "relatedChapters": ["5.1", "5.2", "5.3", "5.4", "5.5"]
+  },
+  {
+    "id": "q-015",
+    "area": "synthese",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Begründen",
+    "competence": "Begründen",
+    "question": "Auf welchen einen Punkt laufen Ihre Thesen hinaus?",
+    "expectedCoreAnswer": "Ein digitales Lehrmittel ist gut, wenn es als Lernumgebung gedacht ist, die strukturiert, aktiviert, Rückmeldung gibt, die Denkarbeit schützt und den Praxisbezug hält. Technik ist Mittel zum Zweck.",
+    "mustMention": [
+      "Fluchtpunkt: vom Lehrmittel zur Lernumgebung",
+      "strukturieren, aktivieren, Rückmeldung, Denkarbeit schützen, Praxisbezug",
+      "Technik bleibt Mittel, nicht Ziel",
+      "Bezug zum Titel der Arbeit"
+    ],
+    "excellentAnswer": "Auf einen einzigen Punkt: Ein digitales Lehrmittel ist dann gut, wenn es als Lernumgebung gedacht ist, die den Stoff strukturiert, die Lernenden aktiviert, Rückmeldung gibt, ihre Denkarbeit schützt und den Bezug zur beruflichen Praxis hält. Die Technik ist dafür ein Mittel, nicht das Ziel. Genau diesen Übergang vom Lehrmittel zur Lernumgebung meint der Titel meiner Arbeit. Die zentrale Erkenntnis ist, dass die Didaktik die Technik schlägt.",
+    "commonMistakes": [
+      "zu viele Einzelpunkte ohne Synthese",
+      "den Bezug zum Titel nicht herstellen"
+    ],
+    "followUpQuestions": [
+      "Heisst das, die Technik ist Ihnen egal?",
+      "Wie beweisen Sie, dass Didaktik die Technik schlägt?"
+    ],
+    "relatedSources": ["kerres-2018"],
+    "relatedChapters": ["5.5", "8.2"]
+  },
+  {
+    "id": "q-016",
+    "area": "kriterien",
+    "difficulty": "mittel",
+    "questionType": "Erklären",
+    "competence": "Verstehen",
+    "question": "Wie ist Ihr Kriterienraster aufgebaut?",
+    "expectedCoreAnswer": "16 Kriterien in fünf Bündeln: didaktisch (4), strukturell (3), gestalterisch (3), digitale Anschlussfähigkeit (3), Qualität/Datenschutz/Verantwortung (3). Die didaktischen bilden den Kern, Verantwortung liegt über allem.",
+    "mustMention": [
+      "16 Kriterien, 5 Bündel",
+      "didaktisch = Kern (entscheidet über Lernwirkung)",
+      "strukturell und gestalterisch bauen darauf auf",
+      "Anschlussfähigkeit öffnet für die Zukunft",
+      "Verantwortung gilt für alle Gruppen"
+    ],
+    "excellentAnswer": "Das Raster bündelt sechzehn Kriterien in fünf Gruppen. Den Kern bilden die vier didaktischen Kriterien, denn sie entscheiden über die Lernwirkung. Darauf bauen die drei strukturellen und drei gestalterischen Kriterien auf, die festlegen, wie der Stoff geordnet und dargestellt wird. Die drei Kriterien der digitalen Anschlussfähigkeit öffnen das Lehrmittel für künftige Entwicklungen. Und über allem liegen die drei Kriterien zu Qualität, Datenschutz und Verantwortung, die für jede der anderen Gruppen gelten. So verdichtet das Raster die Antwort auf meine Forschungsfrage.",
+    "commonMistakes": [
+      "falsche Anzahl Kriterien nennen",
+      "die Hierarchie (didaktisch = Kern) nicht erklären"
+    ],
+    "followUpQuestions": [
+      "Warum sind die didaktischen Kriterien der Kern?",
+      "Ist eine solche Liste nicht zu allgemein?"
+    ],
+    "relatedSources": [],
+    "relatedChapters": ["6.6"]
+  },
+  {
+    "id": "q-017",
+    "area": "kriterien",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Bewertung",
+    "competence": "kritisch reflektieren",
+    "question": "Wie schätzen Sie die Tragfähigkeit Ihrer Kriterien ein?",
+    "expectedCoreAnswer": "Sie sind ein begründeter Orientierungsrahmen, theoretisch gut abgestützt, aber nicht empirisch erprobt. Ihre Stärke liegt im Sichtbarmachen didaktischer Anforderungen, ihre Grenze in der fehlenden Praxisprüfung.",
+    "mustMention": [
+      "begründeter Orientierungsrahmen, keine endgültige Antwort",
+      "theoretisch abgestützt, nicht empirisch erprobt",
+      "Stärke: macht didaktische Anforderungen sichtbar",
+      "Grenze: Bewährung in der Praxis offen"
+    ],
+    "excellentAnswer": "Ich halte die Kriterien für tragfähig als begründeten Orientierungsrahmen, aber nicht für eine endgültige Antwort. Ihre Stärke liegt darin, dass sie grundlegende didaktische Anforderungen sichtbar und prüfbar machen und lückenlos aus der Literatur abgeleitet sind. Ihre Grenze liegt darin, dass ich sie nicht an einem konkreten Lehrmittel erprobt habe. Es bleibt offen, welche Kriterien im Alltag am stärksten ins Gewicht fallen und wo Zielkonflikte entstehen. Genau das wäre die Aufgabe einer Anschlussstudie.",
+    "commonMistakes": [
+      "die Kriterien überverkaufen",
+      "die Grenzen nicht offen zugeben",
+      "defensiv statt souverän reagieren"
+    ],
+    "followUpQuestions": [
+      "Welches Kriterium ist am schwächsten abgestützt?",
+      "Wie würden Sie die Tragfähigkeit prüfen?"
+    ],
+    "relatedSources": [],
+    "relatedChapters": ["6.6", "8.3"]
+  },
+  {
+    "id": "q-018",
+    "area": "kriterien",
+    "difficulty": "mittel",
+    "questionType": "Begründen",
+    "competence": "Begründen",
+    "question": "Warum bilden gerade die didaktischen Kriterien den Kern Ihres Rasters?",
+    "expectedCoreAnswer": "Weil sie über die Lernwirkung entscheiden. Struktur, Gestaltung und digitale Erweiterungen sind dem nachgeordnet und dienen der didaktischen Idee.",
+    "mustMention": [
+      "Didaktik entscheidet über die Lernwirkung (These 2)",
+      "Struktur und Gestaltung bauen darauf auf",
+      "ohne didaktische Konzeption bleibt alles Stoffsammlung",
+      "Technik dient der Didaktik, nicht umgekehrt"
+    ],
+    "excellentAnswer": "Weil die didaktische Qualität über die Lernwirkung entscheidet. Ein Lehrmittel braucht zuerst eine eigene Konzeption, eine klare Idee, wie damit gelernt wird. Ohne sie bleibt es mit Kerres eine blosse Stoffsammlung. Struktur und Gestaltung bauen auf dieser Idee auf, sie ordnen und zeigen den Stoff. Und auch digitale Erweiterungen folgen ihr. Deshalb steht die Didaktik im Zentrum, und alle anderen Gruppen sind ihr zugeordnet.",
+    "commonMistakes": [
+      "alle Gruppen als gleichrangig darstellen",
+      "den Vorrang der Didaktik nur behaupten, nicht begründen"
+    ],
+    "followUpQuestions": [
+      "Kann ein Lehrmittel didaktisch gut, aber strukturell schlecht sein?",
+      "Wie hängt das mit dem Grundsatz vom Lernen her denken zusammen?"
+    ],
+    "relatedSources": ["kerres-2018"],
+    "relatedChapters": ["6.1", "6.6"]
+  },
+  {
+    "id": "q-019",
+    "area": "leitfaden",
+    "difficulty": "mittel",
+    "questionType": "Transfer",
+    "competence": "Anwenden",
+    "question": "Wie könnte suissetec Ihre Ergebnisse konkret nutzen?",
+    "expectedCoreAnswer": "Als Checkliste bei Entwicklung und Beurteilung von Lehrmitteln: der Leitfaden mit vier Grundsätzen und sechzehn Prüffragen, einsetzbar von der ersten Idee bis zur Beurteilung eines fertigen Produkts.",
+    "mustMention": [
+      "Leitfaden als Checkliste (4 Grundsätze, 16 Prüffragen)",
+      "von der ersten Idee bis zur Beurteilung nutzbar",
+      "gemeinsame Qualitätssprache für Autorenteams",
+      "konkreter Anlass: zwei suissetec-Lehrmittel (Kalt-/Warmwasser)"
+    ],
+    "excellentAnswer": "suissetec kann den Leitfaden direkt als Arbeitsinstrument nutzen. Er verdichtet die Kriterien zu vier Grundsätzen und sechzehn Prüffragen und passt auf eine Vorder- und Rückseite. Ein Autorenteam kann ihn von der ersten Idee bis zur Beurteilung eines fertigen Lehrmittels durchgehen und offene Punkte erkennen. So entsteht eine gemeinsame Qualitätssprache. Der Anlass war konkret: Ich habe für suissetec die Lehrmittel zu Kalt- und Warmwasser geschrieben, und der Leitfaden ist über diese Arbeit hinaus weiterverwendbar.",
+    "commonMistakes": [
+      "nur allgemein von Nutzen sprechen",
+      "den konkreten Praxisbezug zu suissetec auslassen"
+    ],
+    "followUpQuestions": [
+      "Was bedeutet Ihre Arbeit für Berufsfachschulen?",
+      "Wie verhindern Sie, dass die Checkliste nur abgehakt wird?"
+    ],
+    "relatedSources": [],
+    "relatedChapters": ["7.1", "7.3"]
+  },
+  {
+    "id": "q-020",
+    "area": "leitfaden",
+    "difficulty": "mittel",
+    "questionType": "Transfer",
+    "competence": "Anwenden",
+    "question": "Was bedeutet Ihre Arbeit konkret für Lehrmittelautorinnen und Lehrmittelautoren?",
+    "expectedCoreAnswer": "Eine Orientierung, die vom Lernen her zu denken zwingt: zuerst die Lernidee, dann Format und Technik. Vier Grundsätze und Prüffragen leiten Entwicklung und Beurteilung.",
+    "mustMention": [
+      "vom Lernen her denken, nicht von der Technik",
+      "vier Grundsätze als Haltung",
+      "Prüffragen als praktisches Werkzeug",
+      "Orientierung von der Idee bis zur Beurteilung"
+    ],
+    "excellentAnswer": "Sie gibt ihnen eine Orientierung, die vom Lernen her denkt. Der erste Grundsatz lautet genau so: Ein Lehrmittel beginnt mit einer klaren Idee, wie damit gelernt werden soll, und Format und Technik folgen dieser Idee. Dazu kommen die Grundsätze, die Lernenden aktiv zu halten, klar zu strukturieren und verständlich zu gestalten sowie zukunftsoffen und verantwortungsvoll zu bauen. Die sechzehn Prüffragen machen das konkret anwendbar, sowohl beim Entwickeln als auch beim Beurteilen eines Lehrmittels.",
+    "commonMistakes": [
+      "die vier Grundsätze nicht kennen",
+      "nur abstrakt bleiben"
+    ],
+    "followUpQuestions": [
+      "Nennen Sie die vier Grundsätze.",
+      "Welcher Grundsatz wird am häufigsten verletzt?"
+    ],
+    "relatedSources": ["kerres-2018"],
+    "relatedChapters": ["7.2", "7.3"]
+  },
+  {
+    "id": "q-021",
+    "area": "grenzen",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Grenzen",
+    "competence": "kritisch reflektieren",
+    "question": "Wo liegen die Grenzen Ihrer literaturbasierten Arbeit?",
+    "expectedCoreAnswer": "Die Kriterien sind nicht empirisch geprüft und nicht an einem realen Lehrmittel erprobt; die KI-Technik wird bewusst nur am Rand behandelt; das Feld entwickelt sich sehr dynamisch.",
+    "mustMention": [
+      "keine eigene empirische Überprüfung der Kriterien",
+      "keine Erprobung an einem konkreten Lehrmittel/Klasse",
+      "Zielkonflikte nur theoretisch behandelt",
+      "KI-Technik bewusst nur am Rand",
+      "dynamisches Feld, Langzeitwirkungen offen"
+    ],
+    "excellentAnswer": "Die wichtigste Grenze ist das literaturbasierte Vorgehen selbst: Die Kriterien sind abgeleitet, aber nicht durch eine eigene Untersuchung geprüft. Damit bleibt offen, wie tragfähig sie im Alltag der Berufsbildung sind und welche am stärksten wirken. Zweitens habe ich sie nicht an einem konkreten Lehrmittel oder in einer Klasse erprobt, auch Zielkonflikte konnte ich nur theoretisch behandeln. Drittens habe ich die KI-Technik bewusst nur am Rand behandelt, um mich nicht an schnell veraltende Tools zu binden, was aber technische Detailfragen offenlässt. Und schliesslich entwickelt sich das Feld sehr dynamisch, die Langzeitwirkungen sind noch nicht erforscht. Die Kriterien sind deshalb ein begründeter Orientierungsrahmen, keine endgültige Antwort.",
+    "commonMistakes": [
+      "Grenzen kleinreden",
+      "defensiv werden statt souverän einordnen",
+      "nur eine einzige Grenze nennen"
+    ],
+    "followUpQuestions": [
+      "Was würden Sie heute anders machen?",
+      "Was wäre eine sinnvolle Anschlussstudie?"
+    ],
+    "relatedSources": [],
+    "relatedChapters": ["8.3"]
+  },
+  {
+    "id": "q-022",
+    "area": "grenzen",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Verteidigen",
+    "competence": "Verteidigen",
+    "question": "Wie reagieren Sie auf den Einwand, Ihr Kriterienraster sei zu allgemein?",
+    "expectedCoreAnswer": "Das Raster soll bewusst breit anwendbar sein, ist aber durch Prüffragen und Beispiele konkretisiert und jederzeit an die Literatur rückgebunden. Allgemeingültigkeit ist hier eine Stärke, nicht nur eine Schwäche.",
+    "mustMention": [
+      "Allgemeinheit ist gewollt: Orientierung über viele Lehrmittel hinweg",
+      "Konkretisierung durch Prüffragen und Beispiele (Leitfaden)",
+      "jedes Kriterium ist an Literatur rückgebunden",
+      "zugleich ehrlich: empirische Schärfung steht aus"
+    ],
+    "excellentAnswer": "Ich nehme den Einwand ernst. Ein gewisses Mass an Allgemeinheit ist allerdings gewollt, weil das Raster über verschiedene Lehrmittel hinweg Orientierung geben soll und nicht an ein einziges Produkt gebunden ist. Gegen die Beliebigkeit habe ich zweierlei getan: Jedes Kriterium ist aus der Literatur hergeleitet und begründet, und im Leitfaden ist jedes durch eine konkrete Prüffrage und Prüfkriterien fassbar gemacht. Zugleich gebe ich offen zu, dass die genaue Schärfung der Kriterien eine empirische Prüfung braucht. So bleibe ich anschlussfähig, ohne den Einwand zu verleugnen.",
+    "commonMistakes": [
+      "den Einwand abwehren statt aufnehmen",
+      "die Konkretisierung durch den Leitfaden vergessen"
+    ],
+    "followUpQuestions": [
+      "Nennen Sie ein Kriterium und machen Sie es ganz konkret.",
+      "Wie würden Sie das Raster für einen Beruf zuschneiden?"
+    ],
+    "relatedSources": [],
+    "relatedChapters": ["6.6", "7.3", "8.3"]
+  },
+  {
+    "id": "q-023",
+    "area": "grenzen",
+    "difficulty": "mittel",
+    "questionType": "Verteidigen",
+    "competence": "Verteidigen",
+    "question": "Warum haben Sie keine eigene empirische Untersuchung durchgeführt?",
+    "expectedCoreAnswer": "Weil das Ziel das Ordnen und Begründen vorhandener Erkenntnisse zu einem Kriterienraster war. Eine Erhebung hätte einen anderen, engeren Fokus gehabt und den Rahmen gesprengt.",
+    "mustMention": [
+      "Ziel: begründetes Kriterienraster, kein Einzelexperiment",
+      "theoriegeleitetes Vorgehen passt zum schnelllebigen Feld",
+      "Rahmen einer Diplomarbeit",
+      "Grenzen offen benannt, Empirie als Anschluss"
+    ],
+    "excellentAnswer": "Weil mein Ziel ein begründeter, überprüfbarer Massstab war, also Kriterien und ein Leitfaden, und nicht der Test eines einzelnen Werkzeugs. Eine eigene Erhebung hätte einen engeren Ausschnitt untersucht und im Rahmen einer Diplomarbeit kaum belastbare Aussagen über sechzehn Kriterien erlaubt. Das theoriegeleitete Vorgehen passt zudem besser zu einem Feld, in dem einzelne Tools rasch veralten, didaktische Prinzipien aber länger tragen. Die empirische Prüfung sehe ich deshalb als sinnvolle Anschlussarbeit, und ich benenne diese Grenze offen.",
+    "commonMistakes": [
+      "Zeitmangel als einzigen Grund nennen",
+      "die Entscheidung nicht inhaltlich begründen"
+    ],
+    "followUpQuestions": [
+      "Wie sähe diese Anschlussstudie konkret aus?",
+      "Verliert Ihre Arbeit dadurch nicht an Wert?"
+    ],
+    "relatedSources": [],
+    "relatedChapters": ["2.1", "8.3", "8.4"]
+  },
+  {
+    "id": "q-024",
+    "area": "grenzen",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Bewertung",
+    "competence": "kritisch reflektieren",
+    "question": "Wo sehen Sie den schwächsten Punkt Ihrer Arbeit?",
+    "expectedCoreAnswer": "Die fehlende empirische Erprobung der Kriterien an einem realen Lehrmittel. Damit bleibt ihre praktische Tragfähigkeit eine begründete Annahme.",
+    "mustMention": [
+      "fehlende Erprobung an realem Lehrmittel",
+      "praktische Gewichtung der Kriterien unklar",
+      "ehrliche Selbsteinschätzung, souverän",
+      "Verweis auf Anschlussstudie"
+    ],
+    "excellentAnswer": "Der schwächste Punkt ist, dass ich die Kriterien nicht an einem realen Lehrmittel erprobt habe. Theoretisch sind sie gut abgestützt, aber ihre praktische Tragfähigkeit und ihre relative Gewichtung bleiben eine begründete Annahme. Ich weiss noch nicht, welche Kriterien im Alltag am stärksten wirken oder wo Zielkonflikte auftreten. Das ist für mich aber kein Mangel, den ich verstecke, sondern die natürliche Anschlussstelle: Die nächste Arbeit müsste die Kriterien an konkreten Lehrmitteln prüfen.",
+    "commonMistakes": [
+      "ausweichen oder die Frage abwehren",
+      "einen unwichtigen Punkt nennen, um den echten zu vermeiden"
+    ],
+    "followUpQuestions": [
+      "Warum nennen Sie nicht die Quellenauswahl als Schwäche?",
+      "Wie sicher sind Sie, dass die Kriterien vollständig sind?"
+    ],
+    "relatedSources": [],
+    "relatedChapters": ["8.3"]
+  },
+  {
+    "id": "q-025",
+    "area": "grenzen",
+    "difficulty": "mittel",
+    "questionType": "Transfer",
+    "competence": "Anwenden",
+    "question": "Was wäre eine sinnvolle Anschlussstudie?",
+    "expectedCoreAnswer": "Eine empirische Erprobung der sechzehn Kriterien an konkreten Lehrmitteln: Wo greifen sie, welche wirken am stärksten, wo brauchen sie eine schärfere Formulierung?",
+    "mustMention": [
+      "Kriterien an realen Lehrmitteln anwenden",
+      "Lehrpersonen und Lernende einbeziehen",
+      "Wirkung einzelner Kriterien isolieren",
+      "Formulierungen schärfen"
+    ],
+    "excellentAnswer": "Ich würde die sechzehn Kriterien empirisch erproben. Konkret: Lehrpersonen und Lernende nehmen ein bestehendes Lehrmittel anhand der Kriterien unter die Lupe. Dabei interessiert mich, wo die Kriterien greifen, welche am stärksten auf das Lernen wirken und wo sie eine schärfere Formulierung brauchen. Spannend wäre die Frage, ob ein Lehrmittel funktioniert, weil es klar gegliedert, aktivierend oder gut gestaltet ist, oder weil alles zusammenwirkt. Das lässt sich nur empirisch beantworten und ist die nächste logische Stufe.",
+    "commonMistakes": [
+      "nur vage von mehr Forschung sprechen",
+      "kein konkretes Design andeuten"
+    ],
+    "followUpQuestions": [
+      "Qualitativ oder quantitativ, und warum?",
+      "Welches Kriterium würden Sie zuerst prüfen?"
+    ],
+    "relatedSources": [],
+    "relatedChapters": ["8.4"]
+  },
+  {
+    "id": "q-026",
+    "area": "quellen",
+    "difficulty": "mittel",
+    "questionType": "Quellenbezug",
+    "competence": "Begründen",
+    "question": "Welche Quelle trägt Ihre zentrale Argumentation am stärksten?",
+    "expectedCoreAnswer": "Für die didaktische Grundidee Kerres (Lernumgebung), für den KI-Teil Bauer et al. (ISAR-Modell). Diese beiden tragen die zentrale Argumentation.",
+    "mustMention": [
+      "Kerres trägt die didaktische Grundidee",
+      "Bauer et al. trägt den KI-Teil (ISAR)",
+      "Begründung statt blosse Nennung",
+      "Einordnung in die Argumentationslinie"
+    ],
+    "excellentAnswer": "Das hängt vom Teil der Frage ab. Die didaktische Grundidee trägt Kerres: Die Wirkung entsteht aus dem Konzept, nicht aus der Technik, und ein Lehrmittel wird erst als Lernumgebung wirksam. Den zweiten Teil, die Zukunftsoffenheit und KI, trägt Bauer et al. mit dem ISAR-Modell, das mein Massstab für die Beurteilung von KI-Funktionen ist. Wenn ich mich auf eine festlegen müsste, wäre es Kerres, weil die ganze Arbeit auf dem Vorrang der Didaktik aufbaut.",
+    "commonMistakes": [
+      "viele Quellen aufzählen ohne Gewichtung",
+      "die Wahl nicht begründen"
+    ],
+    "followUpQuestions": [
+      "Und welche Quelle ist am ehesten verzichtbar?",
+      "Was, wenn das ISAR-Modell sich als falsch erweist?"
+    ],
+    "relatedSources": ["kerres-2018", "bauer-2025"],
+    "relatedChapters": ["3.2", "4.2"]
+  },
+  {
+    "id": "q-027",
+    "area": "quellen",
+    "difficulty": "mittel",
+    "questionType": "Quellenbezug",
+    "competence": "kritisch reflektieren",
+    "question": "Welche Ihrer Quellen ist kritisch zu betrachten und warum?",
+    "expectedCoreAnswer": "Der Preprint von Morita et al. (nicht peer-reviewt, nur als Beispiel) und die Schweizer Berichte (Kontext, keine Wirksamkeitsbelege). Diese werden bewusst zurückhaltend gewichtet.",
+    "mustMention": [
+      "Preprint Morita et al.: nicht begutachtet, nur Beispiel",
+      "Berichte (Latzer/Festic, Meier, Caneva): Kontext, kein Wirksamkeitsbeleg",
+      "bewusste Gewichtung statt Gleichbehandlung",
+      "zeigt kritischen Umgang"
+    ],
+    "excellentAnswer": "Kritisch zu betrachten ist vor allem der Preprint von Morita et al., weil er noch nicht begutachtet ist. Ich verwende ihn deshalb nur als klar gekennzeichnetes Beispiel und stütze keine zentrale Aussage darauf. Ebenfalls zurückhaltend gewichte ich die Schweizer Berichte wie Latzer und Festic oder Meier. Sie sind wertvoll für den Kontext und die Verbreitung von KI, taugen aber nicht als Wirksamkeitsbelege. Dieser bewusste Umgang mit der Belastbarkeit der Quellen ist Teil meiner Methode.",
+    "commonMistakes": [
+      "behaupten, alle Quellen seien gleich solide",
+      "den Preprint nicht als Sonderfall kennzeichnen"
+    ],
+    "followUpQuestions": [
+      "Warum haben Sie den Preprint dann überhaupt aufgenommen?",
+      "Welche Quelle ist für Sie über jeden Zweifel erhaben?"
+    ],
+    "relatedSources": ["morita-2025", "latzer-festic-2024", "meier-2024"],
+    "relatedChapters": ["2.2"]
+  },
+  {
+    "id": "q-028",
+    "area": "quellen",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Quellenbezug",
+    "competence": "Verstehen",
+    "question": "Welche Quellen stützen zusammen die fünfte Kriteriengruppe zur Verantwortung?",
+    "expectedCoreAnswer": "UNESCO 2023 (Datenschutz), Xiong & Li 2026 (Fairness und Validität) und Nazaretsky et al. 2025 (Transparenz und Vertrauen) stützen gemeinsam die Verantwortungs-Kriterien.",
+    "mustMention": [
+      "UNESCO 2023 → Datenschutz",
+      "Xiong & Li 2026 → Fairness/Validität",
+      "Nazaretsky et al. 2025 → Transparenz/Vertrauen",
+      "drei Kriterien aus drei Quellen"
+    ],
+    "excellentAnswer": "Die fünfte Gruppe wird von drei Quellen getragen, die jeweils ein Kriterium stützen. Die UNESCO-Guidance begründet den Datenschutz: Werden persönliche Lerndaten verarbeitet, müssen die Rechte der Betroffenen gewahrt sein. Xiong und Li stützen Fairness und Validität, dass eine KI-Beurteilung das misst, was sie messen soll, und niemanden benachteiligt. Und Nazaretsky et al. begründen Transparenz und reflektierte Nutzung, weil Lernende einer Funktion nur vertrauen, wenn sie nachvollziehbar ist. Zusammen ergeben sie die Gruppe, die über allen anderen liegt.",
+    "commonMistakes": [
+      "die Quellen den falschen Kriterien zuordnen",
+      "nur eine Quelle nennen"
+    ],
+    "followUpQuestions": [
+      "Welche dieser drei ist am schwächsten abgestützt?",
+      "Warum liegt diese Gruppe über den anderen?"
+    ],
+    "relatedSources": ["unesco-2023", "xiong-li-2026", "nazaretsky-2025"],
+    "relatedChapters": ["6.5"]
+  },
+  {
+    "id": "q-029",
+    "area": "synthese",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Verteidigen",
+    "competence": "Verteidigen",
+    "question": "Sie sprechen von fünf Thesen, Kapitel 5 zeigt aber nur vier Überschriften. Wie erklären Sie das?",
+    "expectedCoreAnswer": "Die vier ausformulierten Thesen betreffen Lernumgebung, Wirksamkeit, KI und Berufsbildung. Die fünfte, zur Verantwortung, ist inhaltlich in Kriteriengruppe 6.5 ausgeführt, aber in Kapitel 5 nicht als eigene Überschrift gesetzt.",
+    "mustMention": [
+      "vier ausformulierte Thesen (5.1–5.4)",
+      "fünfte These = Verantwortung/Datenschutz/Transparenz",
+      "inhaltlich in Kapitel 6.5 begründet (UNESCO, Nazaretsky, Xiong & Li)",
+      "souverän einräumen, nicht ausweichen"
+    ],
+    "excellentAnswer": "Das ist ein berechtigter Hinweis. Vier Thesen sind in Kapitel 5 mit eigener Überschrift ausformuliert: zur Lernumgebung, zu Struktur, Aktivierung und Rückmeldung, zu den Wirkungen der KI und zu den Anforderungen der Berufsbildung. Die fünfte These betrifft die Verantwortung, also Datenschutz, Fairness und Transparenz. Sie ist inhaltlich klar vorhanden und in der fünften Kriteriengruppe begründet, aber in Kapitel 5 nicht als eigene Überschrift gesetzt. Inhaltlich trägt sie als fünfter Strang das Raster mit. Das ist eine Stelle, an der ich Text und Gliederung noch sauber angleichen würde.",
+    "commonMistakes": [
+      "die Frage abwehren oder herunterspielen",
+      "behaupten, es gebe keine fünfte These",
+      "nervös oder defensiv wirken"
+    ],
+    "followUpQuestions": [
+      "Würden Sie die fünfte These dann ergänzen?",
+      "Worauf stützt sich diese fünfte These?"
+    ],
+    "relatedSources": ["unesco-2023", "nazaretsky-2025", "xiong-li-2026"],
+    "relatedChapters": ["5.5", "6.5"]
+  },
+  {
+    "id": "q-030",
+    "area": "ki",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Transfer",
+    "competence": "kritisch reflektieren",
+    "question": "Welche Rolle darf KI beim Lernen übernehmen und welche nicht?",
+    "expectedCoreAnswer": "KI darf unterstützen, erklären, in Schritte zerlegen, personalisieren und vertiefen, solange sie die Denkarbeit bei den Lernenden lässt. Sie darf die eigene Verarbeitung nicht übernehmen.",
+    "mustMention": [
+      "erlaubt: anstossen, erklären, zerlegen, vertiefen (Augmentation/Redefinition)",
+      "nicht erlaubt: die Denkarbeit abnehmen (Inversion)",
+      "Lernen lebt von Unterstützung und von Reibung",
+      "Massstab ISAR / Schutz der Denkarbeit"
+    ],
+    "excellentAnswer": "KI darf das Lernen unterstützen: einen Inhalt je nach Verständnisstand in kleinere Schritte zerlegen, einfacher erklären, an Vorwissen anknüpfen oder eine Aufgabe vertiefen. Im ISAR-Sinn ist das Augmentation und Redefinition. Was sie nicht übernehmen darf, ist die eigene Verarbeitung der Lernenden, denn dann kippt sie in Inversion und es entsteht metakognitive Bequemlichkeit. Lernen lebt von Unterstützung, aber auch von Reibung, von Momenten, in denen Lernende selbst stolpern und neu ansetzen. Wenn die KI diese Denkarbeit anstösst statt sie abzunehmen, wird sie zu einer der besten Lehrkräfte, sonst zur Gegnerin des Lernens.",
+    "commonMistakes": [
+      "KI pauschal befürworten oder ablehnen",
+      "den Begriff Reibung / produktive Anstrengung nicht aufgreifen"
+    ],
+    "followUpQuestions": [
+      "Wer entscheidet im Schulalltag, wo diese Grenze liegt?",
+      "Glauben Sie, dass diese Grenze technisch durchsetzbar ist?"
+    ],
+    "relatedSources": ["bauer-2025", "tasdelen-bodemer-2025"],
+    "relatedChapters": ["4.2", "8.4"]
+  }
+]

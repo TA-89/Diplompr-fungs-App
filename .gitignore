@@ -1,0 +1,22 @@
+# --- Rohmaterial / urheberrechtlich geschuetzte Originale: NIE committen ---
+_private_sources/
+*.docx
+*.pdf
+_extract_*.txt
+
+# Ausnahme: die Platzhalter-Dateien duerfen ins Repo
+!_private_sources/.gitkeep
+!_private_sources/README.md
+
+# --- Node / Build ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# --- Editor / OS ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

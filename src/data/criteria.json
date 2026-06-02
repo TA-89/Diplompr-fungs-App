@@ -1,0 +1,203 @@
+{
+  "groups": [
+    { "id": "didaktisch", "name": "Didaktische Kriterien", "chapter": "6.1", "intro": "Den Kern bildet die didaktische Qualität, denn sie entscheidet über die Lernwirkung (These 2). Vier Kriterien." },
+    { "id": "strukturell", "name": "Strukturelle Kriterien", "chapter": "6.2", "intro": "Damit Inhalte verstanden werden, müssen sie geordnet sein, weil das Arbeitsgedächtnis begrenzt ist. Drei Kriterien." },
+    { "id": "gestalterisch", "name": "Gestalterische Kriterien", "chapter": "6.3", "intro": "Die Gestaltung gehört zur Lernwirkung und ist nicht nur Ästhetik. Drei Kriterien." },
+    { "id": "anschluss", "name": "Kriterien der digitalen Anschlussfähigkeit", "chapter": "6.4", "intro": "Ein zukunftsfähiges Lehrmittel ist offen für digitale und KI-gestützte Erweiterungen. Drei Kriterien." },
+    { "id": "verantwortung", "name": "Qualität, Datenschutz und Verantwortung", "chapter": "6.5", "intro": "Diese Gruppe liegt über allen anderen und gilt für jede von ihnen. Drei Kriterien." }
+  ],
+  "items": [
+    {
+      "id": "c-01",
+      "name": "Eigene didaktische Konzeption",
+      "group": "didaktisch",
+      "meaning": "Das Lehrmittel folgt einer klaren Idee, wie gelernt wird, und ist mehr als eine geordnete Stoffsammlung. Sie ist die Voraussetzung, an der sich alle weiteren Entscheidungen messen.",
+      "literatureBasis": ["kerres-2018"],
+      "example": "Ein Warmwasser-Kapitel benennt zu Beginn das Lernziel, zeigt einen roten Faden und macht klar, ob selbstständig, begleitet oder im Unterricht gelernt wird.",
+      "possibleWeakness": "Eine 'didaktische Konzeption' lässt sich behaupten, ohne dass sie sichtbar wird. Das Kriterium braucht prüfbare Belege (Lernziele, roter Faden).",
+      "checkQuestion": "Ist klar, wie die Lernenden mit dem Lehrmittel lernen sollen?",
+      "possibleExamQuestion": "Was meinen Sie mit der eigenen didaktischen Konzeption eines Lehrmittels?",
+      "excellentAnswer": "Damit meine ich die durchdachte Vorstellung, wie mit dem Lehrmittel gelernt werden soll, also benannte Lernziele, ein erkennbarer roter Faden und Klarheit über die Lernsituation. Ohne diese Idee bleibt ein Lehrmittel mit Kerres eine blosse Stoffsammlung. Sie ist die Voraussetzung, an der sich Struktur, Gestaltung und digitale Erweiterungen messen."
+    },
+    {
+      "id": "c-02",
+      "name": "Aktivierung",
+      "group": "didaktisch",
+      "meaning": "Die Aufgaben verlangen aktives und konstruktives Arbeiten. Erst die eigene Verarbeitung führt zu tiefem Lernen, blosses Lesen und Markieren bleibt an der Oberfläche.",
+      "literatureBasis": ["chi-wylie-2014"],
+      "example": "Statt nur Begriffe anzukreuzen, sollen Lernende eine Rohrführung selbst skizzieren und begründen oder einem Mitlernenden den Druckverlust erklären.",
+      "possibleWeakness": "Aktivierende Aufgaben sind aufwändiger zu erstellen und schwerer automatisch auszuwerten als Ankreuzaufgaben.",
+      "checkQuestion": "Verlangen die Aufgaben eigenes Denken und Handeln der Lernenden?",
+      "possibleExamQuestion": "Wie unterscheidet das ICAP-Modell aktive von oberflächlicher Beteiligung?",
+      "excellentAnswer": "ICAP ordnet die Beteiligung in vier Stufen: passiv, aktiv, konstruktiv, interaktiv. Reines Lesen oder Ankreuzen bleibt passiv bis aktiv. Konstruktiv wird es, wenn Lernende etwas Eigenes hervorbringen, also erklären, vergleichen oder anwenden. Je konstruktiver, desto tiefer das Lernen. Deshalb sollen Aufgaben zum Erklären und Anwenden auffordern, nicht nur zum Ankreuzen."
+    },
+    {
+      "id": "c-03",
+      "name": "Motivation und Rückmeldung",
+      "group": "didaktisch",
+      "meaning": "Das Lehrmittel stützt Kompetenzerleben, Autonomie und Eingebundenheit und gibt Rückmeldung, an der sich die Lernenden orientieren. So bleiben sie eher am Stoff.",
+      "literatureBasis": ["deci-ryan-1993"],
+      "example": "Lösungswege mit Selbstkontrolle, gestufte Aufgaben mit Wahlmöglichkeit (Autonomie) und Praxistipps, die das Kompetenzerleben stärken.",
+      "possibleWeakness": "Motivationselemente können zu Unterhaltung verkommen, wenn sie nicht an den Lerninhalt gebunden sind.",
+      "checkQuestion": "Gibt das Lehrmittel Rückmeldung und stützt es die Eigenmotivation?",
+      "possibleExamQuestion": "Wie stützt ein Lehrmittel die Motivation, ohne zur Spielerei zu werden?",
+      "excellentAnswer": "Nach der Selbstbestimmungstheorie von Deci und Ryan bleibt Motivation eher erhalten, wenn drei Bedürfnisse gestützt werden: Kompetenzerleben, Autonomie und soziale Eingebundenheit. Konkret heisst das: erreichbare, gestufte Aufgaben mit Rückmeldung, echte Wahlmöglichkeiten und ein Bezug zur gemeinsamen Arbeit. Motivation entsteht so aus dem Lernen selbst, nicht aus aufgesetzter Unterhaltung."
+    },
+    {
+      "id": "c-04",
+      "name": "Schutz der Denkarbeit",
+      "group": "didaktisch",
+      "meaning": "Hilfe- und KI-Funktionen regen das Denken an und halten die Verarbeitung bei den Lernenden. Sonst entsteht die metakognitive Bequemlichkeit, die das Lernen untergräbt. Dieses Kriterium steht über den anderen didaktischen.",
+      "literatureBasis": ["bauer-2025"],
+      "example": "Eine KI-Erklärhilfe stellt Rückfragen und gibt Hinweise, statt die fertige Lösung auszugeben. Sie zerlegt einen schwierigen Sachverhalt in kleinere Schritte.",
+      "possibleWeakness": "Schwer messbar: Ob eine Funktion das Denken anstösst oder abnimmt, zeigt sich erst in der Nutzung.",
+      "checkQuestion": "Lassen Hilfe- und KI-Funktionen die Denkarbeit bei den Lernenden?",
+      "possibleExamQuestion": "Was bedeutet metakognitive Bequemlichkeit und warum ist sie ein Problem?",
+      "excellentAnswer": "Metakognitive Bequemlichkeit beschreibt mit Bauer et al., dass Lernende die eigene Anstrengung einsparen, weil die KI eine fertige Antwort liefert. Genau diese Anstrengung wäre aber das Lernen gewesen. Deshalb fordere ich, dass Hilfe- und KI-Funktionen das Denken anstossen, etwa durch Rückfragen und Hinweise, und die Verarbeitung bei den Lernenden lassen."
+    },
+    {
+      "id": "c-05",
+      "name": "Orientierung und Modularität",
+      "group": "strukturell",
+      "meaning": "Die Gliederung ist klar, die Einheiten sind abgeschlossen und gut auffindbar. Das entlastet das Arbeitsgedächtnis und hilft beim gezielten Nachschlagen.",
+      "literatureBasis": ["sweller-2020", "kerres-2018"],
+      "example": "Jedes Kapitel der Kaltwasserversorgung ist eine abgeschlossene Einheit mit klarem Titel, sodass man auch gezielt eine einzelne Frage nachschlagen kann.",
+      "possibleWeakness": "Zu starke Modularisierung kann Zusammenhänge zerschneiden, wenn die Verknüpfung fehlt.",
+      "checkQuestion": "Ist das Lehrmittel klar gegliedert und sind die Einheiten gut auffindbar?",
+      "possibleExamQuestion": "Warum ist Struktur aus lernpsychologischer Sicht so wichtig?",
+      "excellentAnswer": "Weil das Arbeitsgedächtnis begrenzt ist und von ungeordnetem Stoff rasch überlastet wird, wie Sweller zeigt. Eine klare Gliederung mit abgeschlossenen Einheiten entlastet die Lernenden und macht das Lehrmittel zugleich erschliessbar und erweiterbar. Mit Kerres gilt zudem: Eine Lernumgebung lebt von verknüpften Teilen, nicht von isolierten Seiten."
+    },
+    {
+      "id": "c-06",
+      "name": "Verknüpfung",
+      "group": "strukturell",
+      "meaning": "Verwandte Kapitel und Module sind sichtbar verbunden, sodass Zusammenhänge erkennbar werden. Gerade in der Berufsbildung, wo eine Handlungskompetenz viel Theorie bündelt, ist das sehr wichtig.",
+      "literatureBasis": ["kerres-2018"],
+      "example": "Im Warmwasser-Kapitel verweist ein Hinweis gezielt auf die hygienischen Grundlagen aus dem Kaltwasser-Kapitel, sodass der Zusammenhang sichtbar wird.",
+      "possibleWeakness": "Zu viele Querverweise überladen und lenken ab. Verknüpfung muss sparsam und gezielt sein.",
+      "checkQuestion": "Sind verwandte Inhalte sichtbar miteinander verbunden?",
+      "possibleExamQuestion": "Wie unterscheidet sich eine Lernumgebung von einer Sammlung einzelner Seiten?",
+      "excellentAnswer": "Eine Lernumgebung besteht nach Kerres aus verknüpften Einheiten, die aufeinander aufbauen und Orientierung geben. Eine blosse Sammlung isolierter Seiten leistet das nicht. Sichtbare Verbindungen zwischen den Einheiten machen Zusammenhänge erkennbar, was gerade in der Berufsbildung zählt, weil eine Handlungskompetenz viel Theorie bündelt."
+    },
+    {
+      "id": "c-07",
+      "name": "Format folgt der Konzeption",
+      "group": "strukturell",
+      "meaning": "Das technische Format dient der didaktischen Idee. Es wird nach dem Lernziel gewählt und nicht umgekehrt.",
+      "literatureBasis": ["kerres-2018"],
+      "example": "Ob PDF, Web oder App entscheidet sich nach dem Lernziel. Braucht ein Inhalt Selbstkontrolle und Verzweigung, ist eine reine PDF-Form ungeeignet.",
+      "possibleWeakness": "In der Praxis gibt oft die vorhandene Plattform (z. B. Edubase) das Format vor, nicht das Lernziel.",
+      "checkQuestion": "Dient das gewählte Format der didaktischen Idee, statt sie vorzugeben?",
+      "possibleExamQuestion": "Was meinen Sie mit 'Format folgt der Konzeption'?",
+      "excellentAnswer": "Ich meine, dass zuerst die Lernidee steht und das Format danach gewählt wird. Wer zuerst die Technik wählt und dann den Inhalt einpasst, verliert die Lernwirkung aus dem Blick. Das Format, ob PDF, Web oder App, soll die didaktische Ordnung unterstützen und nicht selbst vorgeben."
+    },
+    {
+      "id": "c-08",
+      "name": "Bild-Text-Kohärenz",
+      "group": "gestalterisch",
+      "meaning": "Grafik und Text sind aufeinander abgestimmt, das Wesentliche ist hervorgehoben. So entsteht ein Bild, das den Inhalt erklärt und das Verstehen stützt.",
+      "literatureBasis": ["mayer-2021"],
+      "example": "Ein Schema der Warmwasserzirkulation steht direkt beim erklärenden Text, mit wenigen Stichworten beschriftet, statt Bild und Erklärung zu trennen.",
+      "possibleWeakness": "Dekorative Bilder, die nichts erklären, erhöhen die Belastung, statt zu entlasten.",
+      "checkQuestion": "Wirken Bild und Text zusammen und heben das Wesentliche hervor?",
+      "possibleExamQuestion": "Was sagt Mayer zur Gestaltung von Text und Bild?",
+      "excellentAnswer": "Mayer zeigt, dass Bild und Text zusammenwirken, wenn sie aufeinander abgestimmt sind und das Wesentliche hervorheben. Eine gute Gestaltung entlastet das Arbeitsgedächtnis, etwa indem Beschriftungen am Bild stehen und Wichtiges markiert ist. Eine Grafik soll den Inhalt erklären, nicht dekorieren."
+    },
+    {
+      "id": "c-09",
+      "name": "Reduktion",
+      "group": "gestalterisch",
+      "meaning": "Das Material enthält wenige, fundierte Informationen und teilt den Stoff in verarbeitbare Schritte. Das schützt vor Überlastung des Arbeitsgedächtnisses.",
+      "literatureBasis": ["sweller-2020", "mayer-2021"],
+      "example": "Ein schwieriger Berechnungsweg wird in kleine Schritte portioniert; pro Seite stehen wenige, gut gewählte Informationen statt einer Textwand.",
+      "possibleWeakness": "Reduktion darf nicht zu fachlicher Verflachung führen. Die Tiefe muss erhalten bleiben.",
+      "checkQuestion": "Ist der Stoff auf das Wesentliche reduziert und in Schritte geteilt?",
+      "possibleExamQuestion": "Sie sagen 'weniger ist mehr'. Wie verhindern Sie, dass dabei fachliche Tiefe verloren geht?",
+      "excellentAnswer": "Reduktion heisst nicht weglassen, sondern auswählen. Mit Sweller und Mayer gilt: Zu viele Informationen überlasten das Arbeitsgedächtnis, schwieriger Stoff sollte in überschaubare Schritte geteilt werden. Die fachliche Tiefe bleibt erhalten, indem das Wesentliche klar geführt und Schritt für Schritt aufgebaut wird, statt alles gleichzeitig zu zeigen. Beim eigenen Schreiben haben sich wenige, gut gewählte Informationen als wirksamer erwiesen."
+    },
+    {
+      "id": "c-10",
+      "name": "Gestaltung als didaktische Arbeit",
+      "group": "gestalterisch",
+      "meaning": "Die Gestaltung ist Teil der Didaktik. Sie folgt der Lernabsicht und unterstützt das Verstehen, statt nur zu schmücken.",
+      "literatureBasis": ["mayer-2021"],
+      "example": "Layout, Hervorhebungen und Icons werden konsistent und nach der Lernabsicht eingesetzt, nicht nach Geschmack.",
+      "possibleWeakness": "Die Grenze zwischen funktionaler und schmückender Gestaltung ist nicht immer eindeutig.",
+      "checkQuestion": "Folgt die Gestaltung der Lernabsicht statt nur der Ästhetik?",
+      "possibleExamQuestion": "Warum behandeln Sie Gestaltung als didaktische und nicht als ästhetische Frage?",
+      "excellentAnswer": "Weil die Gestaltung mit Mayer direkt auf das Verstehen wirkt. Sie entlastet oder belastet das Arbeitsgedächtnis, je nachdem, wie Bild, Text und Hervorhebung zusammenspielen. Damit ist sie Teil der Didaktik: Sie folgt der Lernabsicht und ist kein nachträglicher Schmuck."
+    },
+    {
+      "id": "c-11",
+      "name": "Offenheit für Erweiterungen",
+      "group": "anschluss",
+      "meaning": "Das Lehrmittel ist strukturell offen für digitale und KI-gestützte Ergänzungen. So bleibt es anschlussfähig, auch wenn sich die Technik weiterentwickelt.",
+      "literatureBasis": ["bauer-2025"],
+      "example": "Klar abgegrenzte Einheiten und eindeutige Begriffe erlauben es, später Quizformate oder Erklärhilfen anzudocken, ohne den Aufbau zu sprengen.",
+      "possibleWeakness": "Offenheit bleibt eine Strukturqualität; ob die Erweiterungen später wirklich kommen und gut sind, garantiert sie nicht.",
+      "checkQuestion": "Ist das Lehrmittel strukturell offen für sinnvolle digitale Erweiterungen?",
+      "possibleExamQuestion": "Was bedeutet Zukunftsoffenheit in Ihrer Arbeit konkret?",
+      "excellentAnswer": "Zukunftsoffenheit heisst, dass die Inhalte so klar aufgebaut sind, dass sie später durch digitale Werkzeuge sinnvoll erklärt, geübt oder vertieft werden können. Das ist eine Strukturqualität: abgeschlossene Einheiten, eindeutige Begriffe, stabile Gliederung. Digitale Erweiterungen werden so im Aufbau vorbereitet und nicht nachträglich angeklebt."
+    },
+    {
+      "id": "c-12",
+      "name": "KI nach Wirkung beurteilen",
+      "group": "anschluss",
+      "meaning": "Jede digitale Funktion wird danach beurteilt, welche Wirkung sie auf das Lernen hat. Eine Funktion, die nur ersetzt, bringt wenig; eine, die vertieft, trägt das Lernen.",
+      "literatureBasis": ["bauer-2025"],
+      "example": "Eine Zusammenfassungsfunktion, die den Lernenden das Lesen abnimmt (Substitution), wird kritischer beurteilt als eine, die zum Vergleichen anregt (Augmentation).",
+      "possibleWeakness": "Die Zuordnung zu ISAR-Kategorien ist eine Einschätzung, keine Messung, und hängt vom Einsatz ab.",
+      "checkQuestion": "Wird jede KI-Funktion nach ihrer Wirkung auf das Lernen beurteilt?",
+      "possibleExamQuestion": "Nach welchem Massstab beurteilen Sie eine KI-Funktion?",
+      "excellentAnswer": "Nach ihrer Wirkung auf das Lernen, mit dem ISAR-Modell von Bauer et al. als Massstab. Es unterscheidet Inversion, Substitution, Augmentation und Redefinition. Eine Funktion, die nur ersetzt, bringt wenig. Eine, die zusätzliche gedankliche Unterstützung gibt oder eine Aufgabe vertieft, trägt das Lernen. Entscheidend ist, ob am Ende die Lernenden denken oder die Technik."
+    },
+    {
+      "id": "c-13",
+      "name": "Lernortbezug",
+      "group": "anschluss",
+      "meaning": "Das Lehrmittel verbindet Berufsfachschule, Betrieb und überbetriebliche Kurse. Es macht sichtbar, wo der Stoff in der Arbeit gebraucht wird.",
+      "literatureBasis": ["dehnbostel-2022", "seufert-2023"],
+      "example": "Eigens markierte Praxistipps verbinden den Schulstoff mit der Arbeit im Betrieb und zeigen, wo die Lernenden ihn wiedererkennen.",
+      "possibleWeakness": "Der Lernortbezug hängt stark von der konkreten Branche ab und lässt sich nicht allgemein vorgeben.",
+      "checkQuestion": "Verbindet das Lehrmittel Schule, Betrieb und überbetriebliche Kurse?",
+      "possibleExamQuestion": "Wie stellt ein Lehrmittel den Bezug zu den Lernorten her?",
+      "excellentAnswer": "Indem es sichtbar macht, wo der Stoff in der Arbeit gebraucht wird. Nach Dehnbostel und Seufert wird an mehreren Orten gelernt: Schule, Betrieb und überbetriebliche Kurse. Ein gutes Lehrmittel bindet diese Orte gedanklich zusammen, etwa über markierte Praxistipps, damit die Lernenden das in der Schule Erarbeitete im Betrieb wiedererkennen."
+    },
+    {
+      "id": "c-14",
+      "name": "Datenschutz",
+      "group": "verantwortung",
+      "meaning": "Persönliche Lerndaten werden geschützt und die Rechte der Betroffenen gewahrt. Wer ein Lehrmittel einsetzt, muss wissen, welche Daten anfallen und wie sie verwendet werden.",
+      "literatureBasis": ["unesco-2023"],
+      "example": "Eine adaptive Funktion legt offen, welche Lerndaten sie speichert, und kommt ohne unnötige personenbezogene Daten aus.",
+      "possibleWeakness": "Datenschutz liegt oft beim Plattformbetreiber, nicht beim Lehrmittelautor; das Kriterium kann nur einfordern, nicht garantieren.",
+      "checkQuestion": "Werden persönliche Lerndaten geschützt und die Rechte der Betroffenen gewahrt?",
+      "possibleExamQuestion": "Wo sehen Sie beim KI-Einsatz die grössten Datenschutzfragen?",
+      "excellentAnswer": "Sobald ein Lehrmittel persönliche Lerndaten verarbeitet, müssen mit der UNESCO die Datenschutzregeln und die Rechte der Betroffenen zwingend berücksichtigt werden. Konkret heisst das Transparenz darüber, welche Daten anfallen, Datensparsamkeit und klare Verantwortlichkeiten. Diese Frage gehört von Beginn an zur Gestaltung, nicht erst zum Schluss."
+    },
+    {
+      "id": "c-15",
+      "name": "Fairness und Validität",
+      "group": "verantwortung",
+      "meaning": "Eine KI-gestützte Beurteilung ist fair und misst das, was sie messen soll. Sie benachteiligt keine Gruppe systematisch.",
+      "literatureBasis": ["xiong-li-2026"],
+      "example": "Ein KI-gestütztes Feedback auf eine Aufgabe bewertet die Fachleistung und nicht den Sprachstil oder die Herkunft der Formulierung.",
+      "possibleWeakness": "Fairness und Validität von KI-Bewertungen sind schwer nachzuweisen und brauchen eigentlich empirische Prüfung.",
+      "checkQuestion": "Ist eine KI-gestützte Beurteilung fair und misst sie das Richtige?",
+      "possibleExamQuestion": "Was heisst Validität bei einer KI-gestützten Beurteilung?",
+      "excellentAnswer": "Validität heisst, dass die Beurteilung das misst, was sie messen soll, also die Fachleistung und nicht etwa den Sprachstil. Mit Xiong und Li gehört dazu auch Fairness: Eine Funktion darf keine Gruppe systematisch benachteiligen. Da sich das nur empirisch sichern lässt, formuliere ich es als Anforderung, die beim Einsatz geprüft werden muss."
+    },
+    {
+      "id": "c-16",
+      "name": "Transparenz und reflektierte Nutzung",
+      "group": "verantwortung",
+      "meaning": "Es ist nachvollziehbar, was eine Funktion tut, und das Lehrmittel befähigt zu einer kritischen Nutzung. Vertrauen entsteht aus Nachvollziehbarkeit.",
+      "literatureBasis": ["nazaretsky-2025"],
+      "example": "Eine KI-Erklärhilfe ist als solche gekennzeichnet, und das Lehrmittel regt dazu an, ihre Antworten zu prüfen statt blind zu übernehmen.",
+      "possibleWeakness": "Transparenz allein erzeugt noch keine kritische Nutzung; die Lernenden brauchen auch die nötige Kompetenz dazu.",
+      "checkQuestion": "Ist nachvollziehbar, was eine Funktion tut, und befähigt das Lehrmittel zu kritischer Nutzung?",
+      "possibleExamQuestion": "Warum ist Vertrauen für die Nutzung von KI-Funktionen so wichtig?",
+      "excellentAnswer": "Nazaretsky et al. zeigen, dass Lernende eine Funktion nur nutzen, wenn sie ihr vertrauen, und Vertrauen entsteht aus Nachvollziehbarkeit. Deshalb gehört dazu, dass offengelegt wird, was eine Funktion tut, und dass das Lehrmittel zu einer kritischen, reflektierten Nutzung befähigt, statt zum blinden Übernehmen der Antworten."
+    }
+  ]
+}

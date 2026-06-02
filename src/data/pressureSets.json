@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ps-001",
+    "title": "Vom PDF zur Lernumgebung",
+    "area": "forschungsfrage",
+    "intro": "Drei Fragen hintereinander, wie im Fachgespräch. Antworte alle laut, bevor du die Musterantworten aufdeckst.",
+    "questions": [
+      "Warum reicht es nicht, ein Schulbuch als PDF bereitzustellen?",
+      "Wäre ein PDF dann nie sinnvoll? Wo hat es seine Berechtigung?",
+      "Sie sagen, der Träger entscheide nicht. Heisst das, digital und gedruckt sind gleichwertig?"
+    ],
+    "modelAnswers": [
+      "Die technische Form verändert zuerst nur die Oberfläche. Mit Kerres wird ein Lehrmittel erst als Lernumgebung wirksam: wenn es strukturiert, führt, aktiviert und Rückmeldung gibt. Der Schritt vom Schulbuch zur Lernumgebung ist eine didaktische, keine technische Aufgabe.",
+      "Doch. Ein PDF ist sinnvoll, wo es um lineares Lesen, um stabile Referenz oder um Druckbarkeit geht. Das Kriterium Format folgt der Konzeption sagt genau das: Das Format wird nach dem Lernziel gewählt. Wo Selbstkontrolle oder Verzweigung nötig sind, ist ein PDF aber ungeeignet.",
+      "Nicht automatisch gleichwertig. Der Träger entscheidet nicht über die Lernwirkung, die didaktische Gestaltung schon. Digital kann mehr leisten, etwa denselben Stoff in verschiedenen Reihenfolgen zugänglich machen. Aber ein schlecht gestaltetes digitales Lehrmittel ist einem gut gestalteten gedruckten unterlegen. Entscheidend bleibt die Didaktik."
+    ],
+    "relatedChapters": ["3.1", "3.2", "6.2"],
+    "relatedSources": ["kerres-2018"]
+  },
+  {
+    "id": "ps-002",
+    "title": "KI und die Denkarbeit",
+    "area": "ki",
+    "intro": "Verteidige deine Position zur KI unter Nachfragen.",
+    "questions": [
+      "Wie verhindern Sie, dass KI die Denkarbeit der Lernenden ersetzt?",
+      "Woran erkennen Sie konkret, ob eine Funktion das Denken anstösst oder abnimmt?",
+      "Ist diese Unterscheidung im Schulalltag überhaupt durchsetzbar?"
+    ],
+    "modelAnswers": [
+      "Indem ich jede Funktion nach ihrer Wirkung beurteile. Das Risiko ist die metakognitive Bequemlichkeit (Bauer et al.): Die KI liefert die Antwort, die Lernenden sparen die Anstrengung, die das Lernen gewesen wäre. Eine gute Funktion stösst das Denken an, durch Rückfragen, Hinweise oder das Zerlegen in Schritte.",
+      "An der Rolle, die den Lernenden bleibt. Stösst die Funktion an, müssen sie noch selbst formulieren, vergleichen oder entscheiden, das ist Augmentation oder Redefinition im ISAR-Modell. Nimmt sie ab, liefert sie ein fertiges Ergebnis zum Übernehmen, das ist Substitution oder Inversion. Der Test ist: Denkt am Ende die lernende Person oder die Maschine?",
+      "Nicht vollständig technisch, aber gestalterisch und didaktisch. Das Lehrmittel kann Funktionen so anlegen, dass sie anstossen statt abnehmen, und die Lehrperson begleitet die Nutzung. Das deckt sich mit dem Kriterium Transparenz und reflektierte Nutzung: Die Lernenden müssen befähigt werden, die KI kritisch zu nutzen. Eine Garantie ist das nicht, aber eine klare Richtung."
+    ],
+    "relatedChapters": ["4.2", "5.3", "6.1", "6.5"],
+    "relatedSources": ["bauer-2025", "nazaretsky-2025"]
+  },
+  {
+    "id": "ps-003",
+    "title": "Tragfähigkeit ohne Empirie",
+    "area": "grenzen",
+    "intro": "Die kritischste Kette. Bleib souverän, nicht defensiv.",
+    "questions": [
+      "Warum haben Sie keine eigene empirische Untersuchung durchgeführt?",
+      "Wie belastbar sind Ihre Kriterien dann ohne empirische Überprüfung?",
+      "Wo sehen Sie den schwächsten Punkt Ihrer Arbeit?"
+    ],
+    "modelAnswers": [
+      "Weil das Ziel ein begründetes, überprüfbares Kriterienraster war und nicht der Test eines einzelnen Werkzeugs. Das theoriegeleitete Vorgehen passt zum schnelllebigen Feld: Tools veralten, didaktische Prinzipien tragen länger. Meine Praxis als Lehrmittelautor nutze ich als Reflexion, nicht als Empirie.",
+      "Sie sind ein begründeter Orientierungsrahmen, lückenlos aus der Literatur abgeleitet, aber nicht in der Praxis erprobt. Ihre Stärke ist, dass sie didaktische Anforderungen sichtbar und prüfbar machen. Ihre Grenze ist, dass die Gewichtung im Alltag offenbleibt. Ich verkaufe sie deshalb nicht als endgültige Antwort.",
+      "Der schwächste Punkt ist die fehlende Erprobung an einem realen Lehrmittel. Theoretisch sind die Kriterien gut abgestützt, aber ihre praktische Tragfähigkeit bleibt eine begründete Annahme. Das ist für mich kein verstecktes Problem, sondern die natürliche Anschlussstelle für eine empirische Folgearbeit."
+    ],
+    "relatedChapters": ["2.1", "8.3"],
+    "relatedSources": []
+  },
+  {
+    "id": "ps-004",
+    "title": "Quellen unter Druck",
+    "area": "quellen",
+    "intro": "Zeig, dass du deine Quellen einordnen und gewichten kannst.",
+    "questions": [
+      "Welche Quelle trägt Ihre zentrale Argumentation am stärksten?",
+      "Was, wenn sich das ISAR-Modell als nicht haltbar erweist?",
+      "Welche Ihrer Quellen würden Sie als am wenigsten belastbar bezeichnen?"
+    ],
+    "modelAnswers": [
+      "Den didaktischen Kern trägt Kerres, den KI-Teil Bauer et al. mit dem ISAR-Modell. Wenn ich mich festlegen müsste: Kerres, weil die ganze Arbeit auf dem Vorrang der Didaktik aufbaut.",
+      "Dann bliebe meine Grundaussage bestehen, denn sie hängt nicht allein an ISAR. Das ISAR-Modell ist mein Ordnungsraster, um KI-Wirkungen zu beschreiben. Die didaktische Kernidee, dass KI die Denkarbeit bei den Lernenden lassen muss, stützt sich breiter, etwa auf Cognitive Load und ICAP. ISAR macht es nur greifbarer.",
+      "Der Preprint von Morita et al., weil er nicht begutachtet ist. Ich verwende ihn deshalb nur als klar gekennzeichnetes Beispiel und nicht als Beleg. Auch die Schweizer Berichte gewichte ich zurückhaltend: Sie liefern Kontext zur Verbreitung, aber keine Wirksamkeit."
+    ],
+    "relatedChapters": ["3.2", "4.2", "2.2"],
+    "relatedSources": ["kerres-2018", "bauer-2025", "morita-2025"]
+  }
+]
