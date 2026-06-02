@@ -5,7 +5,7 @@ import sources from '../data/sourceMap.json'
 import { useStore, rate, getRating, setLastActivity } from '../lib/storage.js'
 import {
   PageTitle, DifficultyTag, RatingBar, Reveal, Block,
-  SourceRefs, ChapterRefs, areaName,
+  SourceRefs, ChapterRefs, areaName, AreaBadge,
 } from '../components/ui.jsx'
 
 const TYPES = [...new Set(questions.map((q) => q.questionType))]
@@ -91,7 +91,7 @@ function ExamCard({ q, idx, total, onRate, rating }) {
   return (
     <div className="card stack">
       <div className="row">
-        <span className="tag blue">{areaName(q.area)}</span>
+        <AreaBadge id={q.area} />
         <span className="tag">{q.questionType}</span>
         <DifficultyTag value={q.difficulty} />
         <span className="tag">{q.competence}</span>

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import sources from '../data/sourceMap.json'
 import { ALL_ITEMS, CATEGORIES, countsByCategory, shuffle, weakFirst } from '../lib/questionBank.js'
 import { useStore, rate, getRating, setLastActivity } from '../lib/storage.js'
-import { PageTitle, Block, SourceRefs, ChapterRefs, areaName, RatingBar } from '../components/ui.jsx'
+import { PageTitle, Block, SourceRefs, ChapterRefs, areaName, AreaBadge, RatingBar } from '../components/ui.jsx'
 
 function arraysEqual(a, b) {
   if (a.length !== b.length) return false
@@ -191,7 +191,7 @@ function ChoiceBody({ item, onAnswered }) {
   return (
     <div className="card stack">
       <div className="row">
-        <span className="tag blue">{areaName(item.area)}</span>
+        <AreaBadge id={item.area} />
         <span className="tag">{item.badge}</span>
       </div>
       <h2 style={{ margin: '.2rem 0', fontSize: '1.12rem' }}>{item.question}</h2>
@@ -252,7 +252,7 @@ function OpenBody({ item, onAnswered }) {
   return (
     <div className="card stack">
       <div className="row">
-        <span className="tag blue">{areaName(item.area)}</span>
+        <AreaBadge id={item.area} />
         <span className="tag amber">mündlich</span>
         <span className="tag">{item.badge}</span>
       </div>

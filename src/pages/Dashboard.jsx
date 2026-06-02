@@ -7,9 +7,8 @@ import reflection from '../data/reflection.json'
 import sources from '../data/sourceMap.json'
 import { useStore } from '../lib/storage.js'
 import { dueToday, untouchedIds, progressPercent, weakIds } from '../lib/srs.js'
-import { ProgressBar } from '../components/ui.jsx'
+import { ProgressBar, ProgressRing, areaMeta } from '../components/ui.jsx'
 
-// ids je Bereich aus Fragen + Lernkarten
 function areaIds(areaId) {
   const q = questions.filter((x) => x.area === areaId).map((x) => x.id)
   const f = flashcards.filter((x) => x.area === areaId).map((x) => x.id)
@@ -17,6 +16,13 @@ function areaIds(areaId) {
   const aq = areaId === 'quellen' ? authorQuiz.map((x) => x.id) : []
   const rf = areaId === 'grenzen' ? reflection.map((x) => x.id) : []
   return [...q, ...f, ...z, ...aq, ...rf]
+}
+
+// Sinnvolles Ziel je Bereich
+const AREA_TARGET = {
+  forschungsfrage: 'exam', vorgehen: 'exam', theorie: 'exam', ki: 'exam',
+  synthese: 'theses', kriterien: 'theses', leitfaden: 'presentation',
+  quellen: 'sources', grenzen: 'reflection',
 }
 
 export default function Dashboard({ go }) {
@@ -27,19 +33,17 @@ export default function Dashboard({ go }) {
   const open = untouchedIds(flashcards.map((c) => c.id), ratings)
   const cardIds = flashcards.map((c) => c.id)
 
-  // Fortschritt pro Bereich
   const areas = meta.areas.map((a) => {
     const ids = areaIds(a.id)
-    return { ...a, ids, percent: progressPercent(ids, ratings), count: ids.length }
+    return { ...a, ids, percent: progressPercent(ids, ratings), weak: weakIds(ids, ratings).length, ...areaMeta(a.id) }
   })
 
-  // Schwache Themen: Bereiche mit schwachen (0/1) Eintraegen
-  const weakAreas = areas
-    .map((a) => ({ ...a, weak: weakIds(a.ids, ratings).length }))
-    .filter((a) => a.weak > 0)
-    .sort((x, y) => y.weak - x.weak)
+  const weakCount = areas.reduce((s, a) => s + a.weak, 0)
+  const overall = progressPercent(
+    [...questions.map((q) => q.id), ...cardIds, ...quiz.map((q) => q.id), ...authorQuiz.map((q) => q.id), ...reflection.map((r) => r.id)],
+    ratings
+  )
 
-  // zuletzt geuebte Quellen
   const recentSources = Object.entries(ratings)
     .filter(([, r]) => r.type === 'source')
     .sort((a, b) => b[1].last - a[1].last)
@@ -47,93 +51,72 @@ export default function Dashboard({ go }) {
     .map(([id]) => sources.find((s) => s.id === id))
     .filter(Boolean)
 
-  const overall = progressPercent(
-    [...questions.map((q) => q.id), ...cardIds, ...quiz.map((q) => q.id), ...authorQuiz.map((q) => q.id), ...reflection.map((r) => r.id)],
-    ratings
-  )
-
   return (
     <div className="stack">
-      <h1>Dashboard</h1>
-      <p className="section-intro">{meta.coreMessage}</p>
-
-      <div className="tiles">
-        <div className="tile">
-          <div className="num">{due.length}</div>
-          <div className="lbl">heutige Wiederholungen</div>
+      {/* Hero */}
+      <div className="hero">
+        <div className="spread" style={{ alignItems: 'center' }}>
+          <div style={{ maxWidth: '60%' }}>
+            <h1 style={{ marginBottom: '.3rem' }}>Bereit für die Prüfung?</h1>
+            <p className="small" style={{ margin: 0 }}>{meta.coreMessage}</p>
+          </div>
+          <ProgressRing value={overall} />
         </div>
-        <div className="tile">
-          <div className="num">{open.length}</div>
-          <div className="lbl">offene Lernkarten</div>
+        <div className="hero-stats">
+          <div className="hero-stat"><b>{due.length}</b><span>heute fällig</span></div>
+          <div className="hero-stat"><b>{open.length}</b><span>offene Karten</span></div>
+          <div className="hero-stat"><b>{weakCount}</b><span>schwache Punkte</span></div>
         </div>
-        <div className="tile">
-          <div className="num">{weakAreas.reduce((s, a) => s + a.weak, 0)}</div>
-          <div className="lbl">schwache Punkte</div>
-        </div>
-        <div className="tile">
-          <div className="num">{overall}%</div>
-          <div className="lbl">Gesamtfortschritt</div>
+        <div className="btn-row" style={{ marginTop: '1rem' }}>
+          <button className="btn primary" onClick={() => go('quiz')}>🎲 Quiz starten</button>
+          <button className="btn" onClick={() => go('exam')}>🎓 Prüfungsmodus</button>
+          <button className="btn" onClick={() => go('weaknesses')}>🛠️ Meine Baustellen</button>
         </div>
       </div>
 
-      <div className="row">
-        <button className="btn primary" onClick={() => go('flashcards')}>Wiederholung starten</button>
-        <button className="btn" onClick={() => go('exam')}>Prüfungsmodus</button>
-        <button className="btn" onClick={() => go('weaknesses')}>Meine Baustellen</button>
+      {/* Lernbereiche */}
+      <div className="spread">
+        <h2>Lernbereiche</h2>
+        <span className="tiny faint">Tippen zum Üben</span>
       </div>
-
-      <div className="card">
-        <h2>Fortschritt nach Bereichen</h2>
-        <div className="stack">
-          {areas.map((a) => (
-            <div key={a.id}>
-              <div className="spread small">
-                <span>{a.name}</span>
-                <span className="faint">{a.percent}%</span>
-              </div>
-              <ProgressBar value={a.percent} green={a.percent >= 67} />
+      <div className="area-grid">
+        {areas.map((a) => (
+          <button
+            key={a.id}
+            className="area-card"
+            style={{ '--ac': a.color, '--ac-soft': a.soft }}
+            onClick={() => go(AREA_TARGET[a.id] || 'quiz')}
+          >
+            <div className="ac-head">
+              <span className="ac-ic" style={{ background: a.soft }} aria-hidden="true">{a.icon}</span>
+              <span className="ac-name">{a.name}</span>
             </div>
-          ))}
-        </div>
+            <ProgressBar value={a.percent} />
+            <div className="ac-foot">
+              <span>{a.percent}% sicher</span>
+              {a.weak > 0 ? <span style={{ color: 'var(--red)' }}>{a.weak} schwach</span> : <span>👍</span>}
+            </div>
+          </button>
+        ))}
       </div>
 
-      <div className="card-grid">
+      {/* Zuletzt geübte Quellen */}
+      {recentSources.length > 0 && (
         <div className="card">
-          <h3>Schwache Themen</h3>
-          {weakAreas.length === 0 ? (
-            <p className="muted small">Noch keine schwachen Punkte markiert. Starte im Prüfungsmodus oder mit den Lernkarten.</p>
-          ) : (
-            <ul className="clean small">
-              {weakAreas.slice(0, 5).map((a) => (
-                <li key={a.id}>
-                  <button className="btn ghost tiny" style={{ padding: '.1rem .3rem' }} onClick={() => go('weaknesses')}>
-                    {a.name} <span className="faint">({a.weak})</span>
-                  </button>
-                </li>
-              ))}
-            </ul>
-          )}
+          <div className="spread">
+            <h3 style={{ margin: 0 }}>Zuletzt geübte Quellen</h3>
+            <button className="btn ghost small" onClick={() => go('sources')}>alle →</button>
+          </div>
+          <ul className="clean small" style={{ marginTop: '.5rem' }}>
+            {recentSources.map((s) => (
+              <li key={s.id}>{s.shortName} <span className="faint">– {s.type}</span></li>
+            ))}
+          </ul>
         </div>
-
-        <div className="card">
-          <h3>Zuletzt geübte Quellen</h3>
-          {recentSources.length === 0 ? (
-            <p className="muted small">Noch keine Quelle geübt. Zum Quellen-Trainer wechseln.</p>
-          ) : (
-            <ul className="clean small">
-              {recentSources.map((s) => (
-                <li key={s.id}>{s.shortName} <span className="faint">– {s.type}</span></li>
-              ))}
-            </ul>
-          )}
-          <button className="btn small" style={{ marginTop: '.5rem' }} onClick={() => go('sources')}>Quellen-Trainer</button>
-        </div>
-      </div>
+      )}
 
       {store.lastActivity && (
-        <p className="tiny faint center">
-          Zuletzt: {store.lastActivity.label}
-        </p>
+        <p className="tiny faint center">Zuletzt: {store.lastActivity.label}</p>
       )}
     </div>
   )

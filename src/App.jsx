@@ -13,16 +13,16 @@ import Weaknesses from './pages/Weaknesses.jsx'
 import ReflectionMode from './pages/ReflectionMode.jsx'
 
 const ROUTES = [
-  { id: 'dashboard', label: 'Dashboard', el: Dashboard },
-  { id: 'exam', label: 'Prüfungsmodus', el: ExamMode },
-  { id: 'pressure', label: 'Prüfungsdruck', el: PressureMode },
-  { id: 'flashcards', label: 'Lernkarten', el: Flashcards },
-  { id: 'quiz', label: 'Quiz', el: Quiz },
-  { id: 'sources', label: 'Quellen-Trainer', el: SourceTrainer },
-  { id: 'theses', label: 'Thesen & Kriterien', el: ThesesCriteria },
-  { id: 'presentation', label: 'Präsentationstrainer', el: PresentationTrainer },
-  { id: 'weaknesses', label: 'Meine Baustellen', el: Weaknesses },
-  { id: 'reflection', label: 'Reflexion & Verteidigung', el: ReflectionMode },
+  { id: 'dashboard', label: 'Dashboard', icon: '🏠', el: Dashboard },
+  { id: 'quiz', label: 'Quiz', icon: '🎲', el: Quiz },
+  { id: 'exam', label: 'Prüfungsmodus', icon: '🎓', el: ExamMode },
+  { id: 'pressure', label: 'Prüfungsdruck', icon: '🔥', el: PressureMode },
+  { id: 'flashcards', label: 'Lernkarten', icon: '🃏', el: Flashcards },
+  { id: 'sources', label: 'Quellen-Trainer', icon: '📚', el: SourceTrainer },
+  { id: 'theses', label: 'Thesen & Kriterien', icon: '🧩', el: ThesesCriteria },
+  { id: 'presentation', label: 'Präsentationstrainer', icon: '🖥️', el: PresentationTrainer },
+  { id: 'weaknesses', label: 'Meine Baustellen', icon: '🛠️', el: Weaknesses },
+  { id: 'reflection', label: 'Reflexion & Verteidigung', icon: '🛡️', el: ReflectionMode },
 ]
 
 function currentRoute() {
@@ -54,8 +54,11 @@ export default function App() {
       <header className="topbar">
         <div className="topbar-inner">
           <div className="brand" onClick={() => go('dashboard')}>
-            <b>{meta.title}</b>
-            <span>{meta.subtitle}</span>
+            <span className="brand-logo" aria-hidden="true">🎓</span>
+            <span className="brand-text">
+              <b>{meta.title}</b>
+              <span>{meta.subtitle}</span>
+            </span>
           </div>
           <div className="brand-spacer" />
           <span className="exam-chip">Mündliche Prüfung: {meta.exam.date}</span>
@@ -79,6 +82,7 @@ export default function App() {
                 className={route === r.id ? 'active' : ''}
                 onClick={() => go(r.id)}
               >
+                <span className="nic" aria-hidden="true">{r.icon}</span>
                 {r.label}
               </button>
             ))}
