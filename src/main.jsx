@@ -8,3 +8,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>
 )
+
+// Service Worker registrieren (nur im veroeffentlichten Build, fuer Offline-Betrieb)
+if ('serviceWorker' in navigator && import.meta.env.PROD) {
+  window.addEventListener('load', () => {
+    const swUrl = `${import.meta.env.BASE_URL}sw.js`
+    navigator.serviceWorker.register(swUrl).catch(() => {
+      // Offline-Funktion ist optional; Fehler hier nicht weiter stoeren.
+    })
+  })
+}

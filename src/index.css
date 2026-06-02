@@ -33,6 +33,8 @@ body {
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
+  -webkit-tap-highlight-color: transparent;
+  overflow-wrap: break-word;
 }
 
 h1, h2, h3, h4 { line-height: 1.25; color: var(--ink); margin: 0 0 .4em; }
@@ -50,7 +52,9 @@ a { color: var(--blue-deep); }
   border-bottom: 1px solid var(--line);
 }
 .topbar-inner {
-  max-width: var(--maxw); margin: 0 auto; padding: .7rem 1rem;
+  max-width: var(--maxw); margin: 0 auto;
+  padding: .7rem max(1rem, env(safe-area-inset-right)) .7rem max(1rem, env(safe-area-inset-left));
+  padding-top: max(.7rem, env(safe-area-inset-top));
   display: flex; align-items: center; gap: .8rem; flex-wrap: wrap;
 }
 .brand { display: flex; flex-direction: column; line-height: 1.15; cursor: pointer; }
@@ -66,23 +70,43 @@ a { color: var(--blue-deep); }
   background: var(--paper); border-bottom: 1px solid var(--line);
   position: sticky; top: 0; z-index: 10;
 }
-.nav-inner {
-  max-width: var(--maxw); margin: 0 auto; padding: .35rem 1rem;
-  display: flex; gap: .25rem; overflow-x: auto; -webkit-overflow-scrolling: touch;
-}
-.nav button {
-  border: none; background: transparent; color: var(--ink-soft);
-  padding: .5rem .7rem; border-radius: 10px; cursor: pointer; white-space: nowrap;
-  font-size: .9rem; font-weight: 500;
-}
-.nav button:hover { background: var(--sand); color: var(--ink); }
-.nav button.active { background: var(--blue); color: #fff; }
+.nav-inner { max-width: var(--maxw); margin: 0 auto; padding: .35rem 1rem; }
 
-.main { flex: 1; max-width: var(--maxw); width: 100%; margin: 0 auto; padding: 1.2rem 1rem 3rem; }
+/* Umschalter (nur Handy sichtbar) */
+.nav-toggle {
+  display: none;
+  width: 100%; align-items: center; gap: .6rem;
+  border: none; background: transparent; color: var(--ink);
+  padding: .7rem .3rem; cursor: pointer; font-size: 1rem; font-weight: 600;
+}
+.nav-toggle .burger { font-size: 1.2rem; color: var(--blue-deep); }
+
+.nav-list { display: flex; gap: .25rem; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.nav-list button {
+  border: none; background: transparent; color: var(--ink-soft);
+  padding: .55rem .7rem; border-radius: 10px; cursor: pointer; white-space: nowrap;
+  font-size: .9rem; font-weight: 500; min-height: 40px;
+}
+.nav-list button:hover { background: var(--sand); color: var(--ink); }
+.nav-list button.active { background: var(--blue); color: #fff; }
+
+/* Handy: Umschalter zeigen, Liste als aufklappbares Menue */
+@media (max-width: 720px) {
+  .nav-toggle { display: flex; }
+  .nav-list { display: none; flex-direction: column; gap: .15rem; padding-bottom: .5rem; }
+  .nav-list.open { display: flex; }
+  .nav-list button { width: 100%; text-align: left; min-height: 48px; font-size: 1rem; }
+}
+
+.main {
+  flex: 1; max-width: var(--maxw); width: 100%; margin: 0 auto;
+  padding: 1.2rem max(1rem, env(safe-area-inset-right)) 3rem max(1rem, env(safe-area-inset-left));
+}
 
 .footer {
   border-top: 1px solid var(--line); background: var(--sand);
-  font-size: .76rem; color: var(--ink-faint); text-align: center; padding: 1rem;
+  font-size: .76rem; color: var(--ink-faint); text-align: center;
+  padding: 1rem 1rem max(1rem, env(safe-area-inset-bottom));
 }
 
 /* --- Karten ------------------------------------------------------------- */
@@ -106,7 +130,8 @@ a { color: var(--blue-deep); }
 /* --- Buttons ------------------------------------------------------------ */
 .btn {
   border: 1px solid var(--line); background: var(--card); color: var(--ink);
-  padding: .55rem .9rem; border-radius: 10px; cursor: pointer; font-size: .9rem; font-weight: 500;
+  padding: .6rem .9rem; border-radius: 10px; cursor: pointer; font-size: .9rem; font-weight: 500;
+  min-height: 44px; touch-action: manipulation;
 }
 .btn:hover { background: var(--sand); }
 .btn.primary { background: var(--blue); color: #fff; border-color: var(--blue); }
@@ -133,8 +158,9 @@ a { color: var(--blue-deep); }
 /* --- Bewertungsleiste --------------------------------------------------- */
 .rating { display: flex; gap: .4rem; flex-wrap: wrap; }
 .rating button {
-  flex: 1 1 auto; min-width: 64px; border: 1px solid var(--line); background: var(--card);
+  flex: 1 1 auto; min-width: 70px; min-height: 52px; border: 1px solid var(--line); background: var(--card);
   border-radius: 10px; padding: .5rem .4rem; cursor: pointer; font-size: .82rem; color: var(--ink-soft);
+  touch-action: manipulation;
 }
 .rating button:hover { background: var(--sand); }
 .rating button.s0:hover, .rating button.s0.sel { background: var(--red); color: #fff; border-color: var(--red); }
@@ -186,8 +212,10 @@ ul.clean li { margin-bottom: .25rem; }
 /* --- Auswahl / Filter --------------------------------------------------- */
 select, input[type="text"] {
   border: 1px solid var(--line); background: var(--card); color: var(--ink);
-  padding: .45rem .6rem; border-radius: 9px; font-size: .88rem; font-family: inherit;
+  padding: .5rem .6rem; border-radius: 9px; font-size: 1rem; font-family: inherit;
+  min-height: 44px;
 }
+input[type="checkbox"] { width: 22px; height: 22px; accent-color: var(--blue); flex: none; }
 label.field { display: inline-flex; flex-direction: column; gap: .2rem; font-size: .78rem; color: var(--ink-faint); }
 
 .section-intro { color: var(--ink-soft); margin-bottom: 1rem; }

@@ -1,0 +1,26 @@
+{
+  "name": "Diplomprüfung – Lernumgebung",
+  "short_name": "Diplomprüfung",
+  "description": "Persönliche Lern- und Prüfungsvorbereitung zur Diplomarbeit.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf8f2",
+  "theme_color": "#f3ece1",
+  "lang": "de-CH",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

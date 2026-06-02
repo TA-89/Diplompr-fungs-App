@@ -32,6 +32,7 @@ function currentRoute() {
 
 export default function App() {
   const [route, setRoute] = useState(currentRoute())
+  const [menuOpen, setMenuOpen] = useState(false)
 
   useEffect(() => {
     const onHash = () => setRoute(currentRoute())
@@ -42,9 +43,11 @@ export default function App() {
   const go = (id) => {
     window.location.hash = '/' + id
     window.scrollTo({ top: 0 })
+    setMenuOpen(false)
   }
 
   const Current = ROUTES.find((r) => r.id === route)?.el || Dashboard
+  const currentLabel = ROUTES.find((r) => r.id === route)?.label || 'Menü'
 
   return (
     <div className="app">
@@ -61,15 +64,25 @@ export default function App() {
 
       <nav className="nav">
         <div className="nav-inner">
-          {ROUTES.map((r) => (
-            <button
-              key={r.id}
-              className={route === r.id ? 'active' : ''}
-              onClick={() => go(r.id)}
-            >
-              {r.label}
-            </button>
-          ))}
+          <button
+            className="nav-toggle"
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen((o) => !o)}
+          >
+            <span className="burger" aria-hidden="true">{menuOpen ? '✕' : '☰'}</span>
+            <span>{currentLabel}</span>
+          </button>
+          <div className={'nav-list' + (menuOpen ? ' open' : '')}>
+            {ROUTES.map((r) => (
+              <button
+                key={r.id}
+                className={route === r.id ? 'active' : ''}
+                onClick={() => go(r.id)}
+              >
+                {r.label}
+              </button>
+            ))}
+          </div>
         </div>
       </nav>
 
