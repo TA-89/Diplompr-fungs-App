@@ -2,6 +2,8 @@ import meta from '../data/meta.json'
 import questions from '../data/examQuestions.json'
 import flashcards from '../data/flashcards.json'
 import quiz from '../data/quizQuestions.json'
+import authorQuiz from '../data/authorQuiz.json'
+import reflection from '../data/reflection.json'
 import sources from '../data/sourceMap.json'
 import { useStore } from '../lib/storage.js'
 import { dueToday, untouchedIds, progressPercent, weakIds } from '../lib/srs.js'
@@ -12,7 +14,9 @@ function areaIds(areaId) {
   const q = questions.filter((x) => x.area === areaId).map((x) => x.id)
   const f = flashcards.filter((x) => x.area === areaId).map((x) => x.id)
   const z = quiz.filter((x) => x.area === areaId).map((x) => x.id)
-  return [...q, ...f, ...z]
+  const aq = areaId === 'quellen' ? authorQuiz.map((x) => x.id) : []
+  const rf = areaId === 'grenzen' ? reflection.map((x) => x.id) : []
+  return [...q, ...f, ...z, ...aq, ...rf]
 }
 
 export default function Dashboard({ go }) {
@@ -44,7 +48,7 @@ export default function Dashboard({ go }) {
     .filter(Boolean)
 
   const overall = progressPercent(
-    [...questions.map((q) => q.id), ...cardIds, ...quiz.map((q) => q.id)],
+    [...questions.map((q) => q.id), ...cardIds, ...quiz.map((q) => q.id), ...authorQuiz.map((q) => q.id), ...reflection.map((r) => r.id)],
     ratings
   )
 

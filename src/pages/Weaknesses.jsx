@@ -1,6 +1,8 @@
 import questions from '../data/examQuestions.json'
 import flashcards from '../data/flashcards.json'
 import quiz from '../data/quizQuestions.json'
+import authorQuiz from '../data/authorQuiz.json'
+import reflection from '../data/reflection.json'
 import sources from '../data/sourceMap.json'
 import theses from '../data/theses.json'
 import criteria from '../data/criteria.json'
@@ -15,6 +17,8 @@ function buildIndex() {
   questions.forEach((q) => (idx[q.id] = { label: q.question, page: 'exam', kind: 'Frage', area: q.area }))
   flashcards.forEach((c) => (idx[c.id] = { label: c.front, page: 'flashcards', kind: 'Lernkarte', area: c.area }))
   quiz.forEach((q) => (idx[q.id] = { label: q.question, page: 'quiz', kind: 'Quizfrage', area: q.area }))
+  authorQuiz.forEach((q) => (idx[q.id] = { label: q.question, page: 'quiz', kind: 'Quizfrage', area: 'quellen' }))
+  reflection.forEach((r) => (idx[r.id] = { label: r.question, page: 'reflection', kind: 'Verteidigungsfrage', area: 'grenzen' }))
   sources.forEach((s) => (idx[s.id] = { label: s.shortName, page: 'sources', kind: 'Quelle', area: 'quellen' }))
   theses.forEach((t) => (idx[t.id] = { label: t.title, page: 'theses', kind: 'These', area: 'synthese' }))
   criteria.items.forEach((c) => (idx[c.id] = { label: c.name, page: 'theses', kind: 'Kriterium', area: 'kriterien' }))
@@ -48,6 +52,7 @@ export default function Weaknesses({ go }) {
   const groups = [
     { kind: 'Frage', page: 'exam', title: 'Unsichere Prüfungsfragen' },
     { kind: 'Quizfrage', page: 'quiz', title: 'Falsch beantwortete Quizfragen' },
+    { kind: 'Verteidigungsfrage', page: 'reflection', title: 'Unsichere Verteidigungsfragen' },
     { kind: 'These', page: 'theses', title: 'Unsichere Thesen' },
     { kind: 'Kriterium', page: 'theses', title: 'Unsichere Kriterien' },
     { kind: 'Quelle', page: 'sources', title: 'Unsichere Quellen' },

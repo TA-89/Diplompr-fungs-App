@@ -1,0 +1,304 @@
+[
+  {
+    "id": "aq-001",
+    "type": "single",
+    "question": "Wer hat das Werk «Mediendidaktik» (2018) verfasst, das die Grundidee der Lernumgebung liefert?",
+    "options": [
+      { "key": "a", "text": "Richard Mayer" },
+      { "key": "b", "text": "Michael Kerres" },
+      { "key": "c", "text": "John Sweller" },
+      { "key": "d", "text": "Peter Dehnbostel" }
+    ],
+    "correct": ["b"],
+    "explanation": "Michael Kerres, Mediendidaktik (2018). Liefert den Begriff der Lernumgebung und die Idee, dass die Wirkung aus dem didaktischen Konzept entsteht.",
+    "relatedChapters": ["3.2"],
+    "relatedSources": ["kerres-2018"]
+  },
+  {
+    "id": "aq-002",
+    "type": "single",
+    "question": "Von wem stammt das ISAR-Modell, mit dem du KI-Funktionen beurteilst?",
+    "options": [
+      { "key": "a", "text": "Sweller" },
+      { "key": "b", "text": "Chi & Wylie" },
+      { "key": "c", "text": "Bauer et al. (Elisabeth Bauer und Kolleginnen/Kollegen)" },
+      { "key": "d", "text": "Tasdelen & Bodemer" }
+    ],
+    "correct": ["c"],
+    "explanation": "Bauer et al. (2025), «Looking Beyond the Hype». Das ISAR-Modell unterscheidet Inversion, Substitution, Augmentation, Redefinition.",
+    "relatedChapters": ["4.2"],
+    "relatedSources": ["bauer-2025"]
+  },
+  {
+    "id": "aq-003",
+    "type": "single",
+    "question": "Wer entwickelte die Cognitive Load Theory, auf die sich deine strukturellen Kriterien stützen?",
+    "options": [
+      { "key": "a", "text": "John Sweller" },
+      { "key": "b", "text": "Richard Mayer" },
+      { "key": "c", "text": "Edward Deci" },
+      { "key": "d", "text": "Michael Kerres" }
+    ],
+    "correct": ["a"],
+    "explanation": "John Sweller (2020). Das begrenzte Arbeitsgedächtnis begründet Struktur und Reduktion.",
+    "relatedChapters": ["3.2"],
+    "relatedSources": ["sweller-2020"]
+  },
+  {
+    "id": "aq-004",
+    "type": "single",
+    "question": "Welcher Autor steht für «Multimedia Learning» und die Gestaltung von Text und Bild?",
+    "options": [
+      { "key": "a", "text": "Richard Mayer" },
+      { "key": "b", "text": "John Sweller" },
+      { "key": "c", "text": "Peter Dehnbostel" },
+      { "key": "d", "text": "Sabine Seufert" }
+    ],
+    "correct": ["a"],
+    "explanation": "Richard Mayer, Multimedia Learning (2021). Stützt die gestalterischen Kriterien (Bild-Text-Kohärenz, Reduktion).",
+    "relatedChapters": ["3.3"],
+    "relatedSources": ["mayer-2021"]
+  },
+  {
+    "id": "aq-005",
+    "type": "single",
+    "question": "Von wem stammt das ICAP-Modell der Lernaktivität?",
+    "options": [
+      { "key": "a", "text": "Deci & Ryan" },
+      { "key": "b", "text": "Chi & Wylie (Michelene Chi und Ruth Wylie)" },
+      { "key": "c", "text": "Latzer & Festic" },
+      { "key": "d", "text": "Xiong & Li" }
+    ],
+    "correct": ["b"],
+    "explanation": "Michelene T. H. Chi und Ruth Wylie (2014). Stufen: passiv, aktiv, konstruktiv, interaktiv. Begründet das Aktivierungskriterium.",
+    "relatedChapters": ["3.4"],
+    "relatedSources": ["chi-wylie-2014"]
+  },
+  {
+    "id": "aq-006",
+    "type": "single",
+    "question": "Wer hat die Selbstbestimmungstheorie der Motivation formuliert?",
+    "options": [
+      { "key": "a", "text": "Edward Deci und Richard Ryan" },
+      { "key": "b", "text": "Michael Kerres" },
+      { "key": "c", "text": "Elisabeth Bauer" },
+      { "key": "d", "text": "Christoph Meier" }
+    ],
+    "correct": ["a"],
+    "explanation": "Edward L. Deci und Richard M. Ryan (1993). Drei Grundbedürfnisse: Kompetenz, Autonomie, soziale Eingebundenheit.",
+    "relatedChapters": ["3.4"],
+    "relatedSources": ["deci-ryan-1993"]
+  },
+  {
+    "id": "aq-007",
+    "type": "single",
+    "question": "Welcher Autor prägt in deiner Arbeit den Begriff der beruflichen Handlungskompetenz und der Lernorte?",
+    "options": [
+      { "key": "a", "text": "Peter Dehnbostel" },
+      { "key": "b", "text": "John Sweller" },
+      { "key": "c", "text": "Richard Mayer" },
+      { "key": "d", "text": "Tanya Nazaretsky" }
+    ],
+    "correct": ["a"],
+    "explanation": "Peter Dehnbostel (2022), Betriebliche Bildungsarbeit. Handlungskompetenz = Wissen, Können, Haltung; Lernorte Schule/Betrieb/üK.",
+    "relatedChapters": ["3.5"],
+    "relatedSources": ["dehnbostel-2022"]
+  },
+  {
+    "id": "aq-008",
+    "type": "single",
+    "question": "Welche Autorin steht für die Lernortkooperation mittels KI in der Berufsbildung?",
+    "options": [
+      { "key": "a", "text": "Sabine Seufert" },
+      { "key": "b", "text": "Noemi Festic" },
+      { "key": "c", "text": "Christiane Caneva" },
+      { "key": "d", "text": "Ruth Wylie" }
+    ],
+    "correct": ["a"],
+    "explanation": "Sabine Seufert (2023). Ergänzt Dehnbostel um die aktuelle Perspektive der Lernortkooperation mit digitalen/KI-Mitteln.",
+    "relatedChapters": ["3.5"],
+    "relatedSources": ["seufert-2023"]
+  },
+  {
+    "id": "aq-009",
+    "type": "single",
+    "question": "Welche Quelle ist ein amtliches Dokument und begründet das Datenschutzkriterium?",
+    "options": [
+      { "key": "a", "text": "UNESCO (2023)" },
+      { "key": "b", "text": "Kerres (2018)" },
+      { "key": "c", "text": "Bauer et al. (2025)" },
+      { "key": "d", "text": "Sweller (2020)" }
+    ],
+    "correct": ["a"],
+    "explanation": "UNESCO (2023), Guidance for generative AI in education and research. Begründet Datenschutz und Rechte der Betroffenen.",
+    "relatedChapters": ["6.5"],
+    "relatedSources": ["unesco-2023"]
+  },
+  {
+    "id": "aq-010",
+    "type": "single",
+    "question": "Welche Quelle stützt das Kriterium «Transparenz und Vertrauen» in KI-Funktionen?",
+    "options": [
+      { "key": "a", "text": "Nazaretsky et al. (2025)" },
+      { "key": "b", "text": "Mayer (2021)" },
+      { "key": "c", "text": "Dehnbostel (2022)" },
+      { "key": "d", "text": "Latzer & Festic (2024)" }
+    ],
+    "correct": ["a"],
+    "explanation": "Tanya Nazaretsky et al. (2025): Lernende nutzen eine Funktion nur, wenn sie ihr vertrauen; Vertrauen entsteht aus Nachvollziehbarkeit.",
+    "relatedChapters": ["6.5"],
+    "relatedSources": ["nazaretsky-2025"]
+  },
+  {
+    "id": "aq-011",
+    "type": "single",
+    "question": "Welche Quelle ist ein nicht begutachteter Preprint und wird nur als Beispiel verwendet?",
+    "options": [
+      { "key": "a", "text": "Morita et al. (2025)" },
+      { "key": "b", "text": "Chi & Wylie (2014)" },
+      { "key": "c", "text": "UNESCO (2023)" },
+      { "key": "d", "text": "Deci & Ryan (1993)" }
+    ],
+    "correct": ["a"],
+    "explanation": "Morita et al. (2025), GenAIReading, ist ein arXiv-Preprint. Wird klar gekennzeichnet und nicht als Beleg verwendet.",
+    "relatedChapters": ["2.2", "4.1"],
+    "relatedSources": ["morita-2025"]
+  },
+  {
+    "id": "aq-012",
+    "type": "single",
+    "question": "Was bedeutet Kerres (2018) für deine Arbeit?",
+    "options": [
+      { "key": "a", "text": "Er liefert die Grundidee: Wirkung aus dem didaktischen Konzept, Lehrmittel als Lernumgebung." },
+      { "key": "b", "text": "Er liefert die Statistik zur KI-Verbreitung in der Schweiz." },
+      { "key": "c", "text": "Er begründet den Datenschutz." },
+      { "key": "d", "text": "Er liefert das ISAR-Modell." }
+    ],
+    "correct": ["a"],
+    "explanation": "Kerres trägt die didaktische Grundidee und den Begriff der Lernumgebung. Er ist die zentrale Quelle für These 1.",
+    "relatedChapters": ["3.2", "5.1"],
+    "relatedSources": ["kerres-2018"]
+  },
+  {
+    "id": "aq-013",
+    "type": "single",
+    "question": "Was leistet Bauer et al. (2025) für deine Arbeit?",
+    "options": [
+      { "key": "a", "text": "Das ISAR-Modell als Massstab, um KI nach ihrer Wirkung zu beurteilen, plus den Begriff der metakognitiven Bequemlichkeit." },
+      { "key": "b", "text": "Die Definition der Handlungskompetenz." },
+      { "key": "c", "text": "Die Gestaltungsprinzipien für Text und Bild." },
+      { "key": "d", "text": "Die Selbstbestimmungstheorie." }
+    ],
+    "correct": ["a"],
+    "explanation": "Bauer et al. trägt den KI-Teil (These 3) mit dem ISAR-Modell und der metakognitiven Bequemlichkeit.",
+    "relatedChapters": ["4.2", "5.3"],
+    "relatedSources": ["bauer-2025"]
+  },
+  {
+    "id": "aq-014",
+    "type": "single",
+    "question": "Wozu dienen die Schweizer Berichte von Latzer & Festic, Caneva und Meier?",
+    "options": [
+      { "key": "a", "text": "Als Kontext zur Verbreitung digitaler Werkzeuge, nicht als Wirksamkeitsbeleg." },
+      { "key": "b", "text": "Als didaktische Grundlagenwerke." },
+      { "key": "c", "text": "Als empirischer Beweis für die Kriterien." },
+      { "key": "d", "text": "Als formale Zitierregeln." }
+    ],
+    "correct": ["a"],
+    "explanation": "Diese Berichte liefern Kontext und Verbreitung, sagen aber nichts über die Lernwirksamkeit einzelner Werkzeuge.",
+    "relatedChapters": ["1.2", "2.2"],
+    "relatedSources": ["latzer-festic-2024", "caneva-2024", "meier-2024"]
+  },
+  {
+    "id": "aq-015",
+    "type": "multiple",
+    "question": "Welche der folgenden sind didaktische Grundlagenwerke, die die Argumentation tragen? (mehrere richtig)",
+    "options": [
+      { "key": "a", "text": "Kerres (2018)" },
+      { "key": "b", "text": "Mayer (2021)" },
+      { "key": "c", "text": "Latzer & Festic (2024)" },
+      { "key": "d", "text": "Deci & Ryan (1993)" },
+      { "key": "e", "text": "Morita et al. (2025)" }
+    ],
+    "correct": ["a", "b", "d"],
+    "explanation": "Grundlagenwerke: Kerres, Mayer, Deci & Ryan. Latzer & Festic ist Kontext, Morita ein Preprint.",
+    "relatedChapters": ["2.2"],
+    "relatedSources": ["kerres-2018", "mayer-2021", "deci-ryan-1993"]
+  },
+  {
+    "id": "aq-016",
+    "type": "multiple",
+    "question": "Welche Autorinnen/Autoren stützen zusammen die fünfte Kriteriengruppe (Verantwortung)? (mehrere richtig)",
+    "options": [
+      { "key": "a", "text": "UNESCO" },
+      { "key": "b", "text": "Nazaretsky et al." },
+      { "key": "c", "text": "Xiong & Li" },
+      { "key": "d", "text": "Sweller" },
+      { "key": "e", "text": "Chi & Wylie" }
+    ],
+    "correct": ["a", "b", "c"],
+    "explanation": "UNESCO (Datenschutz), Xiong & Li (Fairness/Validität), Nazaretsky et al. (Transparenz/Vertrauen).",
+    "relatedChapters": ["6.5"],
+    "relatedSources": ["unesco-2023", "nazaretsky-2025", "xiong-li-2026"]
+  },
+  {
+    "id": "aq-017",
+    "type": "single",
+    "question": "Welche Quelle steht für Personalisierung durch generative KI im Unterricht?",
+    "options": [
+      { "key": "a", "text": "Tasdelen & Bodemer (2025)" },
+      { "key": "b", "text": "Kerres (2018)" },
+      { "key": "c", "text": "Dehnbostel (2022)" },
+      { "key": "d", "text": "UNESCO (2023)" }
+    ],
+    "correct": ["a"],
+    "explanation": "Osman Tasdelen & Daniel Bodemer (2025): Personalisierung hilft, wenn sie an Interessen und Vorwissen anknüpft.",
+    "relatedChapters": ["4.3"],
+    "relatedSources": ["tasdelen-bodemer-2025"]
+  },
+  {
+    "id": "aq-018",
+    "type": "single",
+    "question": "Welche Quelle begründet das Kriterium «Fairness und Validität» einer KI-gestützten Beurteilung?",
+    "options": [
+      { "key": "a", "text": "Xiong & Li (2026)" },
+      { "key": "b", "text": "Mayer (2021)" },
+      { "key": "c", "text": "Seufert (2023)" },
+      { "key": "d", "text": "Caneva (2024)" }
+    ],
+    "correct": ["a"],
+    "explanation": "Jiawei Xiong & Feiming Li (2026): Eine KI-Beurteilung soll das messen, was sie messen soll, und niemanden benachteiligen.",
+    "relatedChapters": ["6.5"],
+    "relatedSources": ["xiong-li-2026"]
+  },
+  {
+    "id": "aq-019",
+    "type": "single",
+    "question": "Welches Begriffspaar gehört zu Sweller bzw. Mayer?",
+    "options": [
+      { "key": "a", "text": "Sweller = Cognitive Load (das Warum der Struktur), Mayer = Gestaltung von Text und Bild (das Wie)" },
+      { "key": "b", "text": "Sweller = Motivation, Mayer = Handlungskompetenz" },
+      { "key": "c", "text": "Sweller = ISAR-Modell, Mayer = ICAP" },
+      { "key": "d", "text": "Sweller = Datenschutz, Mayer = Lernorte" }
+    ],
+    "correct": ["a"],
+    "explanation": "Sweller begründet, warum Struktur und Reduktion nötig sind; Mayer zeigt, wie Bild und Text gestaltet werden müssen.",
+    "relatedChapters": ["3.2", "3.3"],
+    "relatedSources": ["sweller-2020", "mayer-2021"]
+  },
+  {
+    "id": "aq-020",
+    "type": "single",
+    "question": "Welche Quelle trägt, wenn du dich auf eine festlegen müsstest, die zentrale Argumentation am stärksten?",
+    "options": [
+      { "key": "a", "text": "Kerres (2018), weil die ganze Arbeit auf dem Vorrang der Didaktik aufbaut" },
+      { "key": "b", "text": "Morita et al. (2025)" },
+      { "key": "c", "text": "Latzer & Festic (2024)" },
+      { "key": "d", "text": "Meier (2024)" }
+    ],
+    "correct": ["a"],
+    "explanation": "Kerres trägt die didaktische Grundidee; den KI-Teil trägt Bauer et al. Wenn nur eine: Kerres.",
+    "relatedChapters": ["3.2"],
+    "relatedSources": ["kerres-2018", "bauer-2025"]
+  }
+]
