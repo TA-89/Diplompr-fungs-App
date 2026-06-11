@@ -8,17 +8,24 @@ Die App hilft, die Arbeit nicht nur auswendig zu lernen, sondern fachlich zu
 verstehen, frei zu erklären und kritisch zu verteidigen. Sie simuliert die
 10-Minuten-Präsentation und das 20-Minuten-Fachgespräch.
 
+**Prüfung: Freitag, 26. Juni 2026.** Bewertet wird nach dem PHSG-Raster mit
+9 Kompetenzbereichen und maximal 68 Punkten; für die Note 6 braucht es 65
+Punkte. Die Inhalte sind auf die finale, eingereichte Fassung der Diplomarbeit
+(Stand 12. Juni 2026) abgestimmt.
+
 ## Hauptbereiche
 
-- **Dashboard** – Fortschritt nach neun Bereichen, fällige Wiederholungen, schwache Punkte.
+- **Dashboard** – Countdown zur Prüfung, Fortschritt nach neun Bereichen, fällige Wiederholungen, schwache Punkte.
+- **Quiz** – gemischtes Quiz aus allen Fragen (Single-/Multiple-Choice) mit Auswertung.
 - **Prüfungsmodus** – prüfungsnahe Fragen mit Musterantwort, Stichpunkten, typischen Fehlern, Anschlussfragen und Selbstbewertung (0–3).
-- **Prüfungsdruck** – drei Anschlussfragen hintereinander, Lösung erst nach der dritten.
+- **Prüfungsdruck** – drei Anschlussfragen hintereinander, Lösung erst nach der dritten. Inklusive der kritischen Ketten aus dem Mock-Gespräch.
 - **Lernkarten** – Karteikarten mit Leitner-System (Box 1–4).
-- **Quellen-Trainer** – Quellenkarten mit Funktion und Grenzen, dazu interaktive Übungen.
+- **Quellen-Trainer** – Quellenkarten mit Funktion, Grenzen und Autoren-Porträts, dazu interaktive Übungen.
+- **Spickzettel** – kompakte Quellenübersicht, als PDF exportierbar (`npm run pdf`).
 - **Thesen & Kriterien** – fünf Thesen und sechzehn Kriterien in fünf Bündeln, einzeln trainierbar.
 - **Präsentationstrainer** – 10-Minuten-Struktur, Timer, Stichwortkarten, Checkliste, Kürzungen.
 - **Meine Baustellen** – alles, was mit 0 oder 1 bewertet wurde, samt Lernempfehlung.
-- **Reflexion & Verteidigung** – kritische Fragen mit souveränen Antwortstrategien.
+- **Reflexion & Verteidigung** – kritische Fragen mit souveränen Antwortstrategien, inkl. der als «bewusst unbequem» markierten Verteidigungsfragen.
 
 ## Lokaler Start
 
@@ -99,11 +106,12 @@ Präsentationsbewertungen und die letzte Aktivität.
 
 ## Hinweis zur fünften These
 
-Abstract und Kapitel 6 der Arbeit sprechen von **fünf Thesen**, während Kapitel 5
-nur vier Thesen mit eigener Überschrift ausformuliert. Die fünfte These zu
-**Qualität, Datenschutz und Verantwortung** ist inhaltlich vorhanden (Kapitel
-6.5), aber nicht als eigene Überschrift gesetzt. Die App bildet sie als `t-005`
-ab und markiert dies als Punkt zur Selbstkontrolle vor der Abgabe.
+In der finalen, eingereichten Fassung der Arbeit ist die fünfte These als
+eigenes Unterkapitel 5.5 ausformuliert: **«Verantwortung entscheidet darüber,
+ob eine Erweiterung überhaupt wirkt»**. Das Zwischenfazit folgt neu als 5.6.
+Die App ist auf diese finale Gliederung abgestimmt (frühere Versionen der App
+enthielten einen Selbstkontroll-Hinweis zu einer fehlenden Überschrift; dieser
+Punkt ist erledigt).
 
 ## Sprache
 

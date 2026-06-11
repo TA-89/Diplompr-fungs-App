@@ -77,7 +77,7 @@
       "Wie macht man Verknüpfung sichtbar?"
     ],
     "relatedSources": ["kerres-2018"],
-    "relatedChapters": ["3.2", "5.5"]
+    "relatedChapters": ["3.2", "5.6"]
   },
   {
     "id": "q-004",
@@ -364,7 +364,7 @@
       "Thesen aufzählen ohne den gemeinsamen Fluchtpunkt"
     ],
     "followUpQuestions": [
-      "Kapitel 5 nennt nur vier Überschriften. Wo ist die fünfte These?",
+      "Wie hängen die fünf Thesen untereinander zusammen?",
       "Welche These ist für Sie die wichtigste?"
     ],
     "relatedSources": ["kerres-2018", "bauer-2025", "dehnbostel-2022"],
@@ -394,7 +394,7 @@
       "Wie beweisen Sie, dass Didaktik die Technik schlägt?"
     ],
     "relatedSources": ["kerres-2018"],
-    "relatedChapters": ["5.5", "8.2"]
+    "relatedChapters": ["5.6", "8.2"]
   },
   {
     "id": "q-016",
@@ -742,25 +742,25 @@
     "id": "q-029",
     "area": "synthese",
     "difficulty": "anspruchsvoll",
-    "questionType": "Verteidigen",
-    "competence": "Verteidigen",
-    "question": "Sie sprechen von fünf Thesen, Kapitel 5 zeigt aber nur vier Überschriften. Wie erklären Sie das?",
-    "expectedCoreAnswer": "Die vier ausformulierten Thesen betreffen Lernumgebung, Wirksamkeit, KI und Berufsbildung. Die fünfte, zur Verantwortung, ist inhaltlich in Kriteriengruppe 6.5 ausgeführt, aber in Kapitel 5 nicht als eigene Überschrift gesetzt.",
+    "questionType": "Begründen",
+    "competence": "Begründen",
+    "question": "Welche Funktion hat Ihre fünfte These im Verhältnis zu den anderen vier?",
+    "expectedCoreAnswer": "Die anderen vier Thesen sagen, was ein gutes Lehrmittel leisten soll. Die fünfte sagt, was es dabei nicht verspielen darf: Verantwortung entscheidet darüber, ob eine Erweiterung überhaupt wirkt.",
     "mustMention": [
-      "vier ausformulierte Thesen (5.1–5.4)",
-      "fünfte These = Verantwortung/Datenschutz/Transparenz",
-      "inhaltlich in Kapitel 6.5 begründet (UNESCO, Nazaretsky, Xiong & Li)",
-      "souverän einräumen, nicht ausweichen"
+      "vier Thesen = was ein Lehrmittel leisten soll",
+      "fünfte These = was es nicht verspielen darf (Schutzfunktion)",
+      "Verantwortung als Bedingung der Wirkung: ohne Vertrauen keine Nutzung",
+      "begründet die fünfte Kriteriengruppe (UNESCO, Nazaretsky, Xiong & Li)"
     ],
-    "excellentAnswer": "Das ist ein berechtigter Hinweis. Vier Thesen sind in Kapitel 5 mit eigener Überschrift ausformuliert: zur Lernumgebung, zu Struktur, Aktivierung und Rückmeldung, zu den Wirkungen der KI und zu den Anforderungen der Berufsbildung. Die fünfte These betrifft die Verantwortung, also Datenschutz, Fairness und Transparenz. Sie ist inhaltlich klar vorhanden und in der fünften Kriteriengruppe begründet, aber in Kapitel 5 nicht als eigene Überschrift gesetzt. Inhaltlich trägt sie als fünfter Strang das Raster mit. Das ist eine Stelle, an der ich Text und Gliederung noch sauber angleichen würde.",
+    "excellentAnswer": "Die fünfte These hat eine andere Funktion als die ersten vier. Diese sagen, was ein gutes Lehrmittel leisten soll: Lernumgebung sein, durch Struktur, Aktivierung und Rückmeldung wirken, die Denkarbeit schützen und die Lernorte verbinden. Die fünfte sagt, was es dabei nicht verspielen darf. Verantwortung entscheidet darüber, ob eine Erweiterung überhaupt wirkt: Lernende nutzen eine Funktion nur, wenn sie ihr vertrauen, und Vertrauen entsteht aus Nachvollziehbarkeit. Deshalb liegt die daraus abgeleitete Kriteriengruppe zu Datenschutz, Fairness und Transparenz über allen anderen und gilt für jede von ihnen.",
     "commonMistakes": [
-      "die Frage abwehren oder herunterspielen",
-      "behaupten, es gebe keine fünfte These",
-      "nervös oder defensiv wirken"
+      "die fünfte These als blosses Anhängsel der KI-These darstellen",
+      "die Schutzfunktion (nicht verspielen) nicht erklären",
+      "die Querschnittslage der fünften Kriteriengruppe vergessen"
     ],
     "followUpQuestions": [
-      "Würden Sie die fünfte These dann ergänzen?",
-      "Worauf stützt sich diese fünfte These?"
+      "Worauf stützt sich diese fünfte These?",
+      "Warum liegt die Verantwortungsgruppe über den anderen Kriteriengruppen?"
     ],
     "relatedSources": ["unesco-2023", "nazaretsky-2025", "xiong-li-2026"],
     "relatedChapters": ["5.5", "6.5"]
@@ -790,5 +790,292 @@
     ],
     "relatedSources": ["bauer-2025", "tasdelen-bodemer-2025"],
     "relatedChapters": ["4.2", "8.4"]
+  },
+  {
+    "id": "q-031",
+    "area": "forschungsfrage",
+    "difficulty": "mittel",
+    "questionType": "Erklären",
+    "competence": "Verstehen",
+    "question": "Fassen Sie Ihre Diplomarbeit in zwei Minuten zusammen.",
+    "expectedCoreAnswer": "Ausgangsfrage: Woran lässt sich ein gutes digitales Lehrmittel messen? Weg: didaktische Grundlagen und KI-Forschung zusammengeführt, zu fünf Thesen verdichtet, daraus sechzehn Kriterien in fünf Bündeln und ein Leitfaden. Kernantwort: Die didaktische Gestaltung entscheidet, nicht der Träger.",
+    "mustMention": [
+      "Anlass aus der eigenen Praxis (suissetec-Lehrmittel, KI-Frage)",
+      "Weg: Literatur → Konsequenzen → fünf Thesen → sechzehn Kriterien → Leitfaden",
+      "Kernantwort: Didaktik entscheidet, nicht der Träger",
+      "KI stützt nur, wenn sie die Denkarbeit bei den Lernenden lässt"
+    ],
+    "excellentAnswer": "Ausgangspunkt war eine Frage aus meiner eigenen Praxis als Lehrmittelautor: Lohnt sich sorgfältige Lehrmittelarbeit noch, wenn KI Inhalte auf Knopfdruck erklärt? Daraus wurde die Forschungsfrage, welche didaktischen, strukturellen und gestalterischen Kriterien digitale Lehrmittel in der Berufsbildung erfüllen müssen, um vertieftes Lernen zu stützen und zukunftsoffen zu bleiben. Ich habe literaturbasiert gearbeitet: didaktische Grundlagen und aktuelle KI-Forschung zusammengeführt, jedes Theoriekapitel mit einer prüfbaren Konsequenz abgeschlossen, diese zu fünf Thesen verdichtet und daraus sechzehn Kriterien in fünf Bündeln abgeleitet, die in einen praxistauglichen Leitfaden münden. Die Kernantwort: Die Wirkung auf das Lernen hängt von der didaktischen Gestaltung ab, nicht vom Träger. Und KI stützt das Lernen nur, wenn sie die Denkarbeit bei den Lernenden lässt.",
+    "commonMistakes": [
+      "das Inhaltsverzeichnis nacherzählen statt zu verdichten",
+      "die Kernantwort weglassen",
+      "deutlich über zwei Minuten sprechen"
+    ],
+    "followUpQuestions": [
+      "Was ist Ihre zentrale Antwort auf die Forschungsfrage?",
+      "Welches Problem löst Ihre Arbeit konkret?"
+    ],
+    "relatedSources": ["kerres-2018", "bauer-2025"],
+    "relatedChapters": ["1.4", "8.1"]
+  },
+  {
+    "id": "q-032",
+    "area": "forschungsfrage",
+    "difficulty": "einfach",
+    "questionType": "Erklären",
+    "competence": "Verstehen",
+    "question": "Was bedeutet der Titel Ihrer Arbeit: Vom Schulbuch zur Lernumgebung?",
+    "expectedCoreAnswer": "Er beschreibt einen Perspektivenwechsel: Ein Lehrmittel ist nicht nur Informationsträger, sondern eine Lernumgebung, die Lernprozesse vorbereitet, strukturiert und begleitet. Digitalisierung und KI verstärken diesen Wandel, sie ersetzen ihn nicht.",
+    "mustMention": [
+      "Perspektivenwechsel vom Informationsträger zur Lernumgebung",
+      "Lernumgebung: bereitet vor, strukturiert, begleitet (Kerres)",
+      "Digitalisierung/KI verstärken den Wandel, ersetzen ihn nicht",
+      "Bezug zum roten Faden der Arbeit"
+    ],
+    "excellentAnswer": "Der Titel beschreibt den Perspektivenwechsel, der die ganze Arbeit trägt. Ein Schulbuch ist zunächst ein Informationsträger. Mit Kerres argumentiere ich, dass ein Lehrmittel erst dann gut ist, wenn es als Lernumgebung gestaltet ist, also Lernprozesse anregt, den Stoff strukturiert und durch ihn führt. Dieser Wandel ist eine didaktische Aufgabe. Digitalisierung und KI verstärken ihn, weil sie neue Möglichkeiten der Aktivierung und Rückmeldung schaffen, aber sie ersetzen ihn nicht: Ein digitalisiertes Schulbuch ohne didaktische Konzeption bleibt ein Schulbuch auf einem Bildschirm.",
+    "commonMistakes": [
+      "den Titel nur als hübsche Formel behandeln",
+      "Lernumgebung mit Plattform oder Software verwechseln"
+    ],
+    "followUpQuestions": [
+      "Ist eine Lernumgebung zwingend digital?",
+      "Woran erkennt man, dass ein Lehrmittel als Lernumgebung gestaltet ist?"
+    ],
+    "relatedSources": ["kerres-2018"],
+    "relatedChapters": ["1.1", "3.2", "5.6"]
+  },
+  {
+    "id": "q-033",
+    "area": "synthese",
+    "difficulty": "einfach",
+    "questionType": "Reflexion",
+    "competence": "kritisch reflektieren",
+    "question": "Was war für Sie persönlich die wichtigste Erkenntnis aus dieser Arbeit?",
+    "expectedCoreAnswer": "Dass die Didaktik die Technik schlägt: Erwartet wurde eine technischere Arbeit, doch die entscheidenden Fragen erwiesen sich als didaktischer Natur.",
+    "mustMention": [
+      "die Didaktik schlägt die Technik",
+      "persönlicher Erkenntnisweg: technischere Arbeit erwartet",
+      "Technik nützt erst mit durchdachter Lernidee",
+      "Beleg (Kerres 2018, Bauer et al. 2025)"
+    ],
+    "excellentAnswer": "Meine wichtigste Erkenntnis ist, dass die Didaktik die Technik schlägt. Ich habe zu Beginn eine deutlich technischere Arbeit erwartet, mit Tools, Plattformen und KI-Funktionen im Zentrum. Je tiefer ich in die Literatur eingestiegen bin, desto klarer wurde: Die entscheidenden Fragen sind didaktischer Natur. Was soll gelernt werden, wie wird aktiviert, wie wird zurückgemeldet? Technik nützt erst, wenn eine durchdachte Lernidee dahintersteht (Kerres, 2018), und KI stützt das Lernen nur, wenn sie die Denkarbeit bei den Lernenden lässt (Bauer et al., 2025). Diese Erkenntnis hat auch meine eigene Haltung als Lehrmittelautor verändert.",
+    "commonMistakes": [
+      "eine auswendig gelernte Floskel ohne persönlichen Bezug liefern",
+      "keine Quelle zur Stützung nennen"
+    ],
+    "followUpQuestions": [
+      "Hat sich Ihre Haltung als Lehrmittelautor dadurch verändert?",
+      "Wie beweisen Sie, dass die Didaktik die Technik schlägt?"
+    ],
+    "relatedSources": ["kerres-2018", "bauer-2025"],
+    "relatedChapters": ["8.2"]
+  },
+  {
+    "id": "q-034",
+    "area": "ki",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Vergleichen",
+    "competence": "Verstehen",
+    "question": "Was unterscheidet das ISAR-Modell vom bekannten SAMR-Modell?",
+    "expectedCoreAnswer": "ISAR baut auf SAMR auf, ergänzt aber die Umkehrung (Inversion): KI kann das Nachdenken verringern und das Lernen schwächen. SAMR kennt nur Verbesserungsrichtungen, bei generativer KI ist der negative Fall real.",
+    "mustMention": [
+      "ISAR baut auf dem SAMR-Modell auf",
+      "übernimmt Ersatz, Erweiterung, Neubestimmung",
+      "ergänzt die Umkehrung (Inversion) als vierten Fall",
+      "Begründung: bei generativer KI ist die negative Wirkung real (metakognitive Bequemlichkeit)"
+    ],
+    "excellentAnswer": "Das ISAR-Modell von Bauer et al. baut auf dem SAMR-Modell auf und übernimmt dessen Stufen Ersatz, Erweiterung und Neubestimmung. Der entscheidende Unterschied ist die vierte Kategorie, die Umkehrung oder Inversion: Eine KI-Funktion kann die ursprüngliche Absicht ins Gegenteil kehren, indem sie das Nachdenken verringert und das Lernen schwächt. SAMR kennt nur Verbesserungsrichtungen, es geht davon aus, dass Technik das Lernen mindestens gleich gut lässt. Bei generativer KI ist der negative Fall aber real, Stichwort metakognitive Bequemlichkeit. Genau diese Warnkategorie macht ISAR für meine Arbeit zum passenden Massstab.",
+    "commonMistakes": [
+      "die vier ISAR-Begriffe verwechseln",
+      "nicht erklären können, warum die vierte Stufe nötig wurde"
+    ],
+    "followUpQuestions": [
+      "Geben Sie ein konkretes Beispiel für eine Inversion.",
+      "Warum brauchten Bauer et al. überhaupt eine vierte Stufe?"
+    ],
+    "relatedSources": ["bauer-2025"],
+    "relatedChapters": ["4.2"]
+  },
+  {
+    "id": "q-035",
+    "area": "theorie",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Erklären",
+    "competence": "Verstehen",
+    "question": "Was ist der Expertise-Reversal-Effekt und welche Rolle spielt er in Ihrer Arbeit?",
+    "expectedCoreAnswer": "Dieselbe Hilfe wirkt je nach Vorwissen unterschiedlich: Was Anfängern hilft, kann Fortgeschrittene belasten. Daraus folgt, dass Personalisierung am Vorwissen ansetzen muss.",
+    "mustMention": [
+      "dieselbe Unterstützung wirkt je nach Vorwissen unterschiedlich",
+      "was Anfängern hilft, kann Fortgeschrittene behindern",
+      "Bezug zur Cognitive Load Theory (Sweller)",
+      "Begründung für Personalisierung am Vorwissen"
+    ],
+    "excellentAnswer": "Der Expertise-Reversal-Effekt aus der Cognitive-Load-Forschung besagt, dass dieselbe Unterstützung je nach Vorwissen unterschiedlich wirkt. Eine ausführliche Schritt-für-Schritt-Erklärung entlastet Anfängerinnen und Anfänger, für Fortgeschrittene wird sie zur überflüssigen Belastung, weil sie Bekanntes erneut verarbeiten müssen. In meiner Arbeit begründet dieser Effekt, warum Personalisierung am Vorwissen und an den Interessen ansetzen muss: Ein digitales Lehrmittel, das den Stoff je nach Stand unterschiedlich tief anbietet, nutzt genau diese Erkenntnis. Pauschale Hilfen für alle sind dagegen lernpsychologisch fragwürdig.",
+    "commonMistakes": [
+      "den Effekt mit blosser Differenzierung verwechseln",
+      "den Bezug zur Personalisierung nicht herstellen"
+    ],
+    "followUpQuestions": [
+      "Wie würde ein Lehrmittel diesen Effekt konkret berücksichtigen?",
+      "Wo liegt die Grenze der Personalisierung?"
+    ],
+    "relatedSources": ["sweller-2020", "tasdelen-bodemer-2025"],
+    "relatedChapters": ["3.3", "4.3"]
+  },
+  {
+    "id": "q-036",
+    "area": "kriterien",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Bewertung",
+    "competence": "Begründen",
+    "question": "Welche drei Ihrer sechzehn Kriterien hätten für Sie das höchste Gewicht?",
+    "expectedCoreAnswer": "Eigene didaktische Konzeption, Aktivierung mit Schutz der Denkarbeit und Lernortbezug. Wenn diese schwach sind, retten auch gute Technik und schönes Layout das Lehrmittel nicht.",
+    "mustMention": [
+      "eigene didaktische Konzeption als Fundament",
+      "Aktivierung / Schutz der Denkarbeit als Kern der Lernwirkung",
+      "Lernortbezug als Spezifikum der Berufsbildung",
+      "Begründung der Auswahl, nicht blosse Nennung"
+    ],
+    "excellentAnswer": "Wenn ich gewichten müsste: erstens die eigene didaktische Konzeption, weil ohne klare Lernidee alle weiteren Entscheidungen in der Luft hängen. Zweitens die Aktivierung zusammen mit dem Schutz der Denkarbeit, weil die Lernwirkung nach ICAP von der eigenen Verarbeitung abhängt und KI genau diese gefährden kann. Drittens der Lernortbezug, weil er das Spezifikum der Berufsbildung trifft: Das Ziel ist berufliche Handlungskompetenz, und dafür muss das Lehrmittel Schule, Betrieb und überbetriebliche Kurse verbinden. Wenn diese drei schwach sind, retten auch gute Technik und schönes Layout das Lehrmittel nicht. Zugleich sage ich offen: Eine empirische Gewichtung steht aus, das ist eine begründete Experteneinschätzung.",
+    "commonMistakes": [
+      "die Auswahl nicht begründen",
+      "verschweigen, dass die Gewichtung nicht empirisch geprüft ist"
+    ],
+    "followUpQuestions": [
+      "Warum haben Sie im Raster auf eine feste Gewichtung verzichtet?",
+      "Welches Kriterium wäre am ehesten verzichtbar?"
+    ],
+    "relatedSources": ["kerres-2018", "chi-wylie-2014", "dehnbostel-2022"],
+    "relatedChapters": ["6.1", "6.4", "6.6"]
+  },
+  {
+    "id": "q-037",
+    "area": "kriterien",
+    "difficulty": "mittel",
+    "questionType": "Transfer",
+    "competence": "Anwenden",
+    "question": "Woran erkennen Sie ein schwaches digitales Lehrmittel?",
+    "expectedCoreAnswer": "Modern in der Form, aber ohne Lernidee: unklare Navigation, überladene Seiten, Bilder ohne Erklärfunktion, Aufgaben ohne Rückmeldung, KI mit fertigen Antworten, fehlender Berufsbezug.",
+    "mustMention": [
+      "moderne Form ohne didaktische Konzeption",
+      "konkrete Warnzeichen entlang des eigenen Rasters nennen",
+      "KI, die fertige Antworten liefert (Inversion)",
+      "fehlender Bezug zur beruflichen Praxis"
+    ],
+    "excellentAnswer": "Ich erkenne es daran, dass die Form modern ist, aber die Lernidee fehlt. Konkrete Warnzeichen entlang meines Rasters: Die Navigation ist unklar und die Einheiten sind nicht auffindbar, also fehlt Orientierung. Die Seiten sind überladen, statt auf das Wesentliche reduziert. Bilder dekorieren, statt zu erklären. Aufgaben verlangen nur Anklicken und geben keine Rückmeldung, bleiben also passiv im ICAP-Sinn. Eine KI-Funktion liefert fertige Antworten, statt das Denken anzustossen. Und der Stoff hat keinen erkennbaren Bezug zur Arbeit im Betrieb. Jedes dieser Zeichen verletzt ein Kriterium, zusammen zeigen sie: Hier wurde von der Technik her gedacht statt vom Lernen.",
+    "commonMistakes": [
+      "nur ästhetische Mängel aufzählen",
+      "die Warnzeichen nicht ans eigene Raster zurückbinden"
+    ],
+    "followUpQuestions": [
+      "Und woran erkennen Sie umgekehrt ein starkes Lehrmittel?",
+      "Wie würden Sie so ein schwaches Lehrmittel verbessern?"
+    ],
+    "relatedSources": ["kerres-2018", "mayer-2021", "chi-wylie-2014"],
+    "relatedChapters": ["6.1", "6.2", "6.3"]
+  },
+  {
+    "id": "q-038",
+    "area": "leitfaden",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Transfer",
+    "competence": "Anwenden",
+    "question": "Ein Verlag will morgen eine KI-Erklärfunktion in ein Lehrmittel einbauen. Wie prüfen Sie den Vorschlag mit Ihrem Raster?",
+    "expectedCoreAnswer": "In drei Schritten: Wirkung nach ISAR einordnen, Schutz der Denkarbeit prüfen (erklärt und fragt nach vs. liefert fertige Lösungen), dann die Verantwortungsgruppe (Lerndaten, Fairness, Transparenz). Ohne Mehrwert: Verzicht.",
+    "mustMention": [
+      "Schritt 1: Wirkung nach ISAR beurteilen (Prüffrage 12)",
+      "Schritt 2: Schutz der Denkarbeit (Rückfragen statt fertige Lösungen)",
+      "Schritt 3: Verantwortungsgruppe (Datenschutz, Fairness, Transparenz)",
+      "Konsequenz: Verzicht, wenn kein Mehrwert fürs Lernen"
+    ],
+    "excellentAnswer": "Ich würde den Vorschlag in drei Schritten prüfen. Erstens die Wirkung nach dem ISAR-Modell: Was verändert die Funktion gegenüber der Situation ohne KI? Ersetzt sie nur das Nachschlagen, bringt sie wenig. Zweitens der Schutz der Denkarbeit: Erklärt die Funktion in Schritten, stellt sie Rückfragen, knüpft sie am Vorwissen an? Oder liefert sie fertige Lösungen, bevor die Lernenden selbst gearbeitet haben? Drittens die Verantwortungsgruppe: Welche Lerndaten fallen an, ist die Funktion fair und transparent gekennzeichnet? Im Leitfaden ist das die Prüffrage zwölf: Wurde bei jeder KI-Funktion gefragt, was sie fürs Lernen bringt? Wenn die Antwort kein Mehrwert ist, empfehle ich den Verzicht, auch wenn das gegen den Trend ist.",
+    "commonMistakes": [
+      "nur begeistert oder nur ablehnend reagieren",
+      "die Prüfschritte nicht konkret am Raster festmachen"
+    ],
+    "followUpQuestions": [
+      "Was raten Sie, wenn der Verlag trotzdem auf die Funktion besteht?",
+      "Wie würden Sie die Funktion nach der Einführung evaluieren?"
+    ],
+    "relatedSources": ["bauer-2025", "unesco-2023", "nazaretsky-2025"],
+    "relatedChapters": ["6.4", "6.5", "7.3"]
+  },
+  {
+    "id": "q-039",
+    "area": "kriterien",
+    "difficulty": "anspruchsvoll",
+    "questionType": "Grenzen",
+    "competence": "kritisch reflektieren",
+    "question": "Welche Zielkonflikte sehen Sie zwischen Ihren Kriterien?",
+    "expectedCoreAnswer": "Fachliche Tiefe vs. Reduktion, Offenheit für Erweiterungen vs. Übersichtlichkeit, Personalisierung vs. Datenschutz. Die Kriterien müssen im konkreten Fall abgewogen werden.",
+    "mustMention": [
+      "Tiefe vs. Reduktion",
+      "Erweiterbarkeit vs. Einfachheit/Übersichtlichkeit",
+      "Personalisierung vs. Datenschutz",
+      "Abwägung im Einzelfall, in der Arbeit nur theoretisch behandelt"
+    ],
+    "excellentAnswer": "Drei Zielkonflikte sehe ich deutlich. Erstens fachliche Tiefe gegen Reduktion: Wer radikal kürzt, riskiert Verflachung, wer alles zeigt, überlastet das Arbeitsgedächtnis. Zweitens Offenheit für Erweiterungen gegen Übersichtlichkeit: Jede zusätzliche Funktion macht das Lehrmittel mächtiger, aber auch komplexer. Drittens Personalisierung gegen Datenschutz: Je stärker sich ein Lehrmittel anpasst, desto mehr Lerndaten braucht es. Diese Konflikte lassen sich nicht allgemein auflösen, sondern müssen im konkreten Fall abgewogen werden. In meiner Arbeit habe ich sie nur theoretisch behandeln können, das benenne ich in den Grenzen offen. Gerade deshalb wäre eine Erprobung an einem realen Lehrmittel die richtige Anschlussarbeit.",
+    "commonMistakes": [
+      "behaupten, die Kriterien seien widerspruchsfrei",
+      "die Konflikte nennen, aber keine Abwägungsrichtung zeigen"
+    ],
+    "followUpQuestions": [
+      "Wie würden Sie den Konflikt Personalisierung vs. Datenschutz konkret entscheiden?",
+      "Zeigt das nicht, dass Ihr Raster in der Praxis schwer anwendbar ist?"
+    ],
+    "relatedSources": ["sweller-2020", "unesco-2023", "tasdelen-bodemer-2025"],
+    "relatedChapters": ["6.6", "8.3"]
+  },
+  {
+    "id": "q-040",
+    "area": "vorgehen",
+    "difficulty": "mittel",
+    "questionType": "Verteidigen",
+    "competence": "Verteidigen",
+    "question": "Wie haben Sie KI beim Schreiben Ihrer Arbeit eingesetzt?",
+    "expectedCoreAnswer": "Deklariert als Werkzeug (Stufe 2): Gliederung, Konsistenzprüfung, sprachliche Überarbeitung. Alle Vorschläge geprüft, angepasst oder verworfen; Inhalte, Literaturauswahl und Argumentation beim Autor. KI war Werkzeug, nicht Autorin.",
+    "mustMention": [
+      "transparent im Hilfsmittelverzeichnis deklariert",
+      "Einsatzfelder: Gliederung, Konsistenzprüfung, sprachliche Überarbeitung",
+      "alle Vorschläge geprüft, keine ungeprüfte Übernahme",
+      "Inhalte, Quellen und Argumentation beim Autor; eigenes Kriterium auf sich selbst angewendet"
+    ],
+    "excellentAnswer": "Ich habe den Einsatz transparent im Hilfsmittelverzeichnis deklariert. Konkret habe ich KI als Werkzeug genutzt: für die Reflexion der Gliederung, für Konsistenzprüfungen über die Kapitel hinweg und für die sprachliche Überarbeitung. Jeder Vorschlag wurde geprüft, angepasst oder verworfen, nichts wurde ungeprüft übernommen. Die inhaltlichen Entscheidungen, die Literaturauswahl, die Argumentation und die Endfassung liegen bei mir, und jede Aussage ist an den gelesenen Originalquellen belegt. Im Grunde habe ich mein eigenes Kriterium, den Schutz der Denkarbeit, auf mich selbst angewendet: Die KI hat mein Denken unterstützt, nicht ersetzt. KI war Werkzeug, nicht Autorin.",
+    "commonMistakes": [
+      "den KI-Einsatz herunterspielen oder verschweigen",
+      "die Pointe (eigenes Kriterium auf sich selbst angewendet) verpassen"
+    ],
+    "followUpQuestions": [
+      "Woher wissen wir, dass die Denkarbeit wirklich bei Ihnen blieb?",
+      "Wo verläuft für Sie die Grenze zwischen Werkzeug und Mitautorschaft?"
+    ],
+    "relatedSources": ["bauer-2025"],
+    "relatedChapters": ["2.1"]
+  },
+  {
+    "id": "q-041",
+    "area": "grenzen",
+    "difficulty": "mittel",
+    "questionType": "Bewertung",
+    "competence": "kritisch reflektieren",
+    "question": "Was ist die grösste Stärke Ihrer Arbeit?",
+    "expectedCoreAnswer": "Die durchgehende Herleitungskette von der Theorie über die Konsequenzen und fünf Thesen zu den sechzehn Kriterien und dem Leitfaden, verbunden mit dem praktischen Ertrag.",
+    "mustMention": [
+      "durchgehende Herleitungskette (Theorie → Konsequenzen → Thesen → Kriterien → Leitfaden)",
+      "Verbindung von klassischer Didaktik und aktueller KI-Forschung",
+      "praktischer Ertrag: Raster und Leitfaden direkt nutzbar",
+      "selbstbewusst, aber nicht überheblich vortragen"
+    ],
+    "excellentAnswer": "Die grösste Stärke ist die durchgehende Herleitungskette: Jedes Theorie-Unterkapitel endet mit einer prüfbaren Konsequenz, die Konsequenzen verdichten sich zu fünf Thesen, daraus entstehen die sechzehn Kriterien, und diese münden in den Leitfaden. Jeder Schritt ist nachvollziehbar und an die Literatur gebunden. Dazu kommt die Verbindung zweier Welten, die in der Literatur oft getrennt bleiben: die klassische Didaktik und die aktuelle KI-Forschung. Und schliesslich der praktische Ertrag: Raster und Leitfaden sind direkt einsetzbar, von der ersten Idee bis zur Beurteilung eines fertigen Lehrmittels. Die Schwäche kenne ich auch, die fehlende empirische Erprobung, aber die Stärke liegt genau in der sauberen Begründung.",
+    "commonMistakes": [
+      "zu bescheiden ausweichen statt die Stärke klar zu benennen",
+      "die Stärke behaupten, ohne die Kette zu zeigen"
+    ],
+    "followUpQuestions": [
+      "Und die grösste Schwäche?",
+      "Führen Sie die Herleitungskette an einem Kriterium rückwärts vor."
+    ],
+    "relatedSources": [],
+    "relatedChapters": ["2.3", "8.2"]
   }
 ]

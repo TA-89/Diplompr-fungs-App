@@ -50,8 +50,8 @@
   {
     "id": "r-007",
     "question": "Was würden Sie heute anders machen?",
-    "coreAnswer": "Eine kleine Erprobung an einem konkreten Lehrmittel einplanen und die fünfte These zur Verantwortung explizit ausformulieren.",
-    "goodSpokenAnswer": "Zwei Dinge. Erstens würde ich von Beginn an eine kleine Erprobung einplanen, etwa ein bestehendes Kapitel anhand der Kriterien beurteilen lassen, um den Praxisbezug zu schärfen. Zweitens würde ich die fünfte These zur Verantwortung in Kapitel 5 genauso explizit ausformulieren wie die anderen vier, damit Gliederung und Text vollständig übereinstimmen. Inhaltlich ist sie da, aber sie verdient eine eigene Überschrift.",
+    "coreAnswer": "Eine kleine Erprobung an einem konkreten Lehrmittel einplanen und die Literaturrecherche mit einem dokumentierten Suchprotokoll transparenter machen.",
+    "goodSpokenAnswer": "Zwei Dinge. Erstens würde ich von Beginn an eine kleine Erprobung einplanen, etwa ein bestehendes Kapitel von Lehrpersonen anhand der Kriterien beurteilen lassen, um den Praxisbezug zu schärfen. Zweitens würde ich die Literaturrecherche mit einem dokumentierten Suchprotokoll transparenter machen, also festhalten, wo und wonach ich gesucht habe. Am Kern, der literaturbasierten und theoriegeleiteten Anlage, würde ich festhalten.",
     "criticalFollowUp": "Heisst das, die Arbeit ist in der jetzigen Form unfertig?",
     "howToStaySovereign": "Verbesserungsideen als Zeichen von Reflexionsfähigkeit zeigen, nicht als Eingeständnis von Mängeln. Das Bestehende bleibt tragfähig."
   },
@@ -89,10 +89,66 @@
   },
   {
     "id": "r-012",
-    "question": "Sie sprechen von fünf Thesen, Kapitel 5 zeigt vier. Wo ist die fünfte?",
-    "coreAnswer": "Die fünfte These zur Verantwortung (Datenschutz, Fairness, Transparenz) ist inhaltlich in der Kriteriengruppe 6.5 ausgeführt, aber in Kapitel 5 nicht als eigene Überschrift gesetzt.",
-    "goodSpokenAnswer": "Ein berechtigter Hinweis. Vier Thesen sind mit eigener Überschrift ausformuliert: Lernumgebung, Wirksamkeit, KI-Wirkungen und Berufsbildung. Die fünfte betrifft die Verantwortung, also Datenschutz, Fairness und Transparenz. Sie ist inhaltlich klar vorhanden und in der fünften Kriteriengruppe begründet, aber in Kapitel 5 nicht als eigene Überschrift gesetzt. Inhaltlich trägt sie als fünfter Strang das Raster mit. Diese Stelle würde ich zwischen Text und Gliederung noch sauber angleichen.",
-    "criticalFollowUp": "Ist das nicht ein handwerklicher Fehler in der Arbeit?",
-    "howToStaySovereign": "Offen einräumen, dass Text und Gliederung hier noch anzugleichen sind, aber klarstellen, dass es eine Darstellungs- und keine inhaltliche Lücke ist. Ruhig und sachlich bleiben."
+    "question": "Gab es für Ihre Literaturrecherche ein dokumentiertes Suchprotokoll?",
+    "coreAnswer": "Nein, kein systematisches Review-Protokoll. Das ist ein berechtigter Punkt. Die Funktion jeder Quelle ist aber transparent in Kapitel 2.2 dargelegt, und jede Stelle wurde am Original geprüft.",
+    "goodSpokenAnswer": "Nein, ein formales Suchprotokoll im Sinn eines systematischen Reviews habe ich nicht geführt, und das ist ein berechtigter Punkt. Meine Arbeit ist eine theoriegeleitete Literaturarbeit, keine systematische Übersichtsarbeit. Was ich geleistet habe: Die Auswahl folgt dem Beitrag zur Forschungsfrage, die Funktion jeder Quelle ist in Kapitel 2.2 transparent dargelegt, gefunden habe ich die Literatur über wissenschaftliche Suchwerkzeuge, und jede zitierte Stelle habe ich am Original geprüft. Ein dokumentiertes Protokoll würde ich beim nächsten Mal ergänzen.",
+    "criticalFollowUp": "Wie können wir dann ausschliessen, dass Sie nur bestätigende Literatur gewählt haben?",
+    "howToStaySovereign": "Das berechtigte Korn sofort anerkennen (kein Protokoll), dann die tatsächlich geleistete Transparenz zeigen (Funktion der Quellen, Originalprüfung). Anerkennen wirkt stärker als Abwehren."
+  },
+  {
+    "id": "r-013",
+    "question": "Sind Ihre sechzehn Kriterien nicht einfach gesunder Menschenverstand in akademischer Verpackung?",
+    "coreAnswer": "Einzeln wirken manche intuitiv. Der Mehrwert liegt in der theoretischen Begründung, der Brücke zwischen Didaktik und KI und der Verdichtung zum praxistauglichen Leitfaden.",
+    "goodSpokenAnswer": "Einzeln betrachtet wirken manche Kriterien tatsächlich intuitiv, das gestehe ich zu. Der Mehrwert liegt in drei Dingen. Erstens sind sie theoretisch begründet und damit überprüfbar, nicht bloss plausibel. Zweitens schlagen sie die Brücke zwischen klassischer Didaktik und aktueller KI-Forschung, die in der Literatur meist getrennt laufen. Drittens sind sie zu einem praxistauglichen Leitfaden verdichtet, den es so nicht gab. Und die Intuition täuscht auch: Der gesunde Menschenverstand sagt etwa, mehr Interaktivität sei immer besser. Die Literatur widerlegt das, Stichwort kognitive Überlastung.",
+    "criticalFollowUp": "Nennen Sie ein Kriterium, das dem gesunden Menschenverstand widerspricht.",
+    "howToStaySovereign": "Das Zugeständnis vorwegnehmen, dann den dreifachen Mehrwert zeigen und mit dem Konter abschliessen: Intuition sagt 'mehr Interaktivität ist besser', die Evidenz sagt nein (Sweller, Chi & Wylie)."
+  },
+  {
+    "id": "r-014",
+    "question": "Sie haben Claude als KI-Werkzeug deklariert. Woher wissen wir, dass die Denkarbeit bei Ihnen blieb?",
+    "coreAnswer": "Transparente Deklaration im Hilfsmittelverzeichnis: Gliederung, Konsistenzprüfung, sprachliche Überarbeitung. Alle Vorschläge geprüft, jede Aussage an gelesenen Originalquellen belegt.",
+    "goodSpokenAnswer": "Ich habe den Einsatz im Hilfsmittelverzeichnis transparent deklariert: KI half bei der Reflexion der Gliederung, bei Konsistenzprüfungen und bei der sprachlichen Überarbeitung. Alle Vorschläge habe ich geprüft, angepasst oder verworfen, nichts wörtlich übernommen. Die Belege dafür liegen in der Arbeit selbst: Jede Aussage ist an Originalquellen gebunden, die ich gelesen habe, und die Argumentationskette von den Konsequenzen über die Thesen zu den Kriterien ist meine eigene Syntheseleistung, die kann ich hier im Gespräch an jeder Stelle rückwärts vorführen. Im Grunde habe ich mein eigenes Kriterium, den Schutz der Denkarbeit, auf mich selbst angewendet.",
+    "criticalFollowUp": "Führen Sie das vor: Leiten Sie ein Kriterium Ihrer Wahl rückwärts bis zur Quelle her.",
+    "howToStaySovereign": "Die Frage als Chance sehen, nicht als Angriff: Sie erlaubt, die eigene Souveränität über den Stoff zu beweisen. Ruhig anbieten, jede Herleitungskette live vorzuführen."
+  },
+  {
+    "id": "r-015",
+    "question": "Ihre Quellen bestätigen sich gegenseitig auffällig gut. Wo haben Sie widersprechende Positionen verarbeitet?",
+    "coreAnswer": "Teilweise berechtigt: Die Arbeit ordnet stärker, als sie Kontroversen austrägt. Wo Evidenz dünn ist, ist das gekennzeichnet; die Hype-Debatte wird über Bauer et al. nüchtern eingeordnet.",
+    "goodSpokenAnswer": "Der Einwand ist teilweise berechtigt: Meine Arbeit ordnet die Literatur stärker, als dass sie Kontroversen austrägt. Drei Dinge habe ich aber getan. Wo die Evidenz dünn ist, kennzeichne ich das, etwa bei Tasdelen und Bodemer, deren Personalisierungsbefund auf einer einzelnen Studie beruht. Preprints sind als nicht begutachtet markiert. Und die Hype-Debatte um KI ordne ich über Bauer et al. bewusst nüchtern ein, deren Titel 'Looking Beyond the Hype' ist Programm. Eine systematische Gegenüberstellung konkurrierender Positionen wäre eine berechtigte Erweiterung, das nehme ich als Punkt für eine Folgearbeit an.",
+    "criticalFollowUp": "Welche Position widerspricht Ihrer Kernaussage am stärksten, und warum überzeugt sie Sie nicht?",
+    "howToStaySovereign": "Mit 'teilweise berechtigt, und zwar...' beginnen. Das Anerkennen des berechtigten Korns ist stärker als jede Abwehr. Dann konkret zeigen, wo kritische Distanz geleistet wurde."
+  },
+  {
+    "id": "r-016",
+    "question": "Ihr Ton ist stellenweise sehr persönlich für eine wissenschaftliche Arbeit. War das klug?",
+    "coreAnswer": "Eine bewusste Entscheidung mit Preis: Die persönliche Ausgangslage trägt den Aufhänger und den Praxisbezug. Eigene Praxis ist klar als Reflexion gekennzeichnet.",
+    "goodSpokenAnswer": "Das war eine bewusste Entscheidung, und ich kenne ihren Preis. Die persönliche Ausgangslage, meine Zweifel als Lehrmittelautor angesichts der KI, trägt den Aufhänger der Arbeit und hält den Praxisbezug durch alle Kapitel. Wichtig ist mir die Trennung: Wo ich aus eigener Praxis spreche, ist das als Reflexion gekennzeichnet und nicht als Beleg. Die Argumentation selbst ruht auf der Literatur. Einzelne Formulierungen würde ich heute straffen, das gestehe ich zu. Aber der Grundsatzentscheid, die Praxisperspektive sichtbar zu lassen, war für eine berufspraktische Diplomarbeit richtig.",
+    "criticalFollowUp": "Wo genau verläuft bei Ihnen die Grenze zwischen Reflexion und Beleg?",
+    "howToStaySovereign": "Als bewussten Entscheid mit bekanntem Preis darstellen, die Kennzeichnung der Reflexionspassagen betonen und ein kleines Zugeständnis machen (einzelne Stellen straffen). Nicht rechtfertigen, einordnen."
+  },
+  {
+    "id": "r-017",
+    "question": "In fünf Jahren sieht generative KI völlig anders aus. Was ist Ihre Arbeit dann noch wert?",
+    "coreAnswer": "Gerade dann zeigt sich ihr Wert: Sie ist an didaktische Prinzipien gebunden, nicht an Tools. Der Massstab 'Stützt es die Denkarbeit?' funktioniert bei jeder künftigen Funktion.",
+    "goodSpokenAnswer": "Gerade dann zeigt sich ihr Wert. Ich habe bewusst nicht über einzelne Tools geschrieben, sondern über didaktische Prinzipien, die Technikwellen überdauern: Struktur, Aktivierung, Rückmeldung, Schutz der Denkarbeit. Der Massstab meiner Arbeit, die Frage, ob eine Funktion die Denkarbeit bei den Lernenden lässt, funktioniert bei jeder künftigen Technologie, egal wie sie heisst. Einzelne technische Aussagen in Kapitel 4 können veralten, das benenne ich selbst in den Grenzen. Aber ein Kriterienraster, das von der Lernwirkung her denkt, veraltet erst, wenn das Lernen selbst sich ändert.",
+    "criticalFollowUp": "Könnte eine künftige KI nicht so gut werden, dass der Schutz der Denkarbeit überflüssig wird?",
+    "howToStaySovereign": "Die Frage umdrehen: Die Tool-Unabhängigkeit ist kein Mangel, sondern das Designprinzip der Arbeit. Selbstbenannte Grenze (Kapitel 4 kann veralten) souverän einräumen."
+  },
+  {
+    "id": "r-018",
+    "question": "Erfüllt Ihre eigene Diplomarbeit eigentlich die Kriterien, die sie predigt?",
+    "coreAnswer": "Teilweise und bewusst: roter Faden, Verknüpfung, Reduktion und KI-Transparenz ja. Aktivierung und Lernortbezug greifen bei einer Textarbeit naturgemäss nicht.",
+    "goodSpokenAnswer": "Eine schöne Frage, und die Antwort ist: teilweise, und zwar bewusst. Den roten Faden und die Verknüpfung habe ich ernst genommen, jedes Theoriekapitel endet mit einer Konsequenz, und die Kette bis zum Leitfaden ist durchgehend. Reduktion: Ich habe auf Nebenschauplätze verzichtet und mich auf wenige tragende Quellen konzentriert. Und die KI-Transparenz lebe ich mit der Deklaration im Hilfsmittelverzeichnis vor. Andere Kriterien greifen bei einer Diplomarbeit naturgemäss nicht: Sie ist keine Lernumgebung, sie muss nicht aktivieren und keine Lernorte verbinden. Die Kriterien gelten für Lehrmittel, nicht für Forschungstexte. Aber wo sie übertragbar sind, habe ich sie angewendet.",
+    "criticalFollowUp": "Welche Prüffrage Ihres eigenen Leitfadens würde Ihre Arbeit nicht bestehen?",
+    "howToStaySovereign": "Mit Humor und Präzision antworten: die übertragbaren Kriterien zeigen, die nicht übertragbaren sauber abgrenzen (Lehrmittel vs. Forschungstext). Das zeigt Verständnis der eigenen Kategorien."
+  },
+  {
+    "id": "r-019",
+    "question": "Würden Sie heute überhaupt noch klassische Lehrmittel schreiben?",
+    "coreAnswer": "Ja, aber als Teil einer Lernumgebung gedacht. Klassische Stärken wie Struktur, Ruhe und Verlässlichkeit ergänzen die digitalen Möglichkeiten, sie werden nicht von ihnen verdrängt.",
+    "goodSpokenAnswer": "Ja, und zwar mit mehr Überzeugung als vor der Arbeit, aber anders gedacht: als Teil einer Lernumgebung. Ein gut aufgebautes Kapitel, eine klare Grafik, eine Aufgabe, die zum Denken zwingt, das sind Qualitäten, die kein Chatbot ersetzt. Gerade in einer Zeit beliebig verfügbarer KI-Antworten könnten ruhige, verlässliche, didaktisch durchgearbeitete Materialien an Wert gewinnen. Was sich ändert, ist der Anspruch: Ich würde jedes Kapitel so bauen, dass es strukturell offen für digitale Erweiterungen ist, mit klaren Einheiten und eindeutigen Begriffen. Das Schulbuch verschwindet nicht, es wird zum verlässlichen Kern einer Lernumgebung.",
+    "criticalFollowUp": "Ist das nicht Nostalgie eines Lehrmittelautors, der sein Handwerk verteidigt?",
+    "howToStaySovereign": "Die persönliche Betroffenheit offen machen und gerade daraus Glaubwürdigkeit ziehen: Die Arbeit hat die eigene Zweifel-Frage mit Literatur beantwortet, nicht mit Bauchgefühl."
   }
 ]

@@ -70,5 +70,41 @@
     ],
     "relatedChapters": ["3.2", "4.2", "2.2"],
     "relatedSources": ["kerres-2018", "bauer-2025", "morita-2025"]
+  },
+  {
+    "id": "ps-005",
+    "title": "Der Generalangriff",
+    "area": "grenzen",
+    "intro": "Die unbequemste Kette aus dem Mock-Gespräch. Anerkennen statt abwehren, dann kontern.",
+    "questions": [
+      "Sind Ihre sechzehn Kriterien nicht einfach gesunder Menschenverstand in akademischer Verpackung?",
+      "Ihre Quellen bestätigen sich gegenseitig auffällig gut. Wo haben Sie widersprechende Positionen verarbeitet?",
+      "In fünf Jahren sieht generative KI völlig anders aus. Was ist Ihre Arbeit dann noch wert?"
+    ],
+    "modelAnswers": [
+      "Einzeln wirken manche intuitiv, das gestehe ich zu. Der Mehrwert liegt in drei Dingen: Die Kriterien sind theoretisch begründet und überprüfbar, sie schlagen die Brücke zwischen Didaktik und KI-Forschung, und sie sind zum praxistauglichen Leitfaden verdichtet. Und die Intuition täuscht: Sie sagt, mehr Interaktivität sei immer besser. Die Literatur widerlegt das (Sweller, Chi & Wylie).",
+      "Teilweise berechtigt: Die Arbeit ordnet stärker, als sie Kontroversen austrägt. Wo die Evidenz dünn ist, kennzeichne ich das, etwa bei Tasdelen und Bodemer mit ihrer Einzelstudie. Preprints sind markiert. Und die Hype-Debatte ordne ich über Bauer et al. bewusst nüchtern ein. Eine Kontroversen-Synopse nehme ich als berechtigten Punkt für eine Folgearbeit an.",
+      "Gerade dann zeigt sich ihr Wert: Sie ist nicht an Tools gebunden, sondern an didaktische Prinzipien, die Technikwellen überdauern. Der Massstab, ob eine Funktion die Denkarbeit bei den Lernenden lässt, funktioniert bei jeder künftigen Technologie. Einzelne Aussagen in Kapitel 4 können veralten, das benenne ich selbst. Das Raster veraltet erst, wenn das Lernen sich ändert."
+    ],
+    "relatedChapters": ["2.2", "6.6", "8.3"],
+    "relatedSources": ["sweller-2020", "chi-wylie-2014", "bauer-2025", "tasdelen-bodemer-2025"]
+  },
+  {
+    "id": "ps-006",
+    "title": "KI-Redlichkeit",
+    "area": "vorgehen",
+    "intro": "Die Redlichkeits-Kette: Dein eigener KI-Einsatz wird zum Prüfstein deiner Kernthese.",
+    "questions": [
+      "Wie haben Sie KI beim Schreiben Ihrer Arbeit eingesetzt?",
+      "Woher wissen wir, dass die Denkarbeit dabei wirklich bei Ihnen blieb?",
+      "Erfüllt Ihre eigene Arbeit eigentlich die Kriterien, die sie predigt?"
+    ],
+    "modelAnswers": [
+      "Transparent deklariert im Hilfsmittelverzeichnis: KI half bei der Reflexion der Gliederung, bei Konsistenzprüfungen und bei der sprachlichen Überarbeitung. Jeder Vorschlag wurde geprüft, angepasst oder verworfen. Inhalte, Literaturauswahl, Argumentation und Endfassung liegen bei mir. KI war Werkzeug, nicht Autorin.",
+      "Die Belege liegen in der Arbeit selbst: Jede Aussage ist an Originalquellen gebunden, die ich gelesen habe, und die Herleitungskette von den Konsequenzen über die Thesen zu den Kriterien ist meine eigene Syntheseleistung. Ich kann sie hier an jeder Stelle rückwärts vorführen. Im Grunde habe ich mein eigenes Kriterium, den Schutz der Denkarbeit, auf mich selbst angewendet.",
+      "Teilweise, und zwar bewusst. Roter Faden, Verknüpfung, Reduktion und KI-Transparenz habe ich angewendet. Andere Kriterien greifen naturgemäss nicht: Eine Diplomarbeit ist keine Lernumgebung, sie muss nicht aktivieren und keine Lernorte verbinden. Die Kriterien gelten für Lehrmittel, nicht für Forschungstexte. Wo sie übertragbar sind, habe ich sie gelebt."
+    ],
+    "relatedChapters": ["2.1", "6.1"],
+    "relatedSources": ["bauer-2025"]
   }
 ]
