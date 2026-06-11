@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import sources from '../data/sourceMap.json'
 import { useStore, rate, getRating, setLastActivity } from '../lib/storage.js'
-import { PageTitle, RelevanceTag, RatingBar, Reveal, Block } from '../components/ui.jsx'
+import { PageTitle, RelevanceTag, RatingBar, Reveal, Block, Authors } from '../components/ui.jsx'
 import { scoreLabel } from '../lib/srs.js'
 
 const TYPES = [...new Set(sources.map((s) => s.type))]
@@ -87,6 +87,10 @@ function SourceCard({ s, rating }) {
         </div>
       </div>
       <p className="tiny faint" style={{ margin: 0 }}>{s.fullReference}</p>
+
+      <Block title="Wer dahintersteht">
+        <Authors authors={s.authors} note={s.authorsNote} />
+      </Block>
 
       <Block title="Hauptaussage"><p>{s.mainStatement}</p></Block>
 

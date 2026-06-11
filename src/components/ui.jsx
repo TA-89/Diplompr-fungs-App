@@ -117,6 +117,41 @@ export function Block({ title, children }) {
   )
 }
 
+// Autoren einer Quelle: wer sind sie, wo wirken sie, was machen sie
+export function Authors({ authors, note }) {
+  if (!authors || !authors.length) return null
+  const key = authors.filter((a) => a.key !== false)
+  const more = authors.filter((a) => a.key === false)
+  return (
+    <div className="authors">
+      {key.map((a, i) => {
+        const name = [a.first, a.last].filter(Boolean).join(' ') || a.last
+        return (
+          <div className="author" key={i}>
+            <div className="author-name">{name}</div>
+            <div className="author-meta">
+              {a.based ? <span><span aria-hidden="true">📍</span> {a.based}</span> : null}
+              {a.workplace ? <span><span aria-hidden="true">🏛</span> {a.workplace}</span> : null}
+            </div>
+            {a.does && a.does.length ? (
+              <div className="author-tags">
+                {a.does.map((d, k) => <span key={k} className="mini-tag">{d}</span>)}
+              </div>
+            ) : null}
+          </div>
+        )
+      })}
+      {more.length ? (
+        <div className="authors-more">
+          <b>Weitere Mitautor:innen:</b>{' '}
+          {more.map((a) => [a.first, a.last].filter(Boolean).join(' ')).join(', ')}
+        </div>
+      ) : null}
+      {note ? <div className="authors-note">{note}</div> : null}
+    </div>
+  )
+}
+
 // Liste von Quellen-Kurznamen
 export function SourceRefs({ ids, sources }) {
   if (!ids || !ids.length) return null

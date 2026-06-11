@@ -4,6 +4,9 @@
     "shortName": "Kerres 2018",
     "fullReference": "Kerres, M. (2018). Mediendidaktik: Konzeption und Entwicklung digitaler Lernangebote. De Gruyter. https://doi.org/10.1515/9783110456837",
     "type": "Grundlagenwerk",
+    "authors": [
+      { "first": "Michael", "last": "Kerres", "based": "Essen (DE)", "workplace": "Universität Duisburg-Essen, Learning Lab (Lehrstuhl Mediendidaktik & Wissensmanagement)", "does": ["Professor für Mediendidaktik", "E-Learning-Pionier im deutschsprachigen Raum", "digitale Transformation der Bildung", "Instructional Design"], "key": true }
+    ],
     "mainStatement": "Die Wirkung eines Mediums entsteht nicht aus der Technik, sondern aus dem didaktischen Konzept. Ein Lehrmittel wird erst zur Lernumgebung, wenn es Lernprozesse anregt.",
     "usedFor": ["Lehrmittel als Lernumgebung", "didaktisches Design", "digitale Medien vom Bildungsanliegen her denken", "Format folgt der Konzeption"],
     "chapters": ["3.1", "3.2", "5.1", "6.1", "6.2"],
@@ -18,6 +21,9 @@
     "shortName": "Sweller 2020",
     "fullReference": "Sweller, J. (2020). Cognitive load theory and educational technology. Educational Technology Research and Development, 68(1), 1–16. https://doi.org/10.1007/s11423-019-09701-3",
     "type": "peer-reviewed Studie",
+    "authors": [
+      { "first": "John", "last": "Sweller", "based": "Sydney (AU)", "workplace": "University of New South Wales (UNSW), School of Education – Emeritus", "does": ["pädagogischer Psychologe", "Begründer der Cognitive Load Theory", "Instructional Design", "kognitive Architektur des Lernens"], "key": true }
+    ],
     "mainStatement": "Das Arbeitsgedächtnis ist begrenzt. Ungeordneter oder überladener Stoff überlastet es und verhindert Verstehen. Struktur und Portionierung entlasten.",
     "usedFor": ["Cognitive Load", "Begrenztheit des Arbeitsgedächtnisses", "Begründung von Struktur und Reduktion"],
     "chapters": ["3.2", "5.2", "6.2", "6.3"],
@@ -32,6 +38,9 @@
     "shortName": "Mayer 2021",
     "fullReference": "Mayer, R. (2021). Multimedia Learning (3. Aufl.). Cambridge University Press. https://doi.org/10.1017/9781316941355",
     "type": "Grundlagenwerk",
+    "authors": [
+      { "first": "Richard E.", "last": "Mayer", "based": "Santa Barbara, Kalifornien (US)", "workplace": "University of California, Santa Barbara (UCSB), Dept. of Psychological & Brain Sciences", "does": ["kognitiver/pädagogischer Psychologe", "Theorie des Multimedia-Lernens", "computergestütztes Lernen & Lernspiele", "Science of Learning"], "key": true }
+    ],
     "mainStatement": "Bild und Text wirken zusammen, wenn sie aufeinander abgestimmt sind und das Wesentliche hervorheben. Schwieriger Stoff sollte in überschaubare Schritte geteilt werden.",
     "usedFor": ["Multimedia Learning", "Bild-Text-Kohärenz", "Reduktion und Segmentierung", "Gestaltung als didaktische Arbeit"],
     "chapters": ["3.3", "5.2", "6.3"],
@@ -46,6 +55,10 @@
     "shortName": "Chi & Wylie 2014",
     "fullReference": "Chi, M. T. H., & Wylie, R. (2014). The ICAP Framework: Linking Cognitive Engagement to Active Learning Outcomes. Educational Psychologist, 49(4), 219–243. https://doi.org/10.1080/00461520.2014.965823",
     "type": "peer-reviewed Studie",
+    "authors": [
+      { "first": "Michelene T. H.", "last": "Chi", "based": "Tempe, Arizona (US)", "workplace": "Arizona State University (ASU), Learning & Cognition Lab – Regents Professor", "does": ["Kognitions- & Lernwissenschaftlerin", "Begründerin des ICAP-Frameworks", "Expertise- und Selbsterklärungsforschung", "Yidan-Preis 2023"], "key": true },
+      { "first": "Ruth", "last": "Wylie", "based": "Tempe, Arizona (US)", "workplace": "Arizona State University (ASU), Center for Science and the Imagination", "does": ["Lernwissenschaftlerin", "Cognitive Engagement / ICAP", "Bildungstechnologie", "STEM-Unterricht"], "key": true }
+    ],
     "mainStatement": "Je aktiver und konstruktiver Lernende mit einem Inhalt umgehen (passiv, aktiv, konstruktiv, interaktiv), desto tiefer ist das Lernen.",
     "usedFor": ["ICAP-Modell", "aktive Lernprozesse", "Begründung des Aktivierungskriteriums"],
     "chapters": ["3.4", "5.2", "6.1"],
@@ -60,6 +73,10 @@
     "shortName": "Deci & Ryan 1993",
     "fullReference": "Deci, E. L., & Ryan, R. M. (1993). Die Selbstbestimmungstheorie der Motivation und ihre Bedeutung für die Pädagogik. Zeitschrift für Pädagogik, 39(2), 223–238. https://doi.org/10.25656/01:11173",
     "type": "Grundlagenwerk",
+    "authors": [
+      { "first": "Edward L.", "last": "Deci", "based": "Rochester, New York (US)", "workplace": "University of Rochester, Dept. of Psychology – Professor Emeritus", "does": ["Sozialpsychologe", "Mitbegründer der Selbstbestimmungstheorie (SDT)", "intrinsische vs. extrinsische Motivation"], "key": true },
+      { "first": "Richard M.", "last": "Ryan", "based": "Sydney (AU); zuvor Rochester (US)", "workplace": "Australian Catholic University (ACU), Institute for Positive Psychology and Education", "does": ["klinischer Psychologe", "Mitbegründer der Selbstbestimmungstheorie (SDT)", "Motivation, Persönlichkeit, Wohlbefinden"], "key": true }
+    ],
     "mainStatement": "Motivation bleibt eher erhalten, wenn drei Grundbedürfnisse gestützt werden: Kompetenzerleben, Autonomie und soziale Eingebundenheit.",
     "usedFor": ["Selbstbestimmungstheorie", "Motivation im Lernprozess", "Begründung des Motivationskriteriums"],
     "chapters": ["3.4", "5.2", "6.1"],
@@ -74,6 +91,9 @@
     "shortName": "Dehnbostel 2022",
     "fullReference": "Dehnbostel, P. (2022). Betriebliche Bildungsarbeit: Kompetenzbasierte Berufs- und Weiterbildung in digitalen Zeiten (1. Aufl.). wbv Media.",
     "type": "Grundlagenwerk",
+    "authors": [
+      { "first": "Peter", "last": "Dehnbostel", "based": "Dortmund / Oldenburg (DE)", "workplace": "TU Dortmund (Berufspädagogik); Lehre an der Univ. Oldenburg (C3L)", "does": ["Berufs- und Weiterbildungsforschung", "betriebliche Bildungsarbeit", "Lernen im Prozess der Arbeit", "Kompetenzmanagement"], "key": true }
+    ],
     "mainStatement": "Ziel der Berufsbildung ist die berufliche Handlungskompetenz, das Zusammenspiel von Wissen, Können und Haltung. Gelernt wird an mehreren Lernorten.",
     "usedFor": ["berufliche Handlungskompetenz", "Lernorte der Berufsbildung", "Begründung von Lernortbezug und These 4"],
     "chapters": ["3.5", "5.4", "6.4"],
@@ -88,6 +108,9 @@
     "shortName": "Seufert 2023",
     "fullReference": "Seufert, S. (2023). Zukunftsmodelle Lernortkooperation mittels KI: Handlungsempfehlungen – Meilenstein 4. Universität St.Gallen, IBB.",
     "type": "Bericht",
+    "authors": [
+      { "first": "Sabine", "last": "Seufert", "based": "St. Gallen (CH)", "workplace": "Universität St.Gallen (HSG), Institut für Bildungsmanagement und Bildungstechnologien (IBB) – Direktorin", "does": ["Professorin für Wirtschaftspädagogik", "digitale Transformation der Bildung", "KI in der Bildung", "Lernortkooperation"], "key": true }
+    ],
     "mainStatement": "Berufsbildung findet an mehreren Lernorten statt; deren Kooperation lässt sich mit digitalen und KI-gestützten Mitteln stärken.",
     "usedFor": ["Lernortkooperation", "Berufsbildung und digitale Transformation", "Stützung des Lernortbezugs"],
     "chapters": ["3.5", "5.4", "6.4"],
@@ -102,6 +125,13 @@
     "shortName": "Bauer et al. 2025",
     "fullReference": "Bauer, E., Greiff, S., Graesser, A. C., Scheiter, K., & Sailer, M. (2025). Looking Beyond the Hype: Understanding the Effects of AI on Learning. Educational Psychology Review, 37(2), 45. https://doi.org/10.1007/s10648-025-10020-8",
     "type": "peer-reviewed Studie",
+    "authors": [
+      { "first": "Elisabeth", "last": "Bauer", "based": "Augsburg (DE)", "workplace": "Universität Augsburg (Learning Sciences / Learning Analytics)", "does": ["Erstautorin", "Lernwissenschaften", "KI-gestütztes Lernen", "Learning Analytics"], "key": true },
+      { "first": "Samuel", "last": "Greiff", "based": "Luxemburg (LU)", "workplace": "Université du Luxembourg (Cognitive Science & Assessment)", "does": ["Kompetenzdiagnostik / Assessment", "komplexes Problemlösen", "Pädagogische Psychologie"], "key": true },
+      { "first": "Arthur C.", "last": "Graesser", "based": "Memphis, Tennessee (US)", "workplace": "University of Memphis, Dept. of Psychology – Emeritus", "does": ["Kognitionspsychologie / Diskursverarbeitung", "intelligente Tutorsysteme (AutoTutor)", "Textverständnis"], "key": true },
+      { "first": "Katharina", "last": "Scheiter", "based": "Potsdam (DE)", "workplace": "Universität Potsdam, Professur für Digitale Bildung", "does": ["digitale Bildung / Lerntechnologien", "Multimedia-Lernen", "Wirksamkeit von Bildungstechnologie"], "key": true },
+      { "first": "Michael", "last": "Sailer", "based": "Augsburg (DE)", "workplace": "Universität Augsburg, Professur für Learning Analytics & Educational Data Mining", "does": ["digitales/gamifiziertes Lernen", "KI in der Bildung", "Learning Analytics"], "key": true }
+    ],
     "mainStatement": "Dieselbe KI-Funktion kann das Lernen unterschiedlich berühren. Das ISAR-Modell unterscheidet Inversion, Substitution, Augmentation und Redefinition. Liefert die KI fertige Antworten, droht metakognitive Bequemlichkeit.",
     "usedFor": ["ISAR-Modell", "Wirkungen von KI auf das Lernen", "metakognitive Bequemlichkeit", "These 3", "Kriterium KI nach Wirkung beurteilen"],
     "chapters": ["4.2", "4.4", "4.5", "5.3", "6.1", "6.4"],
@@ -116,6 +146,11 @@
     "shortName": "Tasdelen & Bodemer 2025",
     "fullReference": "Tasdelen, O., & Bodemer, D. (2025). Generative AI in the Classroom: Effects of Context-Personalized Learning Material and Tasks on Motivation and Performance. International Journal of Artificial Intelligence in Education, 35(5), 3049–3070. https://doi.org/10.1007/s40593-025-00491-9",
     "type": "peer-reviewed Studie",
+    "authors": [
+      { "first": "Oguzhan", "last": "Tasdelen", "based": "Duisburg/Essen (DE)", "workplace": "Universität Duisburg-Essen (Research Methods in Psychology – Media-Based Knowledge Construction)", "does": ["generative KI im Unterricht", "personalisierte Lernmaterialien", "kollaboratives Lernen"], "key": true },
+      { "first": "Daniel", "last": "Bodemer", "based": "Duisburg/Essen (DE)", "workplace": "Universität Duisburg-Essen, Lehrstuhl Research Methods in Psychology – Media-Based Knowledge Construction", "does": ["kollaboratives Lernen / Group Awareness", "Multimedia-Lernen", "selbstreguliertes Lernen"], "key": true }
+    ],
+    "authorsNote": "Hinweis: In der Zitation steht der Vorname „Oguzhan“; die Institutsseite der Universität Duisburg-Essen führt dieselbe Person als „Osman Tasdelen“.",
     "mainStatement": "Personalisierung hilft, wenn sie an Interessen und Vorwissen der Lernenden anknüpft, und läuft leer, wenn sie nur eine adaptive Oberfläche bleibt.",
     "usedFor": ["Personalisierung", "Feedback und adaptive Lernwege", "Stützung von These 3"],
     "chapters": ["4.3", "5.3"],
@@ -130,6 +165,9 @@
     "shortName": "UNESCO 2023",
     "fullReference": "UNESCO. (2023). Guidance for generative AI in education and research. UNESCO. https://doi.org/10.54675/EWZM9535",
     "type": "amtliches Dokument",
+    "authors": [
+      { "first": "", "last": "UNESCO", "based": "Sitz: Paris (FR)", "workplace": "UN-Sonderorganisation für Bildung, Wissenschaft und Kultur", "does": ["globale Bildungspolitik & Standards", "erste weltweite Leitlinie zu generativer KI in Bildung/Forschung (2023)", "menschenzentrierte, ethische KI-Regulierung"], "key": true }
+    ],
     "mainStatement": "Beim Einsatz generativer KI in der Bildung müssen Datenschutz und die Rechte der Betroffenen gewahrt werden.",
     "usedFor": ["Datenschutz", "Verantwortung beim KI-Einsatz", "Begründung des Datenschutzkriteriums"],
     "chapters": ["4.5", "6.5"],
@@ -144,6 +182,13 @@
     "shortName": "Nazaretsky et al. 2025",
     "fullReference": "Nazaretsky, T., Mejia-Domenzain, P., Swamy, V., Frej, J., & Käser, T. (2025). The critical role of trust in adopting AI-powered educational technology for learning. Computers and Education: Artificial Intelligence, 8, 100368. https://doi.org/10.1016/j.caeai.2025.100368",
     "type": "peer-reviewed Studie",
+    "authors": [
+      { "first": "Tanya", "last": "Nazaretsky", "based": "Lausanne (CH)", "workplace": "EPFL, ML4ED Lab – Postdoc", "does": ["Erstautorin", "Vertrauen in KI-Bildungstechnologie", "Messung von Lernenden-Wahrnehmungen", "Learning Analytics"], "key": true },
+      { "first": "Tanja", "last": "Käser", "based": "Lausanne (CH)", "workplace": "EPFL – Assistenzprofessorin, Leiterin ML4ED Lab", "does": ["Machine Learning für Bildung", "adaptive Lernsysteme", "erklärbare KI (XAI)"], "key": true },
+      { "first": "Paola", "last": "Mejia-Domenzain", "based": "Lausanne (CH)", "workplace": "EPFL, ML4ED Lab", "does": ["Learning Analytics"], "key": false },
+      { "first": "Vinitra", "last": "Swamy", "based": "Lausanne (CH)", "workplace": "EPFL, ML4ED Lab", "does": ["erklärbare KI in Bildung"], "key": false },
+      { "first": "Jibril", "last": "Frej", "based": "Lausanne (CH)", "workplace": "EPFL, ML4ED Lab", "does": ["NLP / ML in Bildung"], "key": false }
+    ],
     "mainStatement": "Lernende nutzen eine KI-gestützte Funktion nur, wenn sie ihr vertrauen. Vertrauen entsteht aus Nachvollziehbarkeit.",
     "usedFor": ["Vertrauen in KI", "Transparenz und reflektierte Nutzung", "Begründung des Transparenzkriteriums"],
     "chapters": ["4.5", "6.5"],
@@ -158,6 +203,10 @@
     "shortName": "Xiong & Li 2026",
     "fullReference": "Xiong, J., & Li, F. (2026). A decade of reflection and thematic review on artificial intelligence's impact on educational measurement. Educational Research Review, 51, 100789. https://doi.org/10.1016/j.edurev.2026.100789",
     "type": "peer-reviewed Review",
+    "authors": [
+      { "first": "Jiawei", "last": "Xiong", "based": "Athens, Georgia (US)", "workplace": "University of Georgia, Dept. of Educational Psychology", "does": ["Educational Measurement / Psychometrie", "KI für automatisierte Bewertung", "Topic-Modelle für Antworten"], "key": true },
+      { "first": "Feng", "last": "Li", "based": "unbekannt (vermutlich US)", "workplace": "Affiliation nicht öffentlich verifiziert", "does": ["Educational Measurement / Assessment", "KI in der Bildungsmessung"], "key": false }
+    ],
     "mainStatement": "Eine KI-gestützte Beurteilung muss fair sein und das messen, was sie messen soll (Validität).",
     "usedFor": ["Fairness und Validität von KI-Beurteilung", "Begründung des Fairnesskriteriums"],
     "chapters": ["4.5", "6.5"],
@@ -172,6 +221,10 @@
     "shortName": "Latzer & Festic 2024",
     "fullReference": "Latzer, M., & Festic, N. (2024). «Künstliche Intelligenz» in der Schweiz 2024: Kenntnisse, Nutzung und Einstellungen zur generativen KI. Universität Zürich, IKMZ.",
     "type": "Bericht (Schweizer Kontext)",
+    "authors": [
+      { "first": "Michael", "last": "Latzer", "based": "Zürich (CH)", "workplace": "Universität Zürich, IKMZ – ordentlicher Professor (Media Change & Innovation)", "does": ["Medienwandel & Internet-Governance", "Nutzung/Einstellungen zu KI in der Schweiz", "Mediennutzungsforschung"], "key": true },
+      { "first": "Noemi", "last": "Festic", "based": "Zürich (CH)", "workplace": "Universität Zürich, IKMZ (Media Change & Innovation)", "does": ["digitale Mediennutzung & Datafizierung", "Einstellungen zu generativer KI (CH)", "empirische Kommunikationsforschung"], "key": true }
+    ],
     "mainStatement": "Generative KI hat sich in der Schweiz schnell verbreitet, wird aber nach Alter und Bildung sehr ungleich genutzt.",
     "usedFor": ["Verbreitung von KI in der Schweiz", "Kontext der Problemstellung"],
     "chapters": ["1.2"],
@@ -186,6 +239,9 @@
     "shortName": "Caneva 2024",
     "fullReference": "Caneva, C. (2024). Bilanz der Erfahrungen mit der Digitalisierung des Bildungswesens. Universität Freiburg.",
     "type": "Bericht (Schweizer Kontext)",
+    "authors": [
+      { "first": "Christiane", "last": "Caneva", "based": "Fribourg (CH)", "workplace": "Universität Freiburg/Fribourg – Didaktik & digitale Kompetenzen / Faculty Development", "does": ["digitale Bildung", "Lehrpersonen-Weiterbildung & Coaching", "Technologie-Integration", "KI in der Hochschullehre"], "key": true }
+    ],
     "mainStatement": "Die Ausstattung mit Technik sagt wenig über den Lernerfolg aus; entscheidend ist die pädagogische Qualität der Nutzung.",
     "usedFor": ["Digitalisierung des Bildungswesens", "pädagogische Qualität vor Technik", "Kontext"],
     "chapters": ["1.2"],
@@ -200,6 +256,9 @@
     "shortName": "Meier 2024",
     "fullReference": "Meier, C. (2024). Generative KI im Arbeitsfeld L&D / PE (SCIL Arbeitsbericht Nr. 33). Universität St.Gallen, IBB.",
     "type": "Bericht (Schweizer Kontext)",
+    "authors": [
+      { "first": "Christoph", "last": "Meier", "based": "St. Gallen (CH)", "workplace": "Universität St.Gallen (HSG), IBB – Geschäftsführer SCIL", "does": ["Bildungstechnologien / Learning Innovation", "generative KI in L&D / Personalentwicklung", "betriebliches Lernen"], "key": true }
+    ],
     "mainStatement": "Generative KI wird zunehmend zur Erstellung von Lerninhalten genutzt; die didaktische Qualität entsteht dabei nicht von selbst.",
     "usedFor": ["KI zur Inhaltserstellung", "didaktische Qualität entsteht nicht automatisch", "Kontext der Problemstellung"],
     "chapters": ["1.2"],
@@ -214,6 +273,13 @@
     "shortName": "Morita et al. 2025",
     "fullReference": "Morita, R., Watanabe, K., Zhou, J., Dengel, A., & Ishimaru, S. (2025). GenAIReading: Augmenting Human Cognition with Interactive Digital Textbooks Using LLMs and Image Generation Models (Preprint). arXiv. https://doi.org/10.48550/ARXIV.2503.07463",
     "type": "Preprint",
+    "authors": [
+      { "first": "Ryugo", "last": "Morita", "based": "Tokio (JP)", "workplace": "Hosei University, Tokio", "does": ["Erstautor", "Image Generation / Computer Vision", "generative KI für Lernmaterialien"], "key": true },
+      { "first": "Andreas", "last": "Dengel", "based": "Kaiserslautern (DE)", "workplace": "DFKI – Deutsches Forschungszentrum für KI; Prof. RPTU Kaiserslautern-Landau", "does": ["KI / Knowledge Services", "Dokumentenanalyse & Mustererkennung", "KI-gestütztes Lernen"], "key": true },
+      { "first": "Shoya", "last": "Ishimaru", "based": "Osaka (JP)", "workplace": "Osaka Metropolitan University (zuvor DFKI/RPTU)", "does": ["Augmented Humans / Cognitive Augmentation", "Lerntechnologien mit LLMs"], "key": true },
+      { "first": "Ko", "last": "Watanabe", "based": "Kaiserslautern (DE)", "workplace": "RPTU Kaiserslautern-Landau / DFKI", "does": ["Augmented Cognition", "Lerntechnologien"], "key": false },
+      { "first": "Jinjia", "last": "Zhou", "based": "Tokio (JP)", "workplace": "Hosei University, Tokio", "does": ["Bildverarbeitung / Multimedia"], "key": false }
+    ],
     "mainStatement": "Beispiel für ein interaktives digitales Lehrmittel, das LLMs und Bildgenerierung zur Unterstützung des Lesens einsetzt.",
     "usedFor": ["Beispiel für KI-gestützte digitale Lehrmittel", "klar gekennzeichnete Illustration"],
     "chapters": ["4.1"],
@@ -228,6 +294,12 @@
     "shortName": "Tan et al. 2025",
     "fullReference": "Tan, L. Y., Hu, S., Yeo, D. J., & Cheong, K. H. (2025). Artificial intelligence-enabled adaptive learning platforms: A review. Computers and Education: Artificial Intelligence, 9, 100429. https://doi.org/10.1016/j.caeai.2025.100429",
     "type": "peer-reviewed Review",
+    "authors": [
+      { "first": "Lin Yang", "last": "Tan", "based": "Singapur (SG)", "workplace": "Nanyang Technological University (NTU), Singapur", "does": ["Erstautor", "adaptive Lernplattformen", "KI in der Bildung"], "key": true },
+      { "first": "Kang Hao", "last": "Cheong", "based": "Singapur (SG)", "workplace": "Nanyang Technological University (NTU), Singapur", "does": ["Letztautor", "KI in Bildung & Healthcare", "adaptive Lernplattformen", "komplexe Systeme"], "key": true },
+      { "first": "Shenghui", "last": "Hu", "based": "Singapur (SG)", "workplace": "Nanyang Technological University (NTU)", "does": ["adaptive Lernsysteme"], "key": false },
+      { "first": "Darren J.", "last": "Yeo", "based": "Singapur (SG)", "workplace": "Nanyang Technological University (NTU), Psychologie", "does": ["Lern-/Kognitionspsychologie", "Mathematiklernen"], "key": false }
+    ],
     "mainStatement": "Überblick über KI-gestützte adaptive Lernplattformen und ihre Möglichkeiten.",
     "usedFor": ["Überblick adaptive Lernwege", "Kontext digitale Erweiterungen"],
     "chapters": ["4.1", "4.3"],
@@ -242,6 +314,15 @@
     "shortName": "Wang et al. 2024",
     "fullReference": "Wang, S., Wang, F., Zhu, Z., Wang, J., Tran, T., & Du, Z. (2024). Artificial intelligence in education: A systematic literature review. Expert Systems with Applications, 252, 124167. https://doi.org/10.1016/j.eswa.2024.124167",
     "type": "peer-reviewed Review",
+    "authors": [
+      { "first": "Shuai", "last": "Wang", "based": "China (CN)", "workplace": "Hochschule in China – genaue Institution nicht verifiziert", "does": ["Erstautor", "KI in der Bildung", "systematische Literaturreviews"], "key": true },
+      { "first": "Fan", "last": "Wang", "based": "China (CN)", "workplace": "unbekannt", "does": ["KI in der Bildung"], "key": false },
+      { "first": "Zhiyong", "last": "Zhu", "based": "China (CN)", "workplace": "unbekannt", "does": ["KI in der Bildung"], "key": false },
+      { "first": "Jianyu", "last": "Wang", "based": "China (CN)", "workplace": "unbekannt", "does": ["KI in der Bildung"], "key": false },
+      { "first": "Tin", "last": "Tran", "based": "unbekannt", "workplace": "unbekannt", "does": ["KI in der Bildung"], "key": false },
+      { "first": "Zheng", "last": "Du", "based": "China (CN)", "workplace": "unbekannt", "does": ["KI in der Bildung"], "key": false }
+    ],
+    "authorsNote": "Die Volltext-Affiliationen waren nicht frei zugänglich; Institutionen daher bewusst als „unbekannt“ statt geraten.",
     "mainStatement": "Systematischer Überblick über KI in der Bildung und ihre Anwendungsfelder.",
     "usedFor": ["systematischer Überblick KI in Bildung", "Einordnung des Forschungsstands"],
     "chapters": ["4.1"],
@@ -256,6 +337,12 @@
     "shortName": "Hilbe et al. 2025",
     "fullReference": "Hilbe, R., Beck, M., Offenhauser, B., & Schiess, A. (2025). Leitfaden Zitieren und Bibliografieren in wissenschaftlichen Arbeiten. ZWIB, PHSG.",
     "type": "amtliches Dokument (formal)",
+    "authors": [
+      { "first": "Robert", "last": "Hilbe", "based": "St. Gallen (CH)", "workplace": "Pädagogische Hochschule St.Gallen (PHSG), Zentrum Wissenschaftsberatung (ZWIB)", "does": ["wissenschaftliches Arbeiten / Zitieren & Bibliografieren", "pädagogisch-psychologische Diagnostik", "Beratung wissenschaftlicher Arbeiten"], "key": true },
+      { "first": "M.", "last": "Beck", "based": "St. Gallen (CH)", "workplace": "PHSG, ZWIB", "does": ["Beratung wissenschaftliches Arbeiten"], "key": false },
+      { "first": "B.", "last": "Offenhauser", "based": "St. Gallen (CH)", "workplace": "PHSG, ZWIB", "does": ["Beratung wissenschaftliches Arbeiten"], "key": false },
+      { "first": "A.", "last": "Schiess", "based": "St. Gallen (CH)", "workplace": "PHSG, ZWIB", "does": ["Beratung wissenschaftliches Arbeiten"], "key": false }
+    ],
     "mainStatement": "Vorgaben der PHSG für das Zitieren und Bibliografieren, zusammen mit APA 7 in deutscher Fassung.",
     "usedFor": ["formale Zitierweise", "APA 7"],
     "chapters": ["2.3"],

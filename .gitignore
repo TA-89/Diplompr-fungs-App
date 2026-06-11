@@ -20,3 +20,6 @@ dist-ssr/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Windows/OneDrive
+desktop.ini

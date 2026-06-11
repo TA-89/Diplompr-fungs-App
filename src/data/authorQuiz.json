@@ -300,5 +300,216 @@
     "explanation": "Kerres trägt die didaktische Grundidee; den KI-Teil trägt Bauer et al. Wenn nur eine: Kerres.",
     "relatedChapters": ["3.2"],
     "relatedSources": ["kerres-2018", "bauer-2025"]
+  },
+  {
+    "id": "aq-021",
+    "type": "single",
+    "question": "An welcher Hochschule wirkt Michael Kerres (Mediendidaktik)?",
+    "options": [
+      { "key": "a", "text": "Universität Duisburg-Essen (Learning Lab)" },
+      { "key": "b", "text": "Universität St.Gallen" },
+      { "key": "c", "text": "University of California, Santa Barbara" },
+      { "key": "d", "text": "TU Dortmund" }
+    ],
+    "correct": ["a"],
+    "explanation": "Michael Kerres ist Professor für Mediendidaktik an der Universität Duisburg-Essen (Learning Lab).",
+    "relatedChapters": ["3.2"],
+    "relatedSources": ["kerres-2018"]
+  },
+  {
+    "id": "aq-022",
+    "type": "single",
+    "question": "John Sweller, Begründer der Cognitive Load Theory, forschte an welcher Universität?",
+    "options": [
+      { "key": "a", "text": "University of New South Wales (UNSW), Sydney" },
+      { "key": "b", "text": "Arizona State University" },
+      { "key": "c", "text": "Universität Augsburg" },
+      { "key": "d", "text": "EPFL Lausanne" }
+    ],
+    "correct": ["a"],
+    "explanation": "John Sweller ist (emeritierter) Professor an der University of New South Wales in Sydney, Australien.",
+    "relatedChapters": ["3.2"],
+    "relatedSources": ["sweller-2020"]
+  },
+  {
+    "id": "aq-023",
+    "type": "single",
+    "question": "Richard Mayer («Multimedia Learning») ist an welcher Universität tätig?",
+    "options": [
+      { "key": "a", "text": "University of California, Santa Barbara (UCSB)" },
+      { "key": "b", "text": "University of Memphis" },
+      { "key": "c", "text": "Universität Potsdam" },
+      { "key": "d", "text": "Universität Zürich" }
+    ],
+    "correct": ["a"],
+    "explanation": "Richard E. Mayer ist Psychologieprofessor an der University of California, Santa Barbara (USA).",
+    "relatedChapters": ["3.3"],
+    "relatedSources": ["mayer-2021"]
+  },
+  {
+    "id": "aq-024",
+    "type": "single",
+    "question": "Michelene Chi und Ruth Wylie (ICAP-Modell) wirken an welcher Universität?",
+    "options": [
+      { "key": "a", "text": "Arizona State University (ASU)" },
+      { "key": "b", "text": "University of New South Wales" },
+      { "key": "c", "text": "Université du Luxembourg" },
+      { "key": "d", "text": "Nanyang Technological University" }
+    ],
+    "correct": ["a"],
+    "explanation": "Beide forschen an der Arizona State University (USA); Chi leitet dort das Learning & Cognition Lab.",
+    "relatedChapters": ["3.4"],
+    "relatedSources": ["chi-wylie-2014"]
+  },
+  {
+    "id": "aq-025",
+    "type": "single",
+    "question": "Mit welcher Hochschule ist Peter Dehnbostel (Berufsbildung, Handlungskompetenz) vor allem verbunden?",
+    "options": [
+      { "key": "a", "text": "TU Dortmund (Berufspädagogik)" },
+      { "key": "b", "text": "Universität St.Gallen" },
+      { "key": "c", "text": "EPFL Lausanne" },
+      { "key": "d", "text": "Universität Augsburg" }
+    ],
+    "correct": ["a"],
+    "explanation": "Peter Dehnbostel ist Berufs- und Wirtschaftspädagoge an der TU Dortmund (zudem Lehre in Oldenburg).",
+    "relatedChapters": ["3.5"],
+    "relatedSources": ["dehnbostel-2022"]
+  },
+  {
+    "id": "aq-026",
+    "type": "single",
+    "question": "Sabine Seufert ist Direktorin welches Instituts?",
+    "options": [
+      { "key": "a", "text": "Institut für Bildungsmanagement und Bildungstechnologien (IBB) der Universität St.Gallen" },
+      { "key": "b", "text": "IKMZ der Universität Zürich" },
+      { "key": "c", "text": "ML4ED Lab der EPFL" },
+      { "key": "d", "text": "DFKI Kaiserslautern" }
+    ],
+    "correct": ["a"],
+    "explanation": "Sabine Seufert ist Professorin für Wirtschaftspädagogik und leitet das IBB an der Universität St.Gallen (HSG).",
+    "relatedChapters": ["3.5"],
+    "relatedSources": ["seufert-2023"]
+  },
+  {
+    "id": "aq-027",
+    "type": "single",
+    "question": "Tanya Nazaretsky und Tanja Käser (Vertrauen in KI-Bildungstechnologie) forschen an welcher Hochschule?",
+    "options": [
+      { "key": "a", "text": "EPFL Lausanne (ML4ED Lab)" },
+      { "key": "b", "text": "Universität St.Gallen" },
+      { "key": "c", "text": "University of Georgia" },
+      { "key": "d", "text": "Hosei University, Tokio" }
+    ],
+    "correct": ["a"],
+    "explanation": "Beide gehören zum ML4ED Lab (Machine Learning for Education) der EPFL in Lausanne; Käser leitet das Lab.",
+    "relatedChapters": ["6.5"],
+    "relatedSources": ["nazaretsky-2025"]
+  },
+  {
+    "id": "aq-028",
+    "type": "single",
+    "question": "Wo hat die UNESCO ihren Sitz?",
+    "options": [
+      { "key": "a", "text": "Paris (Frankreich)" },
+      { "key": "b", "text": "Genf (Schweiz)" },
+      { "key": "c", "text": "New York (USA)" },
+      { "key": "d", "text": "Brüssel (Belgien)" }
+    ],
+    "correct": ["a"],
+    "explanation": "Die UNESCO, die UN-Sonderorganisation für Bildung, Wissenschaft und Kultur, hat ihren Hauptsitz in Paris.",
+    "relatedChapters": ["6.5"],
+    "relatedSources": ["unesco-2023"]
+  },
+  {
+    "id": "aq-029",
+    "type": "single",
+    "question": "Latzer & Festic («Künstliche Intelligenz» in der Schweiz 2024) gehören zu welcher Institution?",
+    "options": [
+      { "key": "a", "text": "Universität Zürich, IKMZ (Kommunikationswissenschaft)" },
+      { "key": "b", "text": "Universität Freiburg/Fribourg" },
+      { "key": "c", "text": "Universität St.Gallen" },
+      { "key": "d", "text": "ETH Zürich" }
+    ],
+    "correct": ["a"],
+    "explanation": "Michael Latzer (Professor) und Noemi Festic forschen am IKMZ der Universität Zürich (Bereich Media Change & Innovation).",
+    "relatedChapters": ["1.2"],
+    "relatedSources": ["latzer-festic-2024"]
+  },
+  {
+    "id": "aq-030",
+    "type": "single",
+    "question": "An welcher Schweizer Universität wirkt Christiane Caneva?",
+    "options": [
+      { "key": "a", "text": "Universität Freiburg/Fribourg" },
+      { "key": "b", "text": "Universität Zürich" },
+      { "key": "c", "text": "Universität St.Gallen" },
+      { "key": "d", "text": "Universität Bern" }
+    ],
+    "correct": ["a"],
+    "explanation": "Christiane Caneva ist an der Universität Freiburg/Fribourg tätig (digitale Bildung, Lehrpersonen-Weiterbildung).",
+    "relatedChapters": ["1.2"],
+    "relatedSources": ["caneva-2024"]
+  },
+  {
+    "id": "aq-031",
+    "type": "single",
+    "question": "Christoph Meier (SCIL-Arbeitsbericht zu generativer KI) ist Geschäftsführer von SCIL an welcher Universität?",
+    "options": [
+      { "key": "a", "text": "Universität St.Gallen (IBB / SCIL)" },
+      { "key": "b", "text": "Universität Zürich" },
+      { "key": "c", "text": "EPFL Lausanne" },
+      { "key": "d", "text": "Universität Duisburg-Essen" }
+    ],
+    "correct": ["a"],
+    "explanation": "Christoph Meier ist Geschäftsführer des SCIL am IBB der Universität St.Gallen (Bildungstechnologien, L&D).",
+    "relatedChapters": ["1.2"],
+    "relatedSources": ["meier-2024"]
+  },
+  {
+    "id": "aq-032",
+    "type": "single",
+    "question": "Welcher Co-Autor von Bauer et al. (2025) ist für intelligente Tutorsysteme (z. B. AutoTutor) bekannt?",
+    "options": [
+      { "key": "a", "text": "Arthur C. Graesser (University of Memphis)" },
+      { "key": "b", "text": "Samuel Greiff" },
+      { "key": "c", "text": "Michael Sailer" },
+      { "key": "d", "text": "Katharina Scheiter" }
+    ],
+    "correct": ["a"],
+    "explanation": "Arthur C. Graesser (University of Memphis) ist als Kognitionspsychologe für intelligente Tutorsysteme wie AutoTutor bekannt.",
+    "relatedChapters": ["4.2"],
+    "relatedSources": ["bauer-2025"]
+  },
+  {
+    "id": "aq-033",
+    "type": "single",
+    "question": "Oguzhan Tasdelen und Daniel Bodemer (Personalisierung durch KI) forschen an welcher Universität?",
+    "options": [
+      { "key": "a", "text": "Universität Duisburg-Essen" },
+      { "key": "b", "text": "Universität Potsdam" },
+      { "key": "c", "text": "Universität Augsburg" },
+      { "key": "d", "text": "Universität St.Gallen" }
+    ],
+    "correct": ["a"],
+    "explanation": "Beide gehören zum Lehrstuhl «Research Methods in Psychology – Media-Based Knowledge Construction» der Universität Duisburg-Essen (wie auch Kerres dort wirkt).",
+    "relatedChapters": ["4.3"],
+    "relatedSources": ["tasdelen-bodemer-2025"]
+  },
+  {
+    "id": "aq-034",
+    "type": "multiple",
+    "question": "Welche dieser Quellen-Autor:innen wirken an Schweizer Hochschulen? (mehrere richtig)",
+    "options": [
+      { "key": "a", "text": "Sabine Seufert (St.Gallen)" },
+      { "key": "b", "text": "Nazaretsky & Käser (EPFL Lausanne)" },
+      { "key": "c", "text": "Latzer & Festic (Zürich)" },
+      { "key": "d", "text": "Michael Kerres" },
+      { "key": "e", "text": "Richard Mayer" }
+    ],
+    "correct": ["a", "b", "c"],
+    "explanation": "Seufert (St.Gallen), Nazaretsky & Käser (EPFL), Latzer & Festic (Zürich) und auch Caneva (Fribourg) sowie Meier (St.Gallen) wirken in der Schweiz. Kerres ist in Duisburg-Essen (DE), Mayer in Santa Barbara (US).",
+    "relatedChapters": ["1.2"],
+    "relatedSources": ["seufert-2023", "nazaretsky-2025", "latzer-festic-2024"]
   }
 ]
