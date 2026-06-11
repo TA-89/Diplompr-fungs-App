@@ -25,9 +25,17 @@ const AREA_TARGET = {
   quellen: 'sources', grenzen: 'reflection',
 }
 
+function daysUntilExam() {
+  if (!meta.exam.dateISO) return null
+  const exam = new Date(meta.exam.dateISO + 'T08:00:00')
+  const diff = Math.ceil((exam.getTime() - Date.now()) / 86400000)
+  return diff
+}
+
 export default function Dashboard({ go }) {
   const store = useStore()
   const { ratings } = store
+  const daysLeft = daysUntilExam()
 
   const due = dueToday(flashcards, store)
   const open = untouchedIds(flashcards.map((c) => c.id), ratings)
@@ -63,6 +71,12 @@ export default function Dashboard({ go }) {
           <ProgressRing value={overall} />
         </div>
         <div className="hero-stats">
+          {daysLeft !== null && daysLeft >= 0 && (
+            <div className="hero-stat accent">
+              <b>{daysLeft === 0 ? 'Heute!' : daysLeft}</b>
+              <span>{daysLeft === 0 ? 'ist Prüfung 🍀' : daysLeft === 1 ? 'Tag bis zur Prüfung' : 'Tage bis zur Prüfung'}</span>
+            </div>
+          )}
           <div className="hero-stat"><b>{due.length}</b><span>heute fällig</span></div>
           <div className="hero-stat"><b>{open.length}</b><span>offene Karten</span></div>
           <div className="hero-stat"><b>{weakCount}</b><span>schwache Punkte</span></div>
@@ -99,6 +113,41 @@ export default function Dashboard({ go }) {
           </button>
         ))}
       </div>
+
+      {/* Bewertungsraster der Prüfung */}
+      {meta.exam.rubric && (
+        <div className="card rubric-card">
+          <div className="spread">
+            <h3 style={{ margin: 0 }}>🎯 So holst du die 6</h3>
+            <span className="tiny faint">{meta.exam.date}</span>
+          </div>
+          <p className="small" style={{ margin: '.5rem 0 0' }}>{meta.exam.rubric.goalNote6}</p>
+          <details className="rubric-details">
+            <summary>Bewertungsraster ansehen (9 Bereiche, {meta.exam.rubric.maxPoints} Punkte)</summary>
+            <div className="rubric-list">
+              {meta.exam.rubric.areas.map((a) => (
+                <div className="rubric-row" key={a.nr}>
+                  <span className="rubric-nr">{a.nr}</span>
+                  <div className="rubric-body">
+                    <b>{a.name}</b> <span className="tiny faint">({a.points} P.)</span>
+                    <div className="tiny faint">{a.focus}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="rubric-scale">
+              {meta.exam.rubric.noteScale.map((s) => (
+                <span key={s.note} className={`scale-chip${s.note === '6' ? ' best' : ''}`}>
+                  Note {s.note}: {s.points}
+                </span>
+              ))}
+            </div>
+            <p className="tiny" style={{ marginTop: '.6rem' }}>
+              <b>Antwortformel:</b> {meta.exam.rubric.answerFormula}
+            </p>
+          </details>
+        </div>
+      )}
 
       {/* Zuletzt geübte Quellen */}
       {recentSources.length > 0 && (

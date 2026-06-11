@@ -291,6 +291,39 @@ label.field { display: inline-flex; flex-direction: column; gap: .25rem; font-si
 .hero-stat { background: rgba(255,255,255,.16); border-radius: var(--radius-sm); padding: .55rem .8rem; min-width: 92px; }
 .hero-stat b { font-size: 1.3rem; font-weight: 800; display: block; }
 .hero-stat span { font-size: .72rem; color: rgba(255,255,255,.9); }
+.hero-stat.accent {
+  background: rgba(255,255,255,.92); color: var(--primary-deep);
+  box-shadow: 0 2px 10px rgba(0,0,0,.12);
+}
+.hero-stat.accent b { color: var(--primary-deep); }
+.hero-stat.accent span { color: var(--primary-deep); opacity: .75; }
+
+/* --- Bewertungsraster-Karte (So holst du die 6) ------------------------- */
+.rubric-card { border-left: 4px solid var(--primary); }
+.rubric-details { margin-top: .65rem; }
+.rubric-details summary {
+  cursor: pointer; font-size: .85rem; font-weight: 700; color: var(--primary-deep);
+  padding: .35rem 0; user-select: none; list-style-position: inside;
+}
+.rubric-details summary:hover { color: var(--primary); }
+.rubric-list { margin-top: .5rem; }
+.rubric-row {
+  display: flex; gap: .65rem; align-items: flex-start;
+  padding: .5rem 0; border-bottom: 1px dashed var(--line-strong);
+}
+.rubric-row:last-child { border-bottom: 0; }
+.rubric-nr {
+  flex: 0 0 auto; width: 1.55rem; height: 1.55rem; border-radius: 50%;
+  background: var(--primary-soft); color: var(--primary-deep);
+  font-size: .75rem; font-weight: 800; display: grid; place-items: center; margin-top: .15rem;
+}
+.rubric-body { font-size: .85rem; line-height: 1.45; }
+.rubric-scale { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .75rem; }
+.scale-chip {
+  font-size: .72rem; font-weight: 600; padding: .25rem .6rem; border-radius: 999px;
+  background: var(--bg); border: 1px solid var(--line-strong); color: var(--ink-soft);
+}
+.scale-chip.best { background: var(--green-soft); border-color: var(--green); color: var(--green); font-weight: 800; }
 
 /* --- Bereich-/Lernkacheln ---------------------------------------------- */
 .area-grid { display: grid; gap: .8rem; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
