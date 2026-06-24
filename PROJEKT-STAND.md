@@ -2,7 +2,7 @@
 
 > **Zweck dieser Datei:** Aktueller Stand zum Weiterarbeiten von einem zweiten Gerät.
 > Diese Datei in Claude Code öffnen / als Kontext geben, dann kann nahtlos weitergearbeitet werden.
-> **Letzte Aktualisierung:** 11. Juni 2026
+> **Letzte Aktualisierung:** 24. Juni 2026
 
 ---
 
@@ -82,6 +82,7 @@ Navigation/Bereiche (in `src/App.jsx` registriert, je eine Seite unter `src/page
 - **Präsentationstrainer** — 10-Minuten-Struktur, Timer, Stichwortkarten, Checkliste, Kürzungen.
 - **Meine Baustellen** — alles mit 0/1 bewertete Inhalte + Lernempfehlung.
 - **Reflexion & Verteidigung** — kritische Fragen mit souveränen Antwortstrategien.
+- **Gutachten-Rückmeldungen** — die 6 Kritikpunkte aus dem PHSG-Gutachten (Note 5.5) mit Dreischritt-Antworten (anerkennen → einordnen → Konsequenz) + die gelobten Stärken zum aktiven Aufgreifen. Zahlt direkt auf Bewertungskriterium 9 (Reflexion) ein.
 
 Technik: PWA (installierbar, offline), Lernfortschritt nur im `localStorage` des Geräts
 (Schlüssel `diplom_lern_app_v1`). **Selbst-Aktualisierung aktiv:** Die App prüft eine
@@ -101,6 +102,7 @@ Technik: PWA (installierbar, offline), Lernfortschritt nur im `localStorage` des
 | `authorQuiz.json` | Autoren-Quiz „Wer steht dahinter?" | 34 |
 | `theses.json` | 5 Thesen | 5 |
 | `criteria.json` | 16 Kriterien in 5 Bündeln | 16 |
+| `gutachten.json` | Gutachten-Kritikpunkte (Dreischritt-Antworten) + gelobte Stärken | **6** + 3 |
 | `sourceMap.json` | Quellenkarten inkl. Autoren-Infos | — |
 | `meta.json` | Forschungsfrage, roter Faden, Modelle, **Termine + PHSG-Bewertungsraster** | — |
 
@@ -158,25 +160,30 @@ Max. 68 Punkte; Note 6 = 65–68 (nur 3 Punkte Spielraum). 5er-Skala je Kriteriu
 
 ---
 
-## 7. NÄCHSTER SCHRITT (offen) — Kritische Punkte aus dem Gutachten
+## 7. Kritische Punkte aus dem Gutachten — ERLEDIGT (24.06.2026)
 
-**Status: wartet auf Upload durch Tobias.**
+**Status: eingearbeitet.** Gutachten lag vor (Note **5.5**, 106/116 Punkte, Betreuerin
+Katharina Hilty, 22.06.2026). Die schriftliche Note ist fixiert; die mündliche Prüfung
+wird separat nach dem 68-Punkte-Raster benotet (6 ab 65) — dort zahlt **Kriterium 9
+(Reflexion)** darauf ein, dass die Gutachten-Rückmeldungen souverän aufgenommen werden.
 
-Sobald die **Bewertung / das Gutachten mit den Rückmeldungen** vorliegt, wird die App
-gezielt erweitert — **Schwergewicht auf die kritischen Punkte und wie darauf zu antworten ist.**
-Das zahlt direkt auf **Bewertungskriterium 9 (Reflexion)** ein: Die Prüfenden erwarten
-ausdrücklich, dass die Gutachten-Rückmeldungen im Gespräch aufgenommen werden.
+**Was umgesetzt wurde:**
+1. Neuer Bereich **„Gutachten-Rückmeldungen"** (`src/pages/GutachtenMode.jsx`, Route `#/gutachten`)
+   mit Ergebnis-Banner, den 3 gelobten Stärken und 6 Kritikpunkten je im Dreischritt
+   **anerkennen → einordnen → Konsequenz** + zusammenhängender Mustertantwort + wahrscheinlicher Anschlussfrage.
+2. Inhalte in `src/data/gutachten.json` (6 Kritikpunkte mit wörtlichem Gutachten-Zitat).
+3. 2 neue Verteidigungsfragen in `reflection.json` (r-020 Berufsbildungsbezug, r-021 Umfang) für die echten Lücken.
+4. Neue Druck-Kette `ps-007` „Das Gutachten-Trio" in `pressureSets.json` (allgemein → Berufsbildungsbezug → KI-Lehrmittel konkret bauen).
+5. Integration in Dashboard (Ergebnis-Karte + Button + Fortschritt), „Meine Baustellen" und neuer Lernbereich `gutachten`. Note 5.5 in `meta.json` hinterlegt.
 
-**Geplantes Vorgehen, wenn das Gutachten da ist:**
-1. Gutachten lesen, kritische Punkte / Schwächen / Rückfragen extrahieren.
-2. Für jeden kritischen Punkt: souveräne Antwortstrategie nach dem Dreischritt
-   **anerkennen → einordnen → Konsequenz** formulieren.
-3. Diese als neue Einträge in `reflection.json` (und ggf. `pressureSets.json` als „Druck-Ketten")
-   einpflegen; evtl. einen eigenen, hervorgehobenen Bereich „Gutachten-Rückfragen" ergänzen.
-4. Build + Push; die Live-App aktualisiert sich dann von selbst.
+**Die 6 Kritikpunkte (Kurzform):** (1) inhaltlich stellenweise zu allgemein · (2) Berufsbildungsbezug
+zu wenig konkret · (3) Kriterienraster nicht an realem Lehrmittel erprobt · (4) Literaturkritik
+teils oberflächlich (Aneinanderreihung statt Abwägen) · (5) **KI-Bezug zu grundsätzlich** —
+wie müsste ein KI-Lehrmittel gebaut sein, wo verläuft die Grenze Unterstützung/Auslagerung
+(wichtigster Punkt) · (6) Umfang knapp.
 
-**Material für diesen Schritt:** Das Gutachten-PDF in den `pruefungs-app`-Ordner legen
-und Claude Code darauf hinweisen.
+**Build geprüft:** `npm run build` läuft fehlerfrei (60 Module). Noch nicht committet/gepusht —
+nächster Schritt: committen und auf `main` pushen, damit die Live-App sich aktualisiert.
 
 ---
 

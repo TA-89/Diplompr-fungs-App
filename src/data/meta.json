@@ -2,6 +2,13 @@
   "title": "Vom Schulbuch zur Lernumgebung",
   "subtitle": "Kriterien für wirksame digitale Lehrmittel in der Berufsbildung",
   "author": "Tobias Arnold",
+  "thesisResult": {
+    "note": "5.5",
+    "points": 106,
+    "maxPoints": 116,
+    "reviewer": "Katharina Hilty",
+    "date": "22.06.2026"
+  },
   "exam": {
     "date": "Freitag, 26. Juni 2026",
     "dateISO": "2026-06-26",
@@ -49,7 +56,8 @@
     { "id": "kriterien", "name": "Kriterienraster", "short": "Kriterien" },
     { "id": "leitfaden", "name": "Leitfaden für die Praxis", "short": "Leitfaden" },
     { "id": "quellen", "name": "Quellenkenntnis", "short": "Quellen" },
-    { "id": "grenzen", "name": "Grenzen und Verteidigung", "short": "Grenzen" }
+    { "id": "grenzen", "name": "Grenzen und Verteidigung", "short": "Grenzen" },
+    { "id": "gutachten", "name": "Gutachten-Rückmeldungen", "short": "Gutachten" }
   ],
   "redThread": [
     { "chapter": "1", "title": "Einleitung", "content": "Aus der eigenen Praxis (zwei suissetec-Lehrmittel zu Kalt- und Warmwasser) entsteht die Frage: Lohnt sich sorgfältige Lehrmittelarbeit noch, wenn KI Inhalte auf Knopfdruck erklärt? Daraus wird Ziel und Forschungsfrage hergeleitet." },

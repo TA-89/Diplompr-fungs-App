@@ -11,6 +11,7 @@ import ThesesCriteria from './pages/ThesesCriteria.jsx'
 import PresentationTrainer from './pages/PresentationTrainer.jsx'
 import Weaknesses from './pages/Weaknesses.jsx'
 import ReflectionMode from './pages/ReflectionMode.jsx'
+import GutachtenMode from './pages/GutachtenMode.jsx'
 import CheatSheet from './pages/CheatSheet.jsx'
 
 const ROUTES = [
@@ -25,6 +26,7 @@ const ROUTES = [
   { id: 'presentation', label: 'Präsentationstrainer', icon: '🖥️', el: PresentationTrainer },
   { id: 'weaknesses', label: 'Meine Baustellen', icon: '🛠️', el: Weaknesses },
   { id: 'reflection', label: 'Reflexion & Verteidigung', icon: '🛡️', el: ReflectionMode },
+  { id: 'gutachten', label: 'Gutachten-Rückmeldungen', icon: '📋', el: GutachtenMode },
 ]
 
 function currentRoute() {

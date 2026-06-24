@@ -16,6 +16,7 @@ export const AREA_META = {
   leitfaden:       { color: '#f0a52a', soft: '#fdf1da', icon: '🧭' },
   quellen:         { color: '#ff8a3d', soft: '#ffe9d8', icon: '📚' },
   grenzen:         { color: '#ef5a5a', soft: '#fde4e4', icon: '🛡️' },
+  gutachten:       { color: '#b8860b', soft: '#f6efda', icon: '📋' },
 }
 export function areaMeta(id) { return AREA_META[id] || { color: '#6c5ce7', soft: '#efecfe', icon: '•' } }
 

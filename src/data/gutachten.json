@@ -1,0 +1,105 @@
+{
+  "result": {
+    "note": "5.5",
+    "points": 106,
+    "maxPoints": 116,
+    "minPass": 70,
+    "reviewer": "Katharina Hilty (Betreuerin)",
+    "date": "22.06.2026",
+    "passed": true,
+    "scale": "Note 5.5 = 99–110 Punkte; die 6 beginnt erst bei 111.",
+    "meaning": "Die schriftliche Arbeit ist mit 5.5 bewertet und fixiert. Die mündliche Diplomprüfung wird separat nach dem 68-Punkte-Raster benotet (6 ab 65). Genau dort zählt Kriterium 9 (Reflexion) darauf ein, dass du die Gutachten-Rückmeldungen souverän aufnimmst. Die 6 ist mündlich weiter erreichbar.",
+    "strategy": "Kenne das Gutachten besser als die Prüfenden. Greife die gelobten Stärken aktiv auf und beantworte jeden Kritikpunkt im Dreischritt: anerkennen → einordnen → Konsequenz. Nicht rechtfertigen, sondern einordnen."
+  },
+  "strengths": [
+    {
+      "id": "g-s1",
+      "quote": "sehr klarer Aufbau",
+      "useIt": "Führe den roten Faden in der Präsentation bewusst vor (Praxis → Frage → Theorie → Konsequenzen → Thesen → Kriterien → Leitfaden). Das ist eine bestätigte Stärke und zahlt direkt auf die Präsentations-Kriterien 1 und 3 ein."
+    },
+    {
+      "id": "g-s2",
+      "quote": "transparentes und theoriegeleitetes Vorgehen zur Entwicklung eines Leitfadens aus Literaturbefunden, Konsequenzen, Thesen und Kriterien",
+      "useIt": "Das ist deine Kernleistung. Biete im Gespräch an, die Herleitungskette an jedem beliebigen Kriterium rückwärts bis zur Quelle vorzuführen. Diese Souveränität über die eigene Methode überzeugt."
+    },
+    {
+      "id": "g-s3",
+      "quote": "Syntheseleistung sichtbar",
+      "useIt": "Benenne selbstbewusst, dass du zwei sonst getrennte Diskurse (klassische Lerndidaktik und aktuelle KI-Forschung) zusammengeführt hast. Das ist der eigenständige Beitrag der Arbeit."
+    }
+  ],
+  "critiques": [
+    {
+      "id": "g-001",
+      "criterion": "5.1 / 5.2 (Qualität der Inhalte)",
+      "points": "3 von 4",
+      "title": "Inhaltlich stellenweise zu allgemein",
+      "quote": "inhaltlich stellenweise eher allgemein gehalten, viele Aussagen sind korrekt, aber wenig überraschend",
+      "acknowledge": "Berechtigt: Ein Orientierungsraster, das über verschiedene Lehrmittel hinweg tragen soll, braucht ein gewisses Mass an Allgemeinheit, und einzelne Aussagen sind etablierter didaktischer Konsens.",
+      "classify": "Der Mehrwert liegt nicht in einzelnen überraschenden Befunden, sondern in der Verbindung zweier sonst getrennter Diskurse (klassische Lerndidaktik und KI-Forschung) und in der Verdichtung zu einem prüfbaren Leitfaden. Und es gibt durchaus kontraintuitive Stellen: Mehr Interaktivität ist nicht automatisch besser (Sweller 2020; Chi & Wylie 2014), und KI kann Lernen sogar umkehren statt stützen (Inversion im ISAR-Modell, Bauer et al. 2025).",
+      "consequence": "In einer Folgearbeit würde ich die Kriterien an konkreten Lehrmittel-Beispielen schärfen, um die Trennschärfe zu erhöhen und das Allgemeine im Einzelfall fassbar zu machen.",
+      "spokenAnswer": "Der Punkt ist berechtigt: Ein Raster, das über viele Lehrmittel hinweg Orientierung geben soll, ist bewusst eine Stufe allgemeiner gehalten. Der eigentliche Beitrag liegt aber nicht in einzelnen Überraschungen, sondern darin, dass ich klassische Lerndidaktik und aktuelle KI-Forschung zusammenführe und zu einem prüfbaren Leitfaden verdichte. Und überraschungsfrei ist die Arbeit nicht überall: Die Intuition sagt, mehr Interaktivität sei besser, die Evidenz widerlegt das, Stichwort kognitive Überlastung. Und KI kann Lernen sogar umkehren, das ist die Inversion bei Bauer et al. Den nächsten Schritt zur Konkretisierung sehe ich genauso: die Kriterien an realen Beispielen schärfen.",
+      "anticipates": "Machen Sie das an einem Beispiel konkret."
+    },
+    {
+      "id": "g-002",
+      "criterion": "4.3 (Zielstufenbezug)",
+      "points": "3 von 4",
+      "title": "Berufsbildungsbezug zu wenig konkret",
+      "quote": "der Berufsbildungsbezug ist vorhanden, aber nicht sehr konkret ausgearbeitet",
+      "acknowledge": "Berechtigt: Ich habe den Berufsbildungsbezug vor allem theoretisch gehalten (Dehnbostel 2022, Lernortkooperation) und weniger an konkreten Beispielen aus der Sanitärbranche ausgearbeitet.",
+      "classify": "Strukturell ist der Bezug dennoch verankert: Ausgangspunkt war meine eigene suissetec-Lehrmittelpraxis zu Kalt- und Warmwasser, das Kriterium Lernortbezug verbindet Berufsfachschule, Betrieb und überbetriebliche Kurse, und die Zielstufe prägt Auswahl und Gewichtung durchgehend.",
+      "consequence": "Der konkrete nächste Schritt ist, das Raster an einem realen Sanitär-Lehrmittel exemplarisch durchzuspielen. Dort wird der Berufsbildungsbezug greifbar und prüfbar. Ein solches Beispiel kann ich im Gespräch sofort durchspielen.",
+      "spokenAnswer": "Das ist ein fairer Punkt. Ich habe den Berufsbildungsbezug stark über die Theorie geführt, etwa über Dehnbostel und die Lernortkooperation, und weniger an konkreten Sanitär-Beispielen ausgearbeitet. Verankert ist er aber: Der Anlass der ganzen Arbeit war meine eigene Lehrmittelpraxis für suissetec, das Kriterium Lernortbezug verbindet Schule, Betrieb und überbetriebliche Kurse, und die Zielstufe prägt die Auswahl durchgehend. Der konkrete nächste Schritt wäre genau das, was auch das Gutachten anregt: das Raster an einem realen Sanitär-Lehrmittel durchspielen. Das kann ich Ihnen hier auch an einem Beispiel zeigen.",
+      "anticipates": "Zeigen Sie uns ein konkretes Sanitär-Beispiel für eines Ihrer Kriterien."
+    },
+    {
+      "id": "g-003",
+      "criterion": "Themenbearbeitung / Ausblick",
+      "points": "Kommentar + Kriterium 4",
+      "title": "Kriterienraster noch nicht erprobt",
+      "quote": "nächster Schritt: Kriterienraster an einem realen Lehrmittel erproben (exemplarische Trennschärfe und Praxistauglichkeit bleibt aktuell noch offen)",
+      "acknowledge": "Vollständig einverstanden, das benenne ich selbst als Grenze in Kapitel 8 und als den schwächsten Punkt der Arbeit: Die Kriterien sind nicht an einem realen Lehrmittel erprobt.",
+      "classify": "Das war eine bewusste Scope-Entscheidung. Ziel war ein begründeter, überprüfbarer Massstab, nicht der Test eines einzelnen Werkzeugs. Die theoriegeleitete Herleitung trägt; was offenbleibt, ist die Gewichtung im Alltag, also welche Kriterien am stärksten wirken.",
+      "consequence": "Konkretes Folgedesign: qualitativ starten. Mehrere Lehrpersonen beurteilen dasselbe bestehende Kapitel anhand der 16 Kriterien. Das zeigt zweierlei: Trennschärfe (greifen die Kriterien unterschiedlich oder messen sie dasselbe?) und Praxistauglichkeit (sind die Prüffragen eindeutig anwendbar?). Darauf könnte eine grössere Studie aufbauen.",
+      "spokenAnswer": "Da bin ich ganz beim Gutachten, das ist auch in meinen Augen der schwächste Punkt, und ich benenne ihn selbst in Kapitel 8. Es war eine bewusste Entscheidung: Ich wollte einen begründeten, überprüfbaren Massstab schaffen, nicht ein einzelnes Tool testen. Was offenbleibt, ist die Gewichtung im Alltag. Den nächsten Schritt würde ich qualitativ anlegen: mehrere Lehrpersonen beurteilen dasselbe Kapitel anhand der sechzehn Kriterien. So sehe ich, ob die Kriterien trennscharf sind und ob die Prüffragen im Alltag eindeutig anwendbar sind. Erst danach eine grössere Studie.",
+      "anticipates": "Welches Forschungsdesign genau, und warum nicht gleich quantitativ?"
+    },
+    {
+      "id": "g-004",
+      "criterion": "8.2 (Umgang mit Quellen)",
+      "points": "3 von 4",
+      "title": "Literaturkritik teils oberflächlich",
+      "quote": "kritische Auseinandersetzung mit der Literatur bleibt teilweise oberflächlich, stellenweise eher eine Aneinanderreihung als ein Abwägen von Positionen und/oder kritische Gegenüberstellung von unterschiedlichen Ansätzen",
+      "acknowledge": "Teilweise berechtigt: Meine Arbeit ordnet die Literatur stärker, als dass sie Kontroversen systematisch austrägt.",
+      "classify": "Kritische Distanz ist aber vorhanden: Wo die Evidenz dünn ist, kennzeichne ich das, etwa bei Tasdelen & Bodemer, deren Personalisierungsbefund auf einer einzelnen Studie beruht; Preprints sind als nicht begutachtet markiert; und die Hype-Debatte um KI ordne ich über Bauer et al. bewusst nüchtern ein, deren Titel Looking Beyond the Hype Programm ist. Was fehlt, ist die systematische Gegenüberstellung konkurrierender Positionen.",
+      "consequence": "In einer Erweiterung würde ich zu Kernfragen wie der Wirksamkeit von KI-Feedback oder der Personalisierung konkurrierende Positionen explizit gegenüberstellen, statt sie nur nebeneinander einzuordnen. Eine solche Gegenüberstellung kann ich an einem Beispiel sofort vorführen.",
+      "spokenAnswer": "Teilweise berechtigt, und zwar so: Meine Arbeit ordnet die Literatur stärker, als sie Kontroversen austrägt. Kritische Distanz gibt es aber durchaus. Wo die Evidenz dünn ist, sage ich das, etwa bei Tasdelen und Bodemer, deren Befund auf einer Einzelstudie beruht. Preprints sind als nicht begutachtet markiert, und die KI-Hype-Debatte ordne ich über Bauer et al. bewusst nüchtern ein, deren Titel Looking Beyond the Hype ist Programm. Was ich einräume: Eine systematische Gegenüberstellung konkurrierender Positionen fehlt. Genau die würde ich in einer Erweiterung zu Kernfragen wie KI-Feedback ergänzen, und ein Beispiel dafür kann ich Ihnen jetzt gleich geben.",
+      "anticipates": "Welche Position widerspricht Ihrer Kernaussage am stärksten, und warum überzeugt sie Sie nicht?"
+    },
+    {
+      "id": "g-005",
+      "criterion": "Kernthese / KI-Teil (Kapitel 4)",
+      "points": "wichtigster Kommentar",
+      "title": "KI-Bezug zu grundsätzlich",
+      "quote": "KI-Bezug bleibt stellenweise eher grundsätzlich: Chancen, Risiken, Personalisierung, Feedback, Verantwortung > wenig konkrete Diskussion, wie ein KI-gestütztes Lehrmittel didaktisch gebaut sein müsste und wo genau die Grenze zwischen Unterstützung und Auslagerung von Denkarbeit verläuft",
+      "acknowledge": "Das ist der wichtigste Punkt, und er trifft zu: In Kapitel 4 bleibe ich stärker auf der Prinzipienebene (Chancen, Risiken, Verantwortung) als beim konkreten Bauplan eines KI-gestützten Lehrmittels.",
+      "classify": "Die Grenze zwischen Unterstützung und Auslagerung habe ich aber operationalisierbar gemacht: Das ISAR-Modell liefert den Test. Substitution und Inversion bedeuten Auslagerung, die KI liefert ein fertiges Ergebnis zum Übernehmen. Augmentation und Redefinition bedeuten Unterstützung, die Lernenden müssen noch selbst formulieren, vergleichen oder entscheiden. Die operative Leitfrage lautet: Denkt am Ende die lernende Person oder die Maschine?",
+      "consequence": "Konkret gebaut hiesse: Eine KI-Funktion gibt Hinweise und Rückfragen statt fertiger Lösungen; sie verlangt einen eigenen Zwischenschritt, bevor sie Feedback gibt; sie schaltet Musterlösungen erst nach einem eigenen Versuch frei; und sie macht ihre Nutzung sichtbar und reflektierbar (Kriterium Transparenz). Diesen Muster-Funktionskatalog würde ich in einer Folgearbeit ausarbeiten.",
+      "spokenAnswer": "Das ist der zentrale Punkt, und ich nehme ihn an: In Kapitel 4 bleibe ich stärker bei den Prinzipien als beim konkreten Bauplan. Die Grenze selbst habe ich aber operationalisierbar gemacht, über das ISAR-Modell. Substitution und Inversion sind Auslagerung, die KI liefert das fertige Ergebnis. Augmentation und Redefinition sind Unterstützung, die Lernenden müssen noch selbst denken. Die Testfrage ist immer: Denkt am Ende der Mensch oder die Maschine? Konkret gebaut heisst das: Die Funktion gibt Hinweise statt Lösungen, verlangt einen eigenen Zwischenschritt vor dem Feedback, schaltet die Musterlösung erst nach einem eigenen Versuch frei und macht ihre Nutzung sichtbar. Diesen Funktionskatalog würde ich als Nächstes ausarbeiten.",
+      "anticipates": "Bauen Sie uns eine konkrete KI-Funktion, die unterstützt, und eine, die auslagert."
+    },
+    {
+      "id": "g-006",
+      "criterion": "11.1 (Umfang)",
+      "points": "3 von 4",
+      "title": "Umfang eher knapp",
+      "quote": "Umfang eher knapp (30 bis 40 reine Textseiten)",
+      "acknowledge": "Stimmt, die Arbeit liegt am unteren Rand des Rahmens.",
+      "classify": "Das ist die Konsequenz des Reduktionsprinzips, das ich selbst vertrete: weniger, dafür fundierte Information wirkt meist besser. Ich habe auf Nebenschauplätze und Füllmaterial verzichtet und mich auf wenige tragende Quellen konzentriert, also auf Dichte statt Länge.",
+      "consequence": "Mehr Raum würde ich nicht in mehr Text um des Umfangs willen stecken, sondern genau in die Punkte, die das Gutachten nennt: konkrete Berufsbildungs-Beispiele, eine exemplarische Erprobung und eine Kontroversen-Gegenüberstellung.",
+      "spokenAnswer": "Das stimmt, ich liege am unteren Rand. Das ist aber kein Zufall, sondern folgt dem Reduktionsprinzip, das ich selbst als Kriterium vertrete: weniger, dafür fundierte Information. Ich habe auf Nebenschauplätze verzichtet und mich auf wenige tragende Quellen konzentriert, Dichte statt Länge. Wenn ich Raum dazunähme, dann nicht für mehr Text, sondern für genau das, was das Gutachten anregt: konkrete Beispiele aus der Berufsbildung, eine exemplarische Erprobung und eine Gegenüberstellung konkurrierender Positionen.",
+      "anticipates": "Ist Kürze hier nicht eine nachträgliche Rechtfertigung?"
+    }
+  ]
+}

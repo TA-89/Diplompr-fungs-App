@@ -150,5 +150,21 @@
     "goodSpokenAnswer": "Ja, und zwar mit mehr Überzeugung als vor der Arbeit, aber anders gedacht: als Teil einer Lernumgebung. Ein gut aufgebautes Kapitel, eine klare Grafik, eine Aufgabe, die zum Denken zwingt, das sind Qualitäten, die kein Chatbot ersetzt. Gerade in einer Zeit beliebig verfügbarer KI-Antworten könnten ruhige, verlässliche, didaktisch durchgearbeitete Materialien an Wert gewinnen. Was sich ändert, ist der Anspruch: Ich würde jedes Kapitel so bauen, dass es strukturell offen für digitale Erweiterungen ist, mit klaren Einheiten und eindeutigen Begriffen. Das Schulbuch verschwindet nicht, es wird zum verlässlichen Kern einer Lernumgebung.",
     "criticalFollowUp": "Ist das nicht Nostalgie eines Lehrmittelautors, der sein Handwerk verteidigt?",
     "howToStaySovereign": "Die persönliche Betroffenheit offen machen und gerade daraus Glaubwürdigkeit ziehen: Die Arbeit hat die eigene Zweifel-Frage mit Literatur beantwortet, nicht mit Bauchgefühl."
+  },
+  {
+    "id": "r-020",
+    "question": "Das Gutachten sagt, Ihr Berufsbildungsbezug sei vorhanden, aber wenig konkret. Wie sehen Sie das?",
+    "coreAnswer": "Berechtigt: theoretisch geführt (Dehnbostel, Lernortkooperation), wenig an Sanitär-Beispielen ausgearbeitet. Strukturell verankert ist er über die suissetec-Praxis und das Kriterium Lernortbezug. Der nächste Schritt ist die Erprobung an einem realen Sanitär-Lehrmittel.",
+    "goodSpokenAnswer": "Das ist ein fairer Punkt. Ich habe den Berufsbildungsbezug stark über die Theorie geführt, etwa über Dehnbostel und die Lernortkooperation, und weniger an konkreten Sanitär-Beispielen ausgearbeitet. Verankert ist er aber: Anlass der Arbeit war meine eigene Lehrmittelpraxis für suissetec zu Kalt- und Warmwasser, das Kriterium Lernortbezug verbindet Schule, Betrieb und überbetriebliche Kurse, und die Zielstufe prägt die Auswahl durchgehend. Der konkrete nächste Schritt wäre, das Raster an einem realen Sanitär-Lehrmittel durchzuspielen. Das kann ich Ihnen auch an einem Beispiel zeigen.",
+    "criticalFollowUp": "Dann zeigen Sie uns ein konkretes Sanitär-Beispiel für eines Ihrer Kriterien.",
+    "howToStaySovereign": "Den Punkt sofort anerkennen, dann die strukturelle Verankerung zeigen und mit einem konkreten Sanitär-Beispiel (z.B. Kriterium Aktivierung an einem Kapitel zu Warmwasser) kontern. Konkretheit entkräftet den Vorwurf."
+  },
+  {
+    "id": "r-021",
+    "question": "Der Umfang Ihrer Arbeit ist mit 30 bis 40 Textseiten eher knapp. Ist das ein Mangel?",
+    "coreAnswer": "Kein Zufall, sondern Folge des Reduktionsprinzips, das ich selbst als Kriterium vertrete: weniger, dafür fundierte Information. Dichte statt Länge. Zusätzlicher Raum gehört in Beispiele, Erprobung und Kontroversen, nicht in Fülltext.",
+    "goodSpokenAnswer": "Das stimmt, ich liege am unteren Rand des Rahmens. Das ist aber kein Zufall, sondern folgt dem Reduktionsprinzip, das ich selbst als Kriterium vertrete: weniger, dafür fundierte Information. Ich habe auf Nebenschauplätze verzichtet und mich auf wenige tragende Quellen konzentriert, also Dichte statt Länge. Wenn ich Raum dazunähme, dann nicht für mehr Text, sondern für genau das, was das Gutachten anregt: konkrete Beispiele aus der Berufsbildung, eine exemplarische Erprobung und eine Gegenüberstellung konkurrierender Positionen.",
+    "criticalFollowUp": "Ist das nicht eine nachträgliche Rechtfertigung von Kürze?",
+    "howToStaySovereign": "Nicht entschuldigen, sondern als bewusste, mit der eigenen These konsistente Entscheidung darstellen. Den gewonnenen Raum gezielt den drei Kritikpunkten des Gutachtens zuordnen, das wirkt reflektiert statt defensiv."
   }
 ]

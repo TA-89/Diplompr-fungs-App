@@ -106,5 +106,23 @@
     ],
     "relatedChapters": ["2.1", "6.1"],
     "relatedSources": ["bauer-2025"]
+  },
+  {
+    "id": "ps-007",
+    "title": "Das Gutachten-Trio",
+    "area": "grenzen",
+    "intro": "Die drei wahrscheinlichsten Nachfragen direkt aus dem Gutachten. Anerkennen, einordnen, Konsequenz – und konkret werden, wo das Gutachten Konkretheit vermisst.",
+    "questions": [
+      "Das Gutachten nennt die Arbeit inhaltlich stellenweise eher allgemein und wenig überraschend. Was entgegnen Sie?",
+      "Der Berufsbildungsbezug sei vorhanden, aber wenig konkret. Machen Sie ihn an einem Beispiel konkret.",
+      "Der KI-Bezug bleibe grundsätzlich. Wie genau müsste ein KI-gestütztes Lehrmittel gebaut sein, damit es unterstützt statt die Denkarbeit auszulagern?"
+    ],
+    "modelAnswers": [
+      "Der Punkt ist berechtigt: Ein Raster, das über viele Lehrmittel hinweg trägt, ist bewusst eine Stufe allgemeiner. Der Beitrag liegt nicht in einzelnen Überraschungen, sondern in der Verbindung von klassischer Lerndidaktik und KI-Forschung und in der Verdichtung zu einem prüfbaren Leitfaden. Überraschungsfrei ist die Arbeit aber nicht: Die Intuition sagt, mehr Interaktivität sei besser, die Evidenz widerlegt das (Sweller, Chi & Wylie), und KI kann Lernen sogar umkehren (Inversion, Bauer et al.).",
+      "Nehmen wir das Kriterium Aktivierung an meinem suissetec-Lehrmittel zu Warmwasser. Allgemein heisst es: Das Lehrmittel soll zum eigenen Denken bringen. Konkret heisst es: Statt die fertige Dimensionierung einer Zirkulationsleitung vorzurechnen, lasse ich die Lernenden zuerst selbst schätzen und begründen, dann erst kommt die Musterlösung. Das ist der Unterschied zwischen vorhandenem und konkret ausgearbeitetem Berufsbildungsbezug, und genau diese Konkretisierung wäre der nächste Schritt für alle 16 Kriterien.",
+      "Über das ISAR-Modell wird die Grenze operativ: Substitution und Inversion lagern aus, die KI liefert das fertige Ergebnis. Augmentation und Redefinition unterstützen, die Lernenden müssen noch selbst denken. Die Testfrage ist: Denkt am Ende der Mensch oder die Maschine? Konkret gebaut heisst das: Die Funktion gibt Hinweise statt Lösungen, verlangt einen eigenen Zwischenschritt vor dem Feedback, schaltet die Musterlösung erst nach einem eigenen Versuch frei und macht ihre Nutzung sichtbar und reflektierbar. Diesen Funktionskatalog würde ich als Nächstes ausarbeiten."
+    ],
+    "relatedChapters": ["4.2", "6.1", "6.4", "8.3"],
+    "relatedSources": ["bauer-2025", "sweller-2020", "chi-wylie-2014"]
   }
 ]

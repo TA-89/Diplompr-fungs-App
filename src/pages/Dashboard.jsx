@@ -4,6 +4,7 @@ import flashcards from '../data/flashcards.json'
 import quiz from '../data/quizQuestions.json'
 import authorQuiz from '../data/authorQuiz.json'
 import reflection from '../data/reflection.json'
+import gutachten from '../data/gutachten.json'
 import sources from '../data/sourceMap.json'
 import { useStore } from '../lib/storage.js'
 import { dueToday, untouchedIds, progressPercent, weakIds } from '../lib/srs.js'
@@ -15,14 +16,15 @@ function areaIds(areaId) {
   const z = quiz.filter((x) => x.area === areaId).map((x) => x.id)
   const aq = areaId === 'quellen' ? authorQuiz.map((x) => x.id) : []
   const rf = areaId === 'grenzen' ? reflection.map((x) => x.id) : []
-  return [...q, ...f, ...z, ...aq, ...rf]
+  const gt = areaId === 'gutachten' ? gutachten.critiques.map((x) => x.id) : []
+  return [...q, ...f, ...z, ...aq, ...rf, ...gt]
 }
 
 // Sinnvolles Ziel je Bereich
 const AREA_TARGET = {
   forschungsfrage: 'exam', vorgehen: 'exam', theorie: 'exam', ki: 'exam',
   synthese: 'theses', kriterien: 'theses', leitfaden: 'presentation',
-  quellen: 'sources', grenzen: 'reflection',
+  quellen: 'sources', grenzen: 'reflection', gutachten: 'gutachten',
 }
 
 function daysUntilExam() {
@@ -48,7 +50,7 @@ export default function Dashboard({ go }) {
 
   const weakCount = areas.reduce((s, a) => s + a.weak, 0)
   const overall = progressPercent(
-    [...questions.map((q) => q.id), ...cardIds, ...quiz.map((q) => q.id), ...authorQuiz.map((q) => q.id), ...reflection.map((r) => r.id)],
+    [...questions.map((q) => q.id), ...cardIds, ...quiz.map((q) => q.id), ...authorQuiz.map((q) => q.id), ...reflection.map((r) => r.id), ...gutachten.critiques.map((c) => c.id)],
     ratings
   )
 
@@ -84,9 +86,21 @@ export default function Dashboard({ go }) {
         <div className="btn-row" style={{ marginTop: '1rem' }}>
           <button className="btn primary" onClick={() => go('quiz')}>🎲 Quiz starten</button>
           <button className="btn" onClick={() => go('exam')}>🎓 Prüfungsmodus</button>
+          <button className="btn" onClick={() => go('gutachten')}>📋 Gutachten-Punkte</button>
           <button className="btn" onClick={() => go('weaknesses')}>🛠️ Meine Baustellen</button>
         </div>
       </div>
+
+      {/* Gutachten-Ergebnis */}
+      <button className="card rubric-card" style={{ textAlign: 'left', cursor: 'pointer', width: '100%' }} onClick={() => go('gutachten')}>
+        <div className="spread">
+          <h3 style={{ margin: 0 }}>📋 Gutachten: Note {gutachten.result.note}</h3>
+          <span className="tiny faint">{gutachten.result.points}/{gutachten.result.maxPoints} Punkte · bestanden</span>
+        </div>
+        <p className="small" style={{ margin: '.5rem 0 0' }}>
+          Schriftliche Arbeit bewertet. Jetzt zählt die mündliche Reflexion: {gutachten.critiques.length} Kritikpunkte mit souveränen Antworten üben (Kriterium 9). →
+        </p>
+      </button>
 
       {/* Lernbereiche */}
       <div className="spread">
