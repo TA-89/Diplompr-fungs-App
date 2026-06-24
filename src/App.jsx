@@ -4,6 +4,7 @@ import meta from './data/meta.json'
 import Dashboard from './pages/Dashboard.jsx'
 import ExamMode from './pages/ExamMode.jsx'
 import PressureMode from './pages/PressureMode.jsx'
+import EssenceTrainer from './pages/EssenceTrainer.jsx'
 import Flashcards from './pages/Flashcards.jsx'
 import Quiz from './pages/Quiz.jsx'
 import SourceTrainer from './pages/SourceTrainer.jsx'
@@ -16,6 +17,7 @@ import CheatSheet from './pages/CheatSheet.jsx'
 
 const ROUTES = [
   { id: 'dashboard', label: 'Dashboard', icon: '🏠', el: Dashboard },
+  { id: 'essenz', label: 'Essenz-Trainer', icon: '⭐', el: EssenceTrainer },
   { id: 'quiz', label: 'Quiz', icon: '🎲', el: Quiz },
   { id: 'exam', label: 'Prüfungsmodus', icon: '🎓', el: ExamMode },
   { id: 'pressure', label: 'Prüfungsdruck', icon: '🔥', el: PressureMode },

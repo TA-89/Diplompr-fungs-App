@@ -4,6 +4,7 @@ import quiz from '../data/quizQuestions.json'
 import authorQuiz from '../data/authorQuiz.json'
 import reflection from '../data/reflection.json'
 import gutachten from '../data/gutachten.json'
+import essenz from '../data/essenz.json'
 import sources from '../data/sourceMap.json'
 import theses from '../data/theses.json'
 import criteria from '../data/criteria.json'
@@ -21,6 +22,7 @@ function buildIndex() {
   authorQuiz.forEach((q) => (idx[q.id] = { label: q.question, page: 'quiz', kind: 'Quizfrage', area: 'quellen' }))
   reflection.forEach((r) => (idx[r.id] = { label: r.question, page: 'reflection', kind: 'Verteidigungsfrage', area: 'grenzen' }))
   gutachten.critiques.forEach((c) => (idx[c.id] = { label: c.title, page: 'gutachten', kind: 'Gutachten-Punkt', area: 'gutachten' }))
+  essenz.sessions.forEach((s) => s.items.forEach((it) => (idx[it.id] = { label: it.q, page: 'essenz', kind: 'Essenz-Frage', area: 'essenz' })))
   sources.forEach((s) => (idx[s.id] = { label: s.shortName, page: 'sources', kind: 'Quelle', area: 'quellen' }))
   theses.forEach((t) => (idx[t.id] = { label: t.title, page: 'theses', kind: 'These', area: 'synthese' }))
   criteria.items.forEach((c) => (idx[c.id] = { label: c.name, page: 'theses', kind: 'Kriterium', area: 'kriterien' }))
@@ -55,6 +57,7 @@ export default function Weaknesses({ go }) {
     { kind: 'Frage', page: 'exam', title: 'Unsichere Prüfungsfragen' },
     { kind: 'Quizfrage', page: 'quiz', title: 'Falsch beantwortete Quizfragen' },
     { kind: 'Verteidigungsfrage', page: 'reflection', title: 'Unsichere Verteidigungsfragen' },
+    { kind: 'Essenz-Frage', page: 'essenz', title: 'Unsichere Essenz-Fragen' },
     { kind: 'Gutachten-Punkt', page: 'gutachten', title: 'Unsichere Gutachten-Punkte' },
     { kind: 'These', page: 'theses', title: 'Unsichere Thesen' },
     { kind: 'Kriterium', page: 'theses', title: 'Unsichere Kriterien' },

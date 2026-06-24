@@ -1,0 +1,151 @@
+{
+  "elevator": "Die Wirkung eines Lehrmittels auf das Lernen entsteht aus der didaktischen Gestaltung, nicht aus dem Träger. Ob digital oder gedruckt ist zweitrangig. KI stützt das Lernen nur, wenn sie die Denkarbeit bei den Lernenden lässt. Kurz: Didaktik schlägt Technik.",
+  "formula": "1. Direkte Antwort in einem Satz → 2. Beleg (Autor, Jahr) → 3. kurzes Beispiel oder Bezug zur Arbeit → 4. bewusst stoppen. Richtwert 1 bis 2 Minuten.",
+  "fullPointsRule": "Volle Punktzahl kommt nicht von langen Antworten, sondern von präzisen. Ein klarer Kernsatz, ein Beleg, ein Beispiel, dann bewusst stoppen. Wer weiterredet, verschenkt Zeit und öffnet neue Angriffsflächen. Lieber kurz und sicher als lang und angreifbar.",
+  "sessions": [
+    {
+      "id": "s1",
+      "title": "Block 1 — Der Kern: Inhalt & Ergebnisse",
+      "minutes": 30,
+      "focus": "Forschungsfrage, Kernbotschaft, Vorgehen, Thesen, Kriterien, Leitfaden. Das Fundament, das in jeder Prüfung abgefragt wird.",
+      "items": [
+        {
+          "id": "e-101",
+          "q": "Worum geht es in Ihrer Arbeit? Ihre Forschungsfrage?",
+          "kern": "Ich frage, welche didaktischen, strukturellen und gestalterischen Kriterien digitale Lehrmittel in der Berufsbildung erfüllen müssen, um vertieftes Lernen zu stützen und zugleich offen für digitale Erweiterungen zu sein.",
+          "full": "Ich frage, welche didaktischen, strukturellen und gestalterischen Kriterien digitale Lehrmittel in der Berufsbildung erfüllen müssen, um vertieftes Lernen zu stützen und offen für digitale Erweiterungen zu bleiben. Ausgangspunkt war meine Praxis als suissetec-Lehrmittelautor und die Frage, ob sorgfältige Lehrmittelarbeit im KI-Zeitalter noch lohnt. Das Ergebnis sind fünf Thesen, sechzehn Kriterien und ein Leitfaden für die Praxis.",
+          "why": "Nennt die Frage präzise im ersten Satz, liefert Anlass und Ergebnis in je einem Satz. Mehr braucht es nicht.",
+          "trap": "Die Frage nacherzählen oder ins Thema abschweifen, statt sie wörtlich und präzise zu nennen."
+        },
+        {
+          "id": "e-102",
+          "q": "Was ist Ihre zentrale Erkenntnis?",
+          "kern": "Didaktik schlägt Technik: Die Lernwirkung hängt von der didaktischen Gestaltung ab, nicht vom Träger.",
+          "full": "Didaktik schlägt Technik. Die Wirkung auf das Lernen hängt davon ab, wie ein Lehrmittel didaktisch gestaltet ist, nicht davon, ob es digital oder gedruckt ist. Und KI stützt das Lernen nur, wenn sie die Denkarbeit bei den Lernenden lässt.",
+          "why": "Ein einprägsamer Kernsatz plus die zwei tragenden Aussagen. Das ist die Essenz der ganzen Arbeit in drei Sätzen.",
+          "trap": "Zu viele Nebenaspekte aufzählen und den merkbaren Kernsatz verwässern."
+        },
+        {
+          "id": "e-103",
+          "q": "Wie sind Sie vorgegangen? Ihre Methode?",
+          "kern": "Literaturbasiert und theoriegeleitet, ohne eigene Empirie.",
+          "full": "Literaturbasiert und theoriegeleitet, ohne eigene Empirie. Jedes Theorie-Unterkapitel endet mit einer prüfbaren Konsequenz für digitale Lehrmittel. Aus diesen Konsequenzen werden Thesen, daraus sechzehn Kriterien, daraus der Leitfaden. Diese durchgehende Kette ist die eigentliche Syntheseleistung.",
+          "why": "Benennt die Methode in einem Satz und zeigt die Herleitungskette, die das Gutachten ausdrücklich gelobt hat.",
+          "trap": "Die Kette zu kompliziert erklären. Vier Stufen genügen: Konsequenz → These → Kriterium → Leitfaden."
+        },
+        {
+          "id": "e-104",
+          "q": "Warum haben Sie keine eigene empirische Untersuchung gemacht?",
+          "kern": "Weil das Ziel ein begründetes, überprüfbares Kriterienraster war, nicht der Test eines einzelnen Werkzeugs.",
+          "full": "Weil das Ziel ein begründetes Kriterienraster war, nicht der Test eines einzelnen Tools. Das theoriegeleitete Vorgehen ordnet und begründet vorhandene Befunde und passt zu einem Feld, in dem Tools schnell veralten, didaktische Prinzipien aber länger tragen. Die fehlende Erprobung benenne ich selbst als Grenze und als nächsten Schritt.",
+          "why": "Stellt die Methodenwahl selbstbewusst als bewusste Entscheidung dar und nimmt die Grenze vorweg, statt sich zu rechtfertigen.",
+          "trap": "Defensiv werden. Es ist eine begründete Wahl, kein Versäumnis."
+        },
+        {
+          "id": "e-105",
+          "q": "Nennen Sie Ihre fünf Thesen.",
+          "kern": "1. mehr leisten als Informationen bereitstellen · 2. Lernwirksamkeit durch Struktur, Aktivierung und Rückmeldung · 3. digitale Erweiterungen können unterstützen oder verflachen · 4. verständlich, handlungsnah und anschlussfähig · 5. Verantwortung entscheidet, ob eine Erweiterung wirkt.",
+          "full": "Erstens: Ein digitales Lehrmittel muss mehr leisten als Informationen bereitstellen. Zweitens: Lernwirksamkeit entsteht durch Struktur, Aktivierung und Rückmeldung. Drittens: Digitale Erweiterungen können das Lernen unterstützen, aber auch verflachen. Viertens: Berufsbildung braucht verständliche, handlungsnahe und anschlussfähige Lehrmittel. Fünftens: Verantwortung entscheidet darüber, ob eine Erweiterung überhaupt wirkt.",
+          "why": "Alle fünf knapp und in der richtigen Reihenfolge. Flüssig aufsagen können signalisiert Überblick und holt sichere Punkte.",
+          "trap": "Bei einer These hängenbleiben und ausschweifen. Hier zählt die saubere Liste, nicht die Tiefe."
+        },
+        {
+          "id": "e-106",
+          "q": "Wie sind Ihre sechzehn Kriterien geordnet?",
+          "kern": "In fünf Bündeln: didaktisch, strukturell, gestalterisch, digitale Anschlussfähigkeit und Verantwortung.",
+          "full": "In fünf Bündeln. Didaktisch: eigene Konzeption, Aktivierung, Motivation und Rückmeldung, Schutz der Denkarbeit. Strukturell: Orientierung und Modularität, Verknüpfung, Format folgt der Konzeption. Gestalterisch: Bild-Text-Kohärenz, Reduktion, Gestaltung als didaktische Arbeit. Digitale Anschlussfähigkeit: Offenheit für Erweiterungen, KI nach Wirkung beurteilen, Lernortbezug. Verantwortung: Datenschutz, Fairness und Validität, Transparenz und reflektierte Nutzung.",
+          "why": "Die fünf Bündel sind das Gerüst. Wer sie nennt, hat die Antwort. Die einzelnen Kriterien nur, wenn nachgefragt wird.",
+          "trap": "Sofort alle sechzehn herunterrasseln. Erst die fünf Bündel, Details auf Nachfrage."
+        },
+        {
+          "id": "e-107",
+          "q": "Was ist Ihr Leitfaden und wie nutzt ihn die Praxis?",
+          "kern": "Die Kriterien verdichtet zu vier Grundsätzen und sechzehn Prüffragen auf einer doppelseitigen Übersicht.",
+          "full": "Der Leitfaden verdichtet die Kriterien zu vier Grundsätzen und sechzehn Prüffragen auf einer Vorder- und Rückseite, im Anhang. Ein Autorenteam geht ihn von der ersten Idee bis zur Beurteilung durch und erkennt offene Punkte. So entsteht eine gemeinsame Qualitätssprache. Der Anlass war konkret: meine suissetec-Lehrmittel zu Kalt- und Warmwasser.",
+          "why": "Was, Form und Nutzen in drei Sätzen, mit konkretem Praxisbezug am Schluss.",
+          "trap": "Den Leitfaden abstrakt loben, ohne den konkreten suissetec-Bezug zu nennen."
+        },
+        {
+          "id": "e-108",
+          "q": "Was heisst Lehrmittel als Lernumgebung?",
+          "kern": "Ein Lehrmittel wirkt erst, wenn es als Lernumgebung gestaltet ist, die strukturiert, führt, aktiviert und Rückmeldung gibt (Kerres, 2018).",
+          "full": "Nach Kerres wird ein Lehrmittel erst dann zum guten Lehrmittel, wenn es als Lernumgebung gestaltet ist, die Lernprozesse anregt. Eine Lernumgebung besteht aus verknüpften Einheiten, die aufeinander aufbauen und Orientierung geben. Genau das meint der Titel: vom Schulbuch, das Inhalte bereitstellt, zur Lernumgebung, die das Lernen führt.",
+          "why": "Definition mit Beleg (Kerres 2018) und direkter Rückbindung an den Arbeitstitel.",
+          "trap": "Den Begriff erklären, ohne ihn mit dem Titel der Arbeit zu verbinden."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Block 2 — KI, Kritik & Verteidigung",
+      "minutes": 30,
+      "focus": "Die KI-Argumentation, die Gutachten-Kritik und die eigene Redlichkeit. Hier entscheidet sich die Souveränität im Fachgespräch.",
+      "items": [
+        {
+          "id": "e-201",
+          "q": "Welche Rolle darf KI beim Lernen übernehmen und welche nicht?",
+          "kern": "Unterstützen ja: erklären, in Schritte zerlegen, vertiefen. Aber nur, solange sie die Denkarbeit bei den Lernenden lässt.",
+          "full": "KI darf unterstützen: einen Inhalt in kleinere Schritte zerlegen, einfacher erklären, an Vorwissen anknüpfen. Was sie nicht übernehmen darf, ist die eigene Verarbeitung, sonst entsteht metakognitive Bequemlichkeit. Der Test stammt aus dem ISAR-Modell von Bauer et al.: Denkt am Ende die lernende Person oder die Maschine?",
+          "why": "Klare Grenze im ersten Satz, Begriff metakognitive Bequemlichkeit als Beleg, ISAR als operativer Test.",
+          "trap": "Nur über Chancen und Risiken allgemein reden. Das Gutachten kritisiert genau diese Unschärfe, also sofort die Grenze konkret machen."
+        },
+        {
+          "id": "e-202",
+          "q": "Erklären Sie das ISAR-Modell kurz.",
+          "kern": "Vier Wirkungen von KI auf das Lernen: Ersatz, Erweiterung, Neubestimmung und als entscheidende vierte die Umkehrung, die Inversion.",
+          "full": "ISAR baut auf SAMR auf und beschreibt vier mögliche Wirkungen einer KI-Funktion gegenüber der Situation ohne KI: Ersatz, Erweiterung, Neubestimmung und Umkehrung. Stützend wirkt KI bei Erweiterung und Neubestimmung. Die Umkehrung, die Inversion, ist der entscheidende Zusatz von Bauer et al.: Dort verringert die KI das Nachdenken und schwächt das Lernen.",
+          "why": "Die vier Stufen plus die für die Arbeit zentrale Inversion, mit Beleg. Kompakt und vollständig.",
+          "trap": "SAMR und ISAR verwechseln. Die Inversion ist der eigene Akzent, den du betonen musst."
+        },
+        {
+          "id": "e-203",
+          "q": "Wie genau müsste ein KI-gestütztes Lehrmittel gebaut sein, damit es unterstützt statt auslagert?",
+          "kern": "Es gibt Hinweise statt Lösungen, verlangt einen eigenen Zwischenschritt vor dem Feedback, schaltet die Musterlösung erst nach einem eigenen Versuch frei und macht seine Nutzung sichtbar.",
+          "full": "Vier konkrete Baumerkmale: Die Funktion gibt Hinweise und Rückfragen statt fertiger Lösungen. Sie verlangt einen eigenen Zwischenschritt, bevor sie Feedback gibt. Sie schaltet die Musterlösung erst nach einem eigenen Versuch frei. Und sie macht ihre Nutzung sichtbar und reflektierbar. In ISAR-Sprache: Augmentation und Redefinition bauen, Substitution und Inversion vermeiden.",
+          "why": "Beantwortet genau die wichtigste Gutachten-Kritik mit einem konkreten Funktionskatalog statt mit Prinzipien.",
+          "trap": "Wieder ins Grundsätzliche abgleiten. Die Frage will vier konkrete Funktionen, nicht Haltung."
+        },
+        {
+          "id": "e-204",
+          "q": "Machen Sie den Berufsbildungsbezug an einem konkreten Beispiel fest.",
+          "kern": "Kriterium Aktivierung am Warmwasser-Kapitel: Lernende schätzen und begründen die Dimensionierung der Zirkulationsleitung zuerst selbst, erst dann kommt die Musterlösung.",
+          "full": "Nehmen wir das Kriterium Aktivierung an meinem suissetec-Lehrmittel zu Warmwasser. Allgemein heisst es: zum eigenen Denken bringen. Konkret heisst es: Statt die Dimensionierung der Zirkulationsleitung vorzurechnen, lasse ich die Lernenden zuerst selbst schätzen und begründen, erst dann folgt die Musterlösung. Genau diese Konkretisierung ist der nächste Schritt für alle sechzehn Kriterien.",
+          "why": "Liefert das vom Gutachten vermisste konkrete Berufsbildungsbeispiel sofort und greifbar.",
+          "trap": "Allgemein über Berufsbildung reden. Die Frage will ein einziges, konkretes Sanitär-Beispiel."
+        },
+        {
+          "id": "e-205",
+          "q": "Wo ist der schwächste Punkt Ihrer Arbeit?",
+          "kern": "Die fehlende Erprobung der Kriterien an einem realen Lehrmittel.",
+          "full": "Der schwächste Punkt ist, dass ich die Kriterien nicht an einem realen Lehrmittel erprobt habe. Theoretisch sind sie gut abgestützt, aber ihre praktische Tragfähigkeit und Gewichtung bleiben eine begründete Annahme. Das verstecke ich nicht, ich benenne es selbst in Kapitel 8 und sehe es als die natürliche nächste Stufe.",
+          "why": "Eine echte Schwäche offen zu nennen wirkt stärker und reifer als ein ausweichendes Scheinproblem.",
+          "trap": "Ein harmloses Scheinproblem nennen. Ehrlichkeit punktet hier, Ausweichen nicht."
+        },
+        {
+          "id": "e-206",
+          "q": "Was würden Sie heute anders machen?",
+          "kern": "Eine kleine Erprobung an einem konkreten Lehrmittel einplanen und die Literaturrecherche mit einem dokumentierten Suchprotokoll transparenter machen.",
+          "full": "Zwei Dinge. Erstens würde ich von Beginn an eine kleine Erprobung einplanen, etwa ein bestehendes Kapitel von Lehrpersonen anhand der Kriterien beurteilen lassen. Zweitens würde ich die Literaturrecherche mit einem dokumentierten Suchprotokoll transparenter machen. Am Kern, der theoriegeleiteten Anlage, würde ich festhalten.",
+          "why": "Zwei konkrete Verbesserungen plus die klare Aussage, dass der Kern tragfähig bleibt. Zeigt Reflexion ohne Selbstabwertung.",
+          "trap": "So viel anders machen wollen, dass die Arbeit unfertig wirkt. Der Kern bleibt richtig."
+        },
+        {
+          "id": "e-207",
+          "q": "Wie haben Sie selbst KI beim Schreiben eingesetzt?",
+          "kern": "Transparent im Hilfsmittelverzeichnis deklariert: Reflexion der Gliederung, Konsistenzprüfungen, sprachliche Überarbeitung. Jeder Vorschlag geprüft, jede Aussage an gelesenen Originalquellen.",
+          "full": "Ich habe den Einsatz im Hilfsmittelverzeichnis transparent deklariert: KI half bei der Reflexion der Gliederung, bei Konsistenzprüfungen und bei der sprachlichen Überarbeitung. Jeden Vorschlag habe ich geprüft, angepasst oder verworfen. Jede Aussage ist an Originalquellen gebunden, die ich gelesen habe. Im Grunde habe ich mein eigenes Kriterium, den Schutz der Denkarbeit, auf mich selbst angewendet, und kann jede Herleitung hier rückwärts vorführen.",
+          "why": "Transparenz, Eigenleistung und ein starker Schlusssatz, der die Frage in eine Chance dreht.",
+          "trap": "Den KI-Einsatz kleinreden oder verteidigen. Souverän ist die offene Deklaration plus das Angebot, jede Herleitung vorzuführen."
+        },
+        {
+          "id": "e-208",
+          "q": "In fünf Jahren sieht KI völlig anders aus. Was ist Ihre Arbeit dann noch wert?",
+          "kern": "Gerade dann zeigt sich ihr Wert: Sie ist an didaktische Prinzipien gebunden, nicht an Tools.",
+          "full": "Gerade dann zeigt sich ihr Wert. Ich habe bewusst nicht über einzelne Tools geschrieben, sondern über didaktische Prinzipien, die Technikwellen überdauern. Der Massstab, ob eine Funktion die Denkarbeit bei den Lernenden lässt, funktioniert bei jeder künftigen Technologie. Das Raster veraltet erst, wenn das Lernen selbst sich ändert.",
+          "why": "Dreht den Einwand in eine Stärke um: Die Tool-Unabhängigkeit ist das Designprinzip, kein Mangel.",
+          "trap": "In die Defensive gehen. Die Frage ist eine Steilvorlage für das Designprinzip der Arbeit."
+        }
+      ]
+    }
+  ]
+}

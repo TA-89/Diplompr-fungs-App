@@ -5,6 +5,7 @@ import quiz from '../data/quizQuestions.json'
 import authorQuiz from '../data/authorQuiz.json'
 import reflection from '../data/reflection.json'
 import gutachten from '../data/gutachten.json'
+import essenz from '../data/essenz.json'
 import sources from '../data/sourceMap.json'
 import { useStore } from '../lib/storage.js'
 import { dueToday, untouchedIds, progressPercent, weakIds } from '../lib/srs.js'
@@ -17,14 +18,17 @@ function areaIds(areaId) {
   const aq = areaId === 'quellen' ? authorQuiz.map((x) => x.id) : []
   const rf = areaId === 'grenzen' ? reflection.map((x) => x.id) : []
   const gt = areaId === 'gutachten' ? gutachten.critiques.map((x) => x.id) : []
-  return [...q, ...f, ...z, ...aq, ...rf, ...gt]
+  const es = areaId === 'essenz' ? essenzIds : []
+  return [...q, ...f, ...z, ...aq, ...rf, ...gt, ...es]
 }
+
+const essenzIds = essenz.sessions.flatMap((s) => s.items.map((it) => it.id))
 
 // Sinnvolles Ziel je Bereich
 const AREA_TARGET = {
   forschungsfrage: 'exam', vorgehen: 'exam', theorie: 'exam', ki: 'exam',
   synthese: 'theses', kriterien: 'theses', leitfaden: 'presentation',
-  quellen: 'sources', grenzen: 'reflection', gutachten: 'gutachten',
+  quellen: 'sources', grenzen: 'reflection', gutachten: 'gutachten', essenz: 'essenz',
 }
 
 function daysUntilExam() {
@@ -50,7 +54,7 @@ export default function Dashboard({ go }) {
 
   const weakCount = areas.reduce((s, a) => s + a.weak, 0)
   const overall = progressPercent(
-    [...questions.map((q) => q.id), ...cardIds, ...quiz.map((q) => q.id), ...authorQuiz.map((q) => q.id), ...reflection.map((r) => r.id), ...gutachten.critiques.map((c) => c.id)],
+    [...questions.map((q) => q.id), ...cardIds, ...quiz.map((q) => q.id), ...authorQuiz.map((q) => q.id), ...reflection.map((r) => r.id), ...gutachten.critiques.map((c) => c.id), ...essenzIds],
     ratings
   )
 
@@ -84,7 +88,8 @@ export default function Dashboard({ go }) {
           <div className="hero-stat"><b>{weakCount}</b><span>schwache Punkte</span></div>
         </div>
         <div className="btn-row" style={{ marginTop: '1rem' }}>
-          <button className="btn primary" onClick={() => go('quiz')}>🎲 Quiz starten</button>
+          <button className="btn primary" onClick={() => go('essenz')}>⭐ Essenz-Trainer</button>
+          <button className="btn" onClick={() => go('quiz')}>🎲 Quiz starten</button>
           <button className="btn" onClick={() => go('exam')}>🎓 Prüfungsmodus</button>
           <button className="btn" onClick={() => go('gutachten')}>📋 Gutachten-Punkte</button>
           <button className="btn" onClick={() => go('weaknesses')}>🛠️ Meine Baustellen</button>

@@ -57,7 +57,8 @@
     { "id": "leitfaden", "name": "Leitfaden für die Praxis", "short": "Leitfaden" },
     { "id": "quellen", "name": "Quellenkenntnis", "short": "Quellen" },
     { "id": "grenzen", "name": "Grenzen und Verteidigung", "short": "Grenzen" },
-    { "id": "gutachten", "name": "Gutachten-Rückmeldungen", "short": "Gutachten" }
+    { "id": "gutachten", "name": "Gutachten-Rückmeldungen", "short": "Gutachten" },
+    { "id": "essenz", "name": "Essenz-Trainer (volle Punktzahl)", "short": "Essenz" }
   ],
   "redThread": [
     { "chapter": "1", "title": "Einleitung", "content": "Aus der eigenen Praxis (zwei suissetec-Lehrmittel zu Kalt- und Warmwasser) entsteht die Frage: Lohnt sich sorgfältige Lehrmittelarbeit noch, wenn KI Inhalte auf Knopfdruck erklärt? Daraus wird Ziel und Forschungsfrage hergeleitet." },
